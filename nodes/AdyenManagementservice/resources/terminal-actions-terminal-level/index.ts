@@ -98,7 +98,7 @@ export const terminalActionsTerminalLevelDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Store Id",
+			"displayName": "Store ID",
 			"name": "storeId",
 			"type": "string",
 			"default": "",

@@ -15,8 +15,8 @@ export const terminalSettingsTerminalLevelDescription: INodeProperties[] = [
 			},
 			"options": [
 				{
-					"name": "Get Terminals Terminal Id Terminal Logos",
-					"value": "Get Terminals Terminal Id Terminal Logos",
+					"name": "Get Terminals Terminal ID Terminal Logos",
+					"value": "Get Terminals Terminal ID Terminal Logos",
 					"action": "Get the terminal logo",
 					"description": "Returns the logo that is configured for the payment terminal identified in the path.\nThe logo is returned as a Base64-encoded string. You need to Base64-decode the string to get the actual image file.\n\nTo make this request, your API credential must have one of the following [roles](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Terminal settings read\n* Management API—Terminal settings read and write",
 					"routing": {
@@ -27,8 +27,8 @@ export const terminalSettingsTerminalLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Patch Terminals Terminal Id Terminal Logos",
-					"value": "Patch Terminals Terminal Id Terminal Logos",
+					"name": "Patch Terminals Terminal ID Terminal Logos",
+					"value": "Patch Terminals Terminal ID Terminal Logos",
 					"action": "Update the logo",
 					"description": "Updates the logo for the payment terminal identified in the path.\n\n* To change the logo, specify the image file as a Base64-encoded string.\n* To restore the logo inherited from a higher level (store, merchant account, or company account), specify an empty logo value.\n\nTo make this request, your API credential must have the following [role](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Terminal settings read and write",
 					"routing": {
@@ -39,8 +39,8 @@ export const terminalSettingsTerminalLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Terminals Terminal Id Terminal Settings",
-					"value": "Get Terminals Terminal Id Terminal Settings",
+					"name": "Get Terminals Terminal ID Terminal Settings",
+					"value": "Get Terminals Terminal ID Terminal Settings",
 					"action": "Get terminal settings",
 					"description": "Returns the settings that are configured for the payment terminal identified in the path.\n\nTo make this request, your API credential must have one of the following [roles](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Terminal settings read\n* Management API—Terminal settings read and write\n\nFor [sensitive terminal settings](https://docs.adyen.com/point-of-sale/automating-terminal-management/configure-terminals-api#sensitive-terminal-settings), your API credential must have the following role:\n* Management API—Terminal settings Advanced read and write",
 					"routing": {
@@ -51,8 +51,8 @@ export const terminalSettingsTerminalLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Patch Terminals Terminal Id Terminal Settings",
-					"value": "Patch Terminals Terminal Id Terminal Settings",
+					"name": "Patch Terminals Terminal ID Terminal Settings",
+					"value": "Patch Terminals Terminal ID Terminal Settings",
 					"action": "Update terminal settings",
 					"description": "Updates the settings that are configured for the payment terminal identified in the path.\n\n* To change a parameter value, include the full object that contains the parameter, even if you don't want to change all parameters in the object.\n* To restore a parameter value inherited from a higher level, include the full object that contains the parameter, and specify an empty value for the parameter or omit the parameter.\n* Objects that are not included in the request are not updated.\n\nTo make this request, your API credential must have the following [role](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Terminal settings read and write\n\nFor [sensitive terminal settings](https://docs.adyen.com/point-of-sale/automating-terminal-management/configure-terminals-api#sensitive-terminal-settings), your API credential must have the following role:\n* Management API—Terminal settings Advanced read and write",
 					"routing": {
@@ -79,13 +79,13 @@ export const terminalSettingsTerminalLevelDescription: INodeProperties[] = [
 						"Terminal Settings Terminal Level"
 					],
 					"operation": [
-						"Get Terminals Terminal Id Terminal Logos"
+						"Get Terminals Terminal ID Terminal Logos"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Terminal Id",
+			"displayName": "Terminal ID",
 			"name": "terminalId",
 			"required": true,
 			"description": "The unique identifier of the payment terminal.",
@@ -97,7 +97,7 @@ export const terminalSettingsTerminalLevelDescription: INodeProperties[] = [
 						"Terminal Settings Terminal Level"
 					],
 					"operation": [
-						"Get Terminals Terminal Id Terminal Logos"
+						"Get Terminals Terminal ID Terminal Logos"
 					]
 				}
 			}
@@ -122,7 +122,7 @@ export const terminalSettingsTerminalLevelDescription: INodeProperties[] = [
 						"Terminal Settings Terminal Level"
 					],
 					"operation": [
-						"Get Terminals Terminal Id Terminal Logos"
+						"Get Terminals Terminal ID Terminal Logos"
 					]
 				}
 			}
@@ -147,7 +147,7 @@ export const terminalSettingsTerminalLevelDescription: INodeProperties[] = [
 						"Terminal Settings Terminal Level"
 					],
 					"operation": [
-						"Get Terminals Terminal Id Terminal Logos"
+						"Get Terminals Terminal ID Terminal Logos"
 					]
 				}
 			}
@@ -166,13 +166,13 @@ export const terminalSettingsTerminalLevelDescription: INodeProperties[] = [
 						"Terminal Settings Terminal Level"
 					],
 					"operation": [
-						"Patch Terminals Terminal Id Terminal Logos"
+						"Patch Terminals Terminal ID Terminal Logos"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Terminal Id",
+			"displayName": "Terminal ID",
 			"name": "terminalId",
 			"required": true,
 			"description": "The unique identifier of the payment terminal.",
@@ -184,7 +184,7 @@ export const terminalSettingsTerminalLevelDescription: INodeProperties[] = [
 						"Terminal Settings Terminal Level"
 					],
 					"operation": [
-						"Patch Terminals Terminal Id Terminal Logos"
+						"Patch Terminals Terminal ID Terminal Logos"
 					]
 				}
 			}
@@ -209,7 +209,7 @@ export const terminalSettingsTerminalLevelDescription: INodeProperties[] = [
 						"Terminal Settings Terminal Level"
 					],
 					"operation": [
-						"Patch Terminals Terminal Id Terminal Logos"
+						"Patch Terminals Terminal ID Terminal Logos"
 					]
 				}
 			}
@@ -234,7 +234,7 @@ export const terminalSettingsTerminalLevelDescription: INodeProperties[] = [
 						"Terminal Settings Terminal Level"
 					],
 					"operation": [
-						"Patch Terminals Terminal Id Terminal Logos"
+						"Patch Terminals Terminal ID Terminal Logos"
 					]
 				}
 			}
@@ -259,7 +259,7 @@ export const terminalSettingsTerminalLevelDescription: INodeProperties[] = [
 						"Terminal Settings Terminal Level"
 					],
 					"operation": [
-						"Patch Terminals Terminal Id Terminal Logos"
+						"Patch Terminals Terminal ID Terminal Logos"
 					]
 				}
 			}
@@ -278,13 +278,13 @@ export const terminalSettingsTerminalLevelDescription: INodeProperties[] = [
 						"Terminal Settings Terminal Level"
 					],
 					"operation": [
-						"Get Terminals Terminal Id Terminal Settings"
+						"Get Terminals Terminal ID Terminal Settings"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Terminal Id",
+			"displayName": "Terminal ID",
 			"name": "terminalId",
 			"required": true,
 			"description": "The unique identifier of the payment terminal.",
@@ -296,7 +296,7 @@ export const terminalSettingsTerminalLevelDescription: INodeProperties[] = [
 						"Terminal Settings Terminal Level"
 					],
 					"operation": [
-						"Get Terminals Terminal Id Terminal Settings"
+						"Get Terminals Terminal ID Terminal Settings"
 					]
 				}
 			}
@@ -321,7 +321,7 @@ export const terminalSettingsTerminalLevelDescription: INodeProperties[] = [
 						"Terminal Settings Terminal Level"
 					],
 					"operation": [
-						"Get Terminals Terminal Id Terminal Settings"
+						"Get Terminals Terminal ID Terminal Settings"
 					]
 				}
 			}
@@ -346,7 +346,7 @@ export const terminalSettingsTerminalLevelDescription: INodeProperties[] = [
 						"Terminal Settings Terminal Level"
 					],
 					"operation": [
-						"Get Terminals Terminal Id Terminal Settings"
+						"Get Terminals Terminal ID Terminal Settings"
 					]
 				}
 			}
@@ -365,13 +365,13 @@ export const terminalSettingsTerminalLevelDescription: INodeProperties[] = [
 						"Terminal Settings Terminal Level"
 					],
 					"operation": [
-						"Patch Terminals Terminal Id Terminal Settings"
+						"Patch Terminals Terminal ID Terminal Settings"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Terminal Id",
+			"displayName": "Terminal ID",
 			"name": "terminalId",
 			"required": true,
 			"description": "The unique identifier of the payment terminal.",
@@ -383,7 +383,7 @@ export const terminalSettingsTerminalLevelDescription: INodeProperties[] = [
 						"Terminal Settings Terminal Level"
 					],
 					"operation": [
-						"Patch Terminals Terminal Id Terminal Settings"
+						"Patch Terminals Terminal ID Terminal Settings"
 					]
 				}
 			}
@@ -408,7 +408,7 @@ export const terminalSettingsTerminalLevelDescription: INodeProperties[] = [
 						"Terminal Settings Terminal Level"
 					],
 					"operation": [
-						"Patch Terminals Terminal Id Terminal Settings"
+						"Patch Terminals Terminal ID Terminal Settings"
 					]
 				}
 			}
@@ -433,7 +433,7 @@ export const terminalSettingsTerminalLevelDescription: INodeProperties[] = [
 						"Terminal Settings Terminal Level"
 					],
 					"operation": [
-						"Patch Terminals Terminal Id Terminal Settings"
+						"Patch Terminals Terminal ID Terminal Settings"
 					]
 				}
 			}
@@ -458,7 +458,7 @@ export const terminalSettingsTerminalLevelDescription: INodeProperties[] = [
 						"Terminal Settings Terminal Level"
 					],
 					"operation": [
-						"Patch Terminals Terminal Id Terminal Settings"
+						"Patch Terminals Terminal ID Terminal Settings"
 					]
 				}
 			}
@@ -483,7 +483,7 @@ export const terminalSettingsTerminalLevelDescription: INodeProperties[] = [
 						"Terminal Settings Terminal Level"
 					],
 					"operation": [
-						"Patch Terminals Terminal Id Terminal Settings"
+						"Patch Terminals Terminal ID Terminal Settings"
 					]
 				}
 			}
@@ -508,7 +508,7 @@ export const terminalSettingsTerminalLevelDescription: INodeProperties[] = [
 						"Terminal Settings Terminal Level"
 					],
 					"operation": [
-						"Patch Terminals Terminal Id Terminal Settings"
+						"Patch Terminals Terminal ID Terminal Settings"
 					]
 				}
 			}
@@ -533,7 +533,7 @@ export const terminalSettingsTerminalLevelDescription: INodeProperties[] = [
 						"Terminal Settings Terminal Level"
 					],
 					"operation": [
-						"Patch Terminals Terminal Id Terminal Settings"
+						"Patch Terminals Terminal ID Terminal Settings"
 					]
 				}
 			}
@@ -558,7 +558,7 @@ export const terminalSettingsTerminalLevelDescription: INodeProperties[] = [
 						"Terminal Settings Terminal Level"
 					],
 					"operation": [
-						"Patch Terminals Terminal Id Terminal Settings"
+						"Patch Terminals Terminal ID Terminal Settings"
 					]
 				}
 			}
@@ -583,7 +583,7 @@ export const terminalSettingsTerminalLevelDescription: INodeProperties[] = [
 						"Terminal Settings Terminal Level"
 					],
 					"operation": [
-						"Patch Terminals Terminal Id Terminal Settings"
+						"Patch Terminals Terminal ID Terminal Settings"
 					]
 				}
 			}
@@ -608,7 +608,7 @@ export const terminalSettingsTerminalLevelDescription: INodeProperties[] = [
 						"Terminal Settings Terminal Level"
 					],
 					"operation": [
-						"Patch Terminals Terminal Id Terminal Settings"
+						"Patch Terminals Terminal ID Terminal Settings"
 					]
 				}
 			}
@@ -633,7 +633,7 @@ export const terminalSettingsTerminalLevelDescription: INodeProperties[] = [
 						"Terminal Settings Terminal Level"
 					],
 					"operation": [
-						"Patch Terminals Terminal Id Terminal Settings"
+						"Patch Terminals Terminal ID Terminal Settings"
 					]
 				}
 			}
@@ -658,7 +658,7 @@ export const terminalSettingsTerminalLevelDescription: INodeProperties[] = [
 						"Terminal Settings Terminal Level"
 					],
 					"operation": [
-						"Patch Terminals Terminal Id Terminal Settings"
+						"Patch Terminals Terminal ID Terminal Settings"
 					]
 				}
 			}
@@ -683,7 +683,7 @@ export const terminalSettingsTerminalLevelDescription: INodeProperties[] = [
 						"Terminal Settings Terminal Level"
 					],
 					"operation": [
-						"Patch Terminals Terminal Id Terminal Settings"
+						"Patch Terminals Terminal ID Terminal Settings"
 					]
 				}
 			}
@@ -708,7 +708,7 @@ export const terminalSettingsTerminalLevelDescription: INodeProperties[] = [
 						"Terminal Settings Terminal Level"
 					],
 					"operation": [
-						"Patch Terminals Terminal Id Terminal Settings"
+						"Patch Terminals Terminal ID Terminal Settings"
 					]
 				}
 			}
@@ -733,7 +733,7 @@ export const terminalSettingsTerminalLevelDescription: INodeProperties[] = [
 						"Terminal Settings Terminal Level"
 					],
 					"operation": [
-						"Patch Terminals Terminal Id Terminal Settings"
+						"Patch Terminals Terminal ID Terminal Settings"
 					]
 				}
 			}
@@ -758,7 +758,7 @@ export const terminalSettingsTerminalLevelDescription: INodeProperties[] = [
 						"Terminal Settings Terminal Level"
 					],
 					"operation": [
-						"Patch Terminals Terminal Id Terminal Settings"
+						"Patch Terminals Terminal ID Terminal Settings"
 					]
 				}
 			}
@@ -783,7 +783,7 @@ export const terminalSettingsTerminalLevelDescription: INodeProperties[] = [
 						"Terminal Settings Terminal Level"
 					],
 					"operation": [
-						"Patch Terminals Terminal Id Terminal Settings"
+						"Patch Terminals Terminal ID Terminal Settings"
 					]
 				}
 			}
@@ -808,7 +808,7 @@ export const terminalSettingsTerminalLevelDescription: INodeProperties[] = [
 						"Terminal Settings Terminal Level"
 					],
 					"operation": [
-						"Patch Terminals Terminal Id Terminal Settings"
+						"Patch Terminals Terminal ID Terminal Settings"
 					]
 				}
 			}
@@ -833,7 +833,7 @@ export const terminalSettingsTerminalLevelDescription: INodeProperties[] = [
 						"Terminal Settings Terminal Level"
 					],
 					"operation": [
-						"Patch Terminals Terminal Id Terminal Settings"
+						"Patch Terminals Terminal ID Terminal Settings"
 					]
 				}
 			}
@@ -858,7 +858,7 @@ export const terminalSettingsTerminalLevelDescription: INodeProperties[] = [
 						"Terminal Settings Terminal Level"
 					],
 					"operation": [
-						"Patch Terminals Terminal Id Terminal Settings"
+						"Patch Terminals Terminal ID Terminal Settings"
 					]
 				}
 			}

@@ -15,8 +15,8 @@ export const apiKeyMerchantLevelDescription: INodeProperties[] = [
 			},
 			"options": [
 				{
-					"name": "Post Merchants Merchant Id Api Credentials Api Credential Id Generate Api Key",
-					"value": "Post Merchants Merchant Id Api Credentials Api Credential Id Generate Api Key",
+					"name": "Post Merchants Merchant ID API Credentials API Credential ID Generate API Key",
+					"value": "Post Merchants Merchant ID API Credentials API Credential ID Generate API Key",
 					"action": "Generate new API key",
 					"description": "Returns a new API key for the API credential. You can use the new API key a few minutes after generating it. The old API key stops working 24 hours after generating a new one.\n\nTo make this request, your API credential must have the following [roles](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—API credentials read and write",
 					"routing": {
@@ -43,13 +43,13 @@ export const apiKeyMerchantLevelDescription: INodeProperties[] = [
 						"API Key Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Api Credentials Api Credential Id Generate Api Key"
+						"Post Merchants Merchant ID API Credentials API Credential ID Generate API Key"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Merchant Id",
+			"displayName": "Merchant ID",
 			"name": "merchantId",
 			"required": true,
 			"description": "The unique identifier of the merchant account.",
@@ -61,13 +61,13 @@ export const apiKeyMerchantLevelDescription: INodeProperties[] = [
 						"API Key Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Api Credentials Api Credential Id Generate Api Key"
+						"Post Merchants Merchant ID API Credentials API Credential ID Generate API Key"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Api Credential Id",
+			"displayName": "API Credential ID",
 			"name": "apiCredentialId",
 			"required": true,
 			"description": "Unique identifier of the API credential.",
@@ -79,7 +79,7 @@ export const apiKeyMerchantLevelDescription: INodeProperties[] = [
 						"API Key Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Api Credentials Api Credential Id Generate Api Key"
+						"Post Merchants Merchant ID API Credentials API Credential ID Generate API Key"
 					]
 				}
 			}
@@ -104,7 +104,7 @@ export const apiKeyMerchantLevelDescription: INodeProperties[] = [
 						"API Key Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Api Credentials Api Credential Id Generate Api Key"
+						"Post Merchants Merchant ID API Credentials API Credential ID Generate API Key"
 					]
 				}
 			}
@@ -129,7 +129,7 @@ export const apiKeyMerchantLevelDescription: INodeProperties[] = [
 						"API Key Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Api Credentials Api Credential Id Generate Api Key"
+						"Post Merchants Merchant ID API Credentials API Credential ID Generate API Key"
 					]
 				}
 			}

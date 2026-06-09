@@ -8,7 +8,7 @@ import type {
 export class AdyenManagementserviceApi implements ICredentialType {
 	name = 'N8nDevAdyenManagementserviceApi';
 
-	displayName = 'adyen-managementservice API';
+	displayName = 'Adyen Managementservice API';
 
 	icon: Icon = { light: 'file:../nodes/AdyenManagementservice/adyen-managementservice.svg', dark: 'file:../nodes/AdyenManagementservice/adyen-managementservice.dark.svg' };
 
@@ -22,7 +22,7 @@ export class AdyenManagementserviceApi implements ICredentialType {
 			default: 'https://management-test.adyen.com/v1',
 			required: true,
 			placeholder: 'https://management-test.adyen.com/v1',
-			description: 'The base URL of your adyen-managementservice API server',
+			description: 'The base URL of your Adyen Managementservice API server',
 		},
 		{
 			displayName: 'API Key',

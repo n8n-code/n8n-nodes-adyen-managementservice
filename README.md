@@ -53,35 +53,286 @@ That's it. No configuration files. No code. It just works.
 
 ## Resources
 
-| Resource | Operations |
-|----------|------------|
-| API Key Merchant Level | Post generate new api key |
-| Account Merchant Level | Get a list of merchant accounts, Post create a merchant account, Get a merchant account, Post request to activate a merchant account |
-| Allowed Origins Company Level | Get a list of allowed origins, Post create an allowed origin, Delete an allowed origin, Get an allowed origin |
-| API Key Company Level | Post generate new api key |
-| Client Key Company Level | Post generate new client key |
-| Users Company Level | Get a list of users, Post create a new user, Get user details, Patch update user details |
-| Terminal Actions Terminal Level | Post create a terminal action |
-| Terminal Settings Terminal Level | Get the terminal logo, Patch update the logo, Get terminal settings, Patch update terminal settings |
-| Payout Settings Merchant Level | Get a list of payout settings, Post add a payout setting, Delete a payout setting, Get a payout setting, Patch update a payout setting |
-| Webhooks Merchant Level | Get list all webhooks, Post set up a webhook, Delete remove a webhook, Get a webhook, Patch update a webhook, Post generate an hmac key, Post test a webhook |
-| Client Key Merchant Level | Post generate new client key |
-| Terminal Orders Company Level | Get a list of billing entities, Get a list of shipping locations, Post create a shipping location, Get a list of terminal models, Get a list of orders, Post create an order, Get an order, Patch update an order, Post cancel an order, Get a list of terminal products |
-| Allowed Origins Merchant Level | Get a list of allowed origins, Post create an allowed origin, Delete an allowed origin, Get an allowed origin |
-| API Credentials Merchant Level | Get a list of api credentials, Post create an api credential, Get an api credential, Patch update an api credential |
-| Users Merchant Level | Get a list of users, Post create a new user, Get user details, Patch update a user |
-| Terminal Actions Company Level | Get a list of android apps, Get a list of android certificates, Get a list of terminal actions, Get terminal action |
-| Payment Methods Merchant Level | Get all payment methods, Post request a payment method, Get payment method details, Patch update a payment method, Post add an apple pay domain, Get apple pay domains |
-| My API Credential | Get api credential details, Get allowed origins, Post add allowed origin, Delete remove allowed origin, Get allowed origin details |
-| Terminal Settings Merchant Level | Get the terminal logo, Patch update the terminal logo, Get terminal settings, Patch update terminal settings |
-| Webhooks Company Level | Get list all webhooks, Post set up a webhook, Delete remove a webhook, Get a webhook, Patch update a webhook, Post generate an hmac key, Post test a webhook |
-| Terminals Terminal Level | Get a list of terminals |
-| Account Store Level | Get a list of stores, Post create a store, Get a store, Patch update a store, Get a list of stores, Post create a store, Get a store, Patch update a store |
-| Terminal Settings Company Level | Get the terminal logo, Patch update the terminal logo, Get terminal settings, Patch update terminal settings |
-| API Credentials Company Level | Get a list of api credentials, Post create an api credential, Get an api credential, Patch update an api credential |
-| Terminal Orders Merchant Level | Get a list of billing entities, Get a list of shipping locations, Post create a shipping location, Get a list of terminal models, Get a list of orders, Post create an order, Get an order, Patch update an order, Post cancel an order, Get a list of terminal products |
-| Account Company Level | Get a list of company accounts, Get a company account, Get a list of merchant accounts |
-| Terminal Settings Store Level | Get the terminal logo, Patch update the terminal logo, Get terminal settings, Patch update terminal settings, Get the terminal logo, Patch update the terminal logo, Get terminal settings, Patch update terminal settings |
+<details>
+<summary><b>API Key Merchant Level</b> (1 operations)</summary>
+
+- Post Generate new API key
+
+</details>
+
+<details>
+<summary><b>Account Merchant Level</b> (4 operations)</summary>
+
+- Get a list of merchant accounts
+- Post Create a merchant account
+- Get a merchant account
+- Post Request to activate a merchant account
+
+</details>
+
+<details>
+<summary><b>Allowed Origins Company Level</b> (4 operations)</summary>
+
+- Get a list of allowed origins
+- Post Create an allowed origin
+- Delete an allowed origin
+- Get an allowed origin
+
+</details>
+
+<details>
+<summary><b>API Key Company Level</b> (1 operations)</summary>
+
+- Post Generate new API key
+
+</details>
+
+<details>
+<summary><b>Client Key Company Level</b> (1 operations)</summary>
+
+- Post Generate new client key
+
+</details>
+
+<details>
+<summary><b>Users Company Level</b> (4 operations)</summary>
+
+- Get a list of users
+- Post Create a new user
+- Get user details
+- Patch Update user details
+
+</details>
+
+<details>
+<summary><b>Terminal Actions Terminal Level</b> (1 operations)</summary>
+
+- Post Create a terminal action
+
+</details>
+
+<details>
+<summary><b>Terminal Settings Terminal Level</b> (4 operations)</summary>
+
+- Get the terminal logo
+- Patch Update the logo
+- Get terminal settings
+- Patch Update terminal settings
+
+</details>
+
+<details>
+<summary><b>Payout Settings Merchant Level</b> (5 operations)</summary>
+
+- Get a list of payout settings
+- Post Add a payout setting
+- Delete a payout setting
+- Get a payout setting
+- Patch Update a payout setting
+
+</details>
+
+<details>
+<summary><b>Webhooks Merchant Level</b> (7 operations)</summary>
+
+- Get List all webhooks
+- Post Set up a WEBHOOK
+- Delete Remove a WEBHOOK
+- Get a WEBHOOK
+- Patch Update a WEBHOOK
+- Post Generate an HMAC key
+- Post Test a WEBHOOK
+
+</details>
+
+<details>
+<summary><b>Client Key Merchant Level</b> (1 operations)</summary>
+
+- Post Generate new client key
+
+</details>
+
+<details>
+<summary><b>Terminal Orders Company Level</b> (10 operations)</summary>
+
+- Get a list of billing entities
+- Get a list of shipping locations
+- Post Create a shipping location
+- Get a list of terminal models
+- Get a list of orders
+- Post Create an order
+- Get an order
+- Patch Update an order
+- Post Cancel an order
+- Get a list of terminal products
+
+</details>
+
+<details>
+<summary><b>Allowed Origins Merchant Level</b> (4 operations)</summary>
+
+- Get a list of allowed origins
+- Post Create an allowed origin
+- Delete an allowed origin
+- Get an allowed origin
+
+</details>
+
+<details>
+<summary><b>API Credentials Merchant Level</b> (4 operations)</summary>
+
+- Get a list of API credentials
+- Post Create an API credential
+- Get an API credential
+- Patch Update an API credential
+
+</details>
+
+<details>
+<summary><b>Users Merchant Level</b> (4 operations)</summary>
+
+- Get a list of users
+- Post Create a new user
+- Get user details
+- Patch Update a user
+
+</details>
+
+<details>
+<summary><b>Terminal Actions Company Level</b> (4 operations)</summary>
+
+- Get a list of Android apps
+- Get a list of Android certificates
+- Get a list of terminal actions
+- Get terminal action
+
+</details>
+
+<details>
+<summary><b>Payment Methods Merchant Level</b> (6 operations)</summary>
+
+- Get all payment methods
+- Post Request a payment method
+- Get payment method details
+- Patch Update a payment method
+- Post Add an Apple Pay domain
+- Get Apple Pay domains
+
+</details>
+
+<details>
+<summary><b>My API Credential</b> (5 operations)</summary>
+
+- Get API credential details
+- Get allowed origins
+- Post Add allowed origin
+- Delete Remove allowed origin
+- Get allowed origin details
+
+</details>
+
+<details>
+<summary><b>Terminal Settings Merchant Level</b> (4 operations)</summary>
+
+- Get the terminal logo
+- Patch Update the terminal logo
+- Get terminal settings
+- Patch Update terminal settings
+
+</details>
+
+<details>
+<summary><b>Webhooks Company Level</b> (7 operations)</summary>
+
+- Get List all webhooks
+- Post Set up a WEBHOOK
+- Delete Remove a WEBHOOK
+- Get a WEBHOOK
+- Patch Update a WEBHOOK
+- Post Generate an HMAC key
+- Post Test a WEBHOOK
+
+</details>
+
+<details>
+<summary><b>Terminals Terminal Level</b> (1 operations)</summary>
+
+- Get a list of terminals
+
+</details>
+
+<details>
+<summary><b>Account Store Level</b> (8 operations)</summary>
+
+- Get a list of stores
+- Post Create a store
+- Get a store
+- Patch Update a store
+- Get a list of stores
+- Post Create a store
+- Get a store
+- Patch Update a store
+
+</details>
+
+<details>
+<summary><b>Terminal Settings Company Level</b> (4 operations)</summary>
+
+- Get the terminal logo
+- Patch Update the terminal logo
+- Get terminal settings
+- Patch Update terminal settings
+
+</details>
+
+<details>
+<summary><b>API Credentials Company Level</b> (4 operations)</summary>
+
+- Get a list of API credentials
+- Post Create an API credential
+- Get an API credential
+- Patch Update an API credential
+
+</details>
+
+<details>
+<summary><b>Terminal Orders Merchant Level</b> (10 operations)</summary>
+
+- Get a list of billing entities
+- Get a list of shipping locations
+- Post Create a shipping location
+- Get a list of terminal models
+- Get a list of orders
+- Post Create an order
+- Get an order
+- Patch Update an order
+- Post Cancel an order
+- Get a list of terminal products
+
+</details>
+
+<details>
+<summary><b>Account Company Level</b> (3 operations)</summary>
+
+- Get a list of company accounts
+- Get a company account
+- Get a list of merchant accounts
+
+</details>
+
+<details>
+<summary><b>Terminal Settings Store Level</b> (8 operations)</summary>
+
+- Get the terminal logo
+- Patch Update the terminal logo
+- Get terminal settings
+- Patch Update terminal settings
+- Get the terminal logo
+- Patch Update the terminal logo
+- Get terminal settings
+- Patch Update terminal settings
+
+</details>
 
 ---
 

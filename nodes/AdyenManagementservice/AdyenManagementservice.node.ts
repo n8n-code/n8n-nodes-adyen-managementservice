@@ -29,14 +29,14 @@ import { terminalSettingsStoreLevelDescription } from './resources/terminal-sett
 
 export class AdyenManagementservice implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'adyen-managementservice',
+		displayName: 'Adyen Managementservice',
 		name: 'N8nDevAdyenManagementservice',
 		icon: { light: 'file:./adyen-managementservice.svg', dark: 'file:./adyen-managementservice.dark.svg' },
 		group: ['input'],
 		version: 1,
 		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
-		description: 'Configure and manage your Adyen company and merchant accounts, stores, and payment terminals',
-		defaults: { name: 'adyen-managementservice' },
+		description: 'Configure Adyen company, merchant accounts, stores, and payment terminals.',
+		defaults: { name: 'Adyen Managementservice' },
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],
 		outputs: [NodeConnectionTypes.Main],

@@ -27,8 +27,8 @@ export const accountCompanyLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Companies Company Id",
-					"value": "Get Companies Company Id",
+					"name": "Get Companies Company ID",
+					"value": "Get Companies Company ID",
 					"action": "Get a company account",
 					"description": "Returns the company account specified in the path. Your API credential must have access to the company account. \n\nTo make this request, your API credential must have the following [roles](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Account read",
 					"routing": {
@@ -39,8 +39,8 @@ export const accountCompanyLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Companies Company Id Merchants",
-					"value": "Get Companies Company Id Merchants",
+					"name": "Get Companies Company ID Merchants",
+					"value": "Get Companies Company ID Merchants",
 					"action": "Get a list of merchant accounts",
 					"description": "Returns the list of merchant accounts under the company account specified in the path. The list only includes merchant accounts that your API credential has access to. The list is grouped into pages as defined by the query parameters. \n\nTo make this request, your API credential must have the following [roles](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Account read",
 					"routing": {
@@ -186,13 +186,13 @@ export const accountCompanyLevelDescription: INodeProperties[] = [
 						"Account Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id"
+						"Get Companies Company ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Company Id",
+			"displayName": "Company ID",
 			"name": "companyId",
 			"required": true,
 			"description": "The unique identifier of the company account.",
@@ -204,7 +204,7 @@ export const accountCompanyLevelDescription: INodeProperties[] = [
 						"Account Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id"
+						"Get Companies Company ID"
 					]
 				}
 			}
@@ -229,7 +229,7 @@ export const accountCompanyLevelDescription: INodeProperties[] = [
 						"Account Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id"
+						"Get Companies Company ID"
 					]
 				}
 			}
@@ -254,7 +254,7 @@ export const accountCompanyLevelDescription: INodeProperties[] = [
 						"Account Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id"
+						"Get Companies Company ID"
 					]
 				}
 			}
@@ -273,13 +273,13 @@ export const accountCompanyLevelDescription: INodeProperties[] = [
 						"Account Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Merchants"
+						"Get Companies Company ID Merchants"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Company Id",
+			"displayName": "Company ID",
 			"name": "companyId",
 			"required": true,
 			"description": "The unique identifier of the company account.",
@@ -291,7 +291,7 @@ export const accountCompanyLevelDescription: INodeProperties[] = [
 						"Account Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Merchants"
+						"Get Companies Company ID Merchants"
 					]
 				}
 			}
@@ -316,7 +316,7 @@ export const accountCompanyLevelDescription: INodeProperties[] = [
 						"Account Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Merchants"
+						"Get Companies Company ID Merchants"
 					]
 				}
 			}
@@ -341,7 +341,7 @@ export const accountCompanyLevelDescription: INodeProperties[] = [
 						"Account Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Merchants"
+						"Get Companies Company ID Merchants"
 					]
 				}
 			}
@@ -366,7 +366,7 @@ export const accountCompanyLevelDescription: INodeProperties[] = [
 						"Account Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Merchants"
+						"Get Companies Company ID Merchants"
 					]
 				}
 			}
@@ -391,7 +391,7 @@ export const accountCompanyLevelDescription: INodeProperties[] = [
 						"Account Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Merchants"
+						"Get Companies Company ID Merchants"
 					]
 				}
 			}

@@ -1,7 +1,7 @@
 {
   "name": "@n8n-dev/n8n-nodes-adyen-managementservice",
-  "version": "1.0.0",
-  "description": "Configure and manage your Adyen company and merchant accounts, stores, and payment terminals",
+  "version": "1.0.1",
+  "description": "Configure Adyen company, merchant accounts, stores, and payment terminals.",
   "license": "MIT",
   "homepage": "https://n8n-code.github.io/n8n-dev/#/n8n-nodes-adyen-managementservice",
   "keywords": [
@@ -11,7 +11,7 @@
     "n8n-community-node-package",
     "openapi",
     "swagger",
-    "api",
+    "API",
     "automation",
     "workflow",
     "adyen-managementservice"

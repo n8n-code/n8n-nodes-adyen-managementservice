@@ -51,8 +51,8 @@ export const myApiCredentialDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Delete Me Allowed Origins Origin Id",
-					"value": "Delete Me Allowed Origins Origin Id",
+					"name": "Delete Me Allowed Origins Origin ID",
+					"value": "Delete Me Allowed Origins Origin ID",
 					"action": "Remove allowed origin",
 					"description": "Removes the [allowed origin](https://docs.adyen.com/development-resources/client-side-authentication#allowed-origins) specified in the path.\nThe API key from the request is used to identify the [API credential](https://docs.adyen.com/development-resources/api-credentials).\n\nYou can make this request with any of the Management API roles.",
 					"routing": {
@@ -63,8 +63,8 @@ export const myApiCredentialDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Me Allowed Origins Origin Id",
-					"value": "Get Me Allowed Origins Origin Id",
+					"name": "Get Me Allowed Origins Origin ID",
+					"value": "Get Me Allowed Origins Origin ID",
 					"action": "Get allowed origin details",
 					"description": "Returns the details of the [allowed origin](https://docs.adyen.com/development-resources/client-side-authentication#allowed-origins) specified in the path.\nThe API key from the request is used to identify the [API credential](https://docs.adyen.com/development-resources/api-credentials).\n\nYou can make this request with any of the Management API roles.",
 					"routing": {
@@ -286,7 +286,7 @@ export const myApiCredentialDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "string",
 			"default": "",
@@ -374,13 +374,13 @@ export const myApiCredentialDescription: INodeProperties[] = [
 						"My API Credential"
 					],
 					"operation": [
-						"Delete Me Allowed Origins Origin Id"
+						"Delete Me Allowed Origins Origin ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Origin Id",
+			"displayName": "Origin ID",
 			"name": "originId",
 			"required": true,
 			"description": "Unique identifier of the allowed origin.",
@@ -392,7 +392,7 @@ export const myApiCredentialDescription: INodeProperties[] = [
 						"My API Credential"
 					],
 					"operation": [
-						"Delete Me Allowed Origins Origin Id"
+						"Delete Me Allowed Origins Origin ID"
 					]
 				}
 			}
@@ -417,7 +417,7 @@ export const myApiCredentialDescription: INodeProperties[] = [
 						"My API Credential"
 					],
 					"operation": [
-						"Delete Me Allowed Origins Origin Id"
+						"Delete Me Allowed Origins Origin ID"
 					]
 				}
 			}
@@ -442,7 +442,7 @@ export const myApiCredentialDescription: INodeProperties[] = [
 						"My API Credential"
 					],
 					"operation": [
-						"Delete Me Allowed Origins Origin Id"
+						"Delete Me Allowed Origins Origin ID"
 					]
 				}
 			}
@@ -461,13 +461,13 @@ export const myApiCredentialDescription: INodeProperties[] = [
 						"My API Credential"
 					],
 					"operation": [
-						"Get Me Allowed Origins Origin Id"
+						"Get Me Allowed Origins Origin ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Origin Id",
+			"displayName": "Origin ID",
 			"name": "originId",
 			"required": true,
 			"description": "Unique identifier of the allowed origin.",
@@ -479,7 +479,7 @@ export const myApiCredentialDescription: INodeProperties[] = [
 						"My API Credential"
 					],
 					"operation": [
-						"Get Me Allowed Origins Origin Id"
+						"Get Me Allowed Origins Origin ID"
 					]
 				}
 			}
@@ -504,7 +504,7 @@ export const myApiCredentialDescription: INodeProperties[] = [
 						"My API Credential"
 					],
 					"operation": [
-						"Get Me Allowed Origins Origin Id"
+						"Get Me Allowed Origins Origin ID"
 					]
 				}
 			}
@@ -529,7 +529,7 @@ export const myApiCredentialDescription: INodeProperties[] = [
 						"My API Credential"
 					],
 					"operation": [
-						"Get Me Allowed Origins Origin Id"
+						"Get Me Allowed Origins Origin ID"
 					]
 				}
 			}

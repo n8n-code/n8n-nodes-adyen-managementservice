@@ -15,8 +15,8 @@ export const terminalSettingsCompanyLevelDescription: INodeProperties[] = [
 			},
 			"options": [
 				{
-					"name": "Get Companies Company Id Terminal Logos",
-					"value": "Get Companies Company Id Terminal Logos",
+					"name": "Get Companies Company ID Terminal Logos",
+					"value": "Get Companies Company ID Terminal Logos",
 					"action": "Get the terminal logo",
 					"description": "Returns the logo that is configured for a specific payment terminal model at the company identified in the path. \n\nThe logo is returned as a Base64-encoded string. You need to Base64-decode the string to get the actual image file. \nThis logo applies to all terminals of the specified model under the company, unless a different logo is configured at a lower level (merchant account, store, or individual terminal).\n\nTo make this request, your API credential must have one of the following [roles](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Terminal settings read\n* Management API—Terminal settings read and write",
 					"routing": {
@@ -27,8 +27,8 @@ export const terminalSettingsCompanyLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Patch Companies Company Id Terminal Logos",
-					"value": "Patch Companies Company Id Terminal Logos",
+					"name": "Patch Companies Company ID Terminal Logos",
+					"value": "Patch Companies Company ID Terminal Logos",
 					"action": "Update the terminal logo",
 					"description": "Updates the logo that is configured for a specific payment terminal model at the company identified in the path. You can update the logo for only one terminal model at a time.\nThis logo applies to all terminals of the specified model under the company, unless a different logo is configured at a lower level (merchant account, store, or individual terminal). \n* To change the logo, specify the image file as a Base64-encoded string.\n* To restore the logo inherited from the Adyen PSP level, specify an empty logo value.\n\nTo make this request, your API credential must have the following [role](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Terminal settings read and write",
 					"routing": {
@@ -39,8 +39,8 @@ export const terminalSettingsCompanyLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Companies Company Id Terminal Settings",
-					"value": "Get Companies Company Id Terminal Settings",
+					"name": "Get Companies Company ID Terminal Settings",
+					"value": "Get Companies Company ID Terminal Settings",
 					"action": "Get terminal settings",
 					"description": "Returns the payment terminal settings that are configured for the company identified in the path. These settings apply to all terminals under the company, unless different values are configured at a lower level (merchant account, store, or individual terminal).\n\nTo make this request, your API credential must have one of the following [roles](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Terminal settings read\n* Management API—Terminal settings read and write\n\nFor [sensitive terminal settings](https://docs.adyen.com/point-of-sale/automating-terminal-management/configure-terminals-api#sensitive-terminal-settings), your API credential must have the following role:\n* Management API—Terminal settings Advanced read and write",
 					"routing": {
@@ -51,8 +51,8 @@ export const terminalSettingsCompanyLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Patch Companies Company Id Terminal Settings",
-					"value": "Patch Companies Company Id Terminal Settings",
+					"name": "Patch Companies Company ID Terminal Settings",
+					"value": "Patch Companies Company ID Terminal Settings",
 					"action": "Update terminal settings",
 					"description": "Updates payment terminal settings for the company identified in the path. These settings apply to all terminals under the company, unless different values are configured at a lower level (merchant account, store, or individual terminal).\n\n* To change a parameter value, include the full object that contains the parameter, even if you don't want to change all parameters in the object.\n* To restore a parameter value inherited from the Adyen PSP level, include the full object that contains the parameter, and specify an empty value for the parameter or omit the parameter.\n* Objects that are not included in the request are not updated.\n\nTo make this request, your API credential must have the following [role](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Terminal settings read and write\n\nFor [sensitive terminal settings](https://docs.adyen.com/point-of-sale/automating-terminal-management/configure-terminals-api#sensitive-terminal-settings), your API credential must have the following role:\n* Management API—Terminal settings Advanced read and write",
 					"routing": {
@@ -79,13 +79,13 @@ export const terminalSettingsCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Settings Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Terminal Logos"
+						"Get Companies Company ID Terminal Logos"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Company Id",
+			"displayName": "Company ID",
 			"name": "companyId",
 			"required": true,
 			"description": "The unique identifier of the company account.",
@@ -97,7 +97,7 @@ export const terminalSettingsCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Settings Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Terminal Logos"
+						"Get Companies Company ID Terminal Logos"
 					]
 				}
 			}
@@ -123,7 +123,7 @@ export const terminalSettingsCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Settings Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Terminal Logos"
+						"Get Companies Company ID Terminal Logos"
 					]
 				}
 			}
@@ -148,7 +148,7 @@ export const terminalSettingsCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Settings Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Terminal Logos"
+						"Get Companies Company ID Terminal Logos"
 					]
 				}
 			}
@@ -173,7 +173,7 @@ export const terminalSettingsCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Settings Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Terminal Logos"
+						"Get Companies Company ID Terminal Logos"
 					]
 				}
 			}
@@ -192,13 +192,13 @@ export const terminalSettingsCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Settings Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Terminal Logos"
+						"Patch Companies Company ID Terminal Logos"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Company Id",
+			"displayName": "Company ID",
 			"name": "companyId",
 			"required": true,
 			"description": "The unique identifier of the company account.",
@@ -210,7 +210,7 @@ export const terminalSettingsCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Settings Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Terminal Logos"
+						"Patch Companies Company ID Terminal Logos"
 					]
 				}
 			}
@@ -236,7 +236,7 @@ export const terminalSettingsCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Settings Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Terminal Logos"
+						"Patch Companies Company ID Terminal Logos"
 					]
 				}
 			}
@@ -261,7 +261,7 @@ export const terminalSettingsCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Settings Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Terminal Logos"
+						"Patch Companies Company ID Terminal Logos"
 					]
 				}
 			}
@@ -286,7 +286,7 @@ export const terminalSettingsCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Settings Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Terminal Logos"
+						"Patch Companies Company ID Terminal Logos"
 					]
 				}
 			}
@@ -311,7 +311,7 @@ export const terminalSettingsCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Settings Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Terminal Logos"
+						"Patch Companies Company ID Terminal Logos"
 					]
 				}
 			}
@@ -330,13 +330,13 @@ export const terminalSettingsCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Settings Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Terminal Settings"
+						"Get Companies Company ID Terminal Settings"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Company Id",
+			"displayName": "Company ID",
 			"name": "companyId",
 			"required": true,
 			"description": "The unique identifier of the company account.",
@@ -348,7 +348,7 @@ export const terminalSettingsCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Settings Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Terminal Settings"
+						"Get Companies Company ID Terminal Settings"
 					]
 				}
 			}
@@ -373,7 +373,7 @@ export const terminalSettingsCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Settings Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Terminal Settings"
+						"Get Companies Company ID Terminal Settings"
 					]
 				}
 			}
@@ -398,7 +398,7 @@ export const terminalSettingsCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Settings Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Terminal Settings"
+						"Get Companies Company ID Terminal Settings"
 					]
 				}
 			}
@@ -417,13 +417,13 @@ export const terminalSettingsCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Settings Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Terminal Settings"
+						"Patch Companies Company ID Terminal Settings"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Company Id",
+			"displayName": "Company ID",
 			"name": "companyId",
 			"required": true,
 			"description": "The unique identifier of the company account.",
@@ -435,7 +435,7 @@ export const terminalSettingsCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Settings Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Terminal Settings"
+						"Patch Companies Company ID Terminal Settings"
 					]
 				}
 			}
@@ -460,7 +460,7 @@ export const terminalSettingsCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Settings Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Terminal Settings"
+						"Patch Companies Company ID Terminal Settings"
 					]
 				}
 			}
@@ -485,7 +485,7 @@ export const terminalSettingsCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Settings Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Terminal Settings"
+						"Patch Companies Company ID Terminal Settings"
 					]
 				}
 			}
@@ -510,7 +510,7 @@ export const terminalSettingsCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Settings Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Terminal Settings"
+						"Patch Companies Company ID Terminal Settings"
 					]
 				}
 			}
@@ -535,7 +535,7 @@ export const terminalSettingsCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Settings Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Terminal Settings"
+						"Patch Companies Company ID Terminal Settings"
 					]
 				}
 			}
@@ -560,7 +560,7 @@ export const terminalSettingsCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Settings Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Terminal Settings"
+						"Patch Companies Company ID Terminal Settings"
 					]
 				}
 			}
@@ -585,7 +585,7 @@ export const terminalSettingsCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Settings Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Terminal Settings"
+						"Patch Companies Company ID Terminal Settings"
 					]
 				}
 			}
@@ -610,7 +610,7 @@ export const terminalSettingsCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Settings Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Terminal Settings"
+						"Patch Companies Company ID Terminal Settings"
 					]
 				}
 			}
@@ -635,7 +635,7 @@ export const terminalSettingsCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Settings Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Terminal Settings"
+						"Patch Companies Company ID Terminal Settings"
 					]
 				}
 			}
@@ -660,7 +660,7 @@ export const terminalSettingsCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Settings Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Terminal Settings"
+						"Patch Companies Company ID Terminal Settings"
 					]
 				}
 			}
@@ -685,7 +685,7 @@ export const terminalSettingsCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Settings Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Terminal Settings"
+						"Patch Companies Company ID Terminal Settings"
 					]
 				}
 			}
@@ -710,7 +710,7 @@ export const terminalSettingsCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Settings Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Terminal Settings"
+						"Patch Companies Company ID Terminal Settings"
 					]
 				}
 			}
@@ -735,7 +735,7 @@ export const terminalSettingsCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Settings Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Terminal Settings"
+						"Patch Companies Company ID Terminal Settings"
 					]
 				}
 			}
@@ -760,7 +760,7 @@ export const terminalSettingsCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Settings Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Terminal Settings"
+						"Patch Companies Company ID Terminal Settings"
 					]
 				}
 			}
@@ -785,7 +785,7 @@ export const terminalSettingsCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Settings Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Terminal Settings"
+						"Patch Companies Company ID Terminal Settings"
 					]
 				}
 			}
@@ -810,7 +810,7 @@ export const terminalSettingsCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Settings Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Terminal Settings"
+						"Patch Companies Company ID Terminal Settings"
 					]
 				}
 			}
@@ -835,7 +835,7 @@ export const terminalSettingsCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Settings Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Terminal Settings"
+						"Patch Companies Company ID Terminal Settings"
 					]
 				}
 			}
@@ -860,7 +860,7 @@ export const terminalSettingsCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Settings Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Terminal Settings"
+						"Patch Companies Company ID Terminal Settings"
 					]
 				}
 			}
@@ -885,7 +885,7 @@ export const terminalSettingsCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Settings Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Terminal Settings"
+						"Patch Companies Company ID Terminal Settings"
 					]
 				}
 			}
@@ -910,7 +910,7 @@ export const terminalSettingsCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Settings Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Terminal Settings"
+						"Patch Companies Company ID Terminal Settings"
 					]
 				}
 			}

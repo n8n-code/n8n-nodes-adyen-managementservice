@@ -39,8 +39,8 @@ export const accountMerchantLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Merchants Merchant Id",
-					"value": "Get Merchants Merchant Id",
+					"name": "Get Merchants Merchant ID",
+					"value": "Get Merchants Merchant ID",
 					"action": "Get a merchant account",
 					"description": "Returns the merchant account specified in the path. Your API credential must have access to the merchant account.\n\nTo make this request, your API credential must have the following [roles](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Account read",
 					"routing": {
@@ -51,8 +51,8 @@ export const accountMerchantLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Post Merchants Merchant Id Activate",
-					"value": "Post Merchants Merchant Id Activate",
+					"name": "Post Merchants Merchant ID Activate",
+					"value": "Post Merchants Merchant ID Activate",
 					"action": "Request to activate a merchant account",
 					"description": "Sends a request to activate the merchant account identified in the path.\n\nYou get the result of the activation asychronously through a [`merchant.updated`](https://docs.adyen.com/api-explorer/ManagementNotification/latest/post/merchant.updated) webhook. Once the merchant account is activated, you can start using it to accept payments and payouts.\n\nUse this endpoint if your integration requires it, such as Adyen for Platforms Manage. Your Adyen contact will set up your access.\n\nTo make this request, your API credential must have the following [roles](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Accounts read and write",
 					"routing": {
@@ -204,7 +204,7 @@ export const accountMerchantLevelDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Business Line Id",
+			"displayName": "Business Line ID",
 			"name": "businessLineId",
 			"type": "string",
 			"default": "",
@@ -230,7 +230,7 @@ export const accountMerchantLevelDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Company Id",
+			"displayName": "Company ID",
 			"name": "companyId",
 			"type": "string",
 			"default": "",
@@ -280,7 +280,7 @@ export const accountMerchantLevelDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Legal Entity Id",
+			"displayName": "Legal Entity ID",
 			"name": "legalEntityId",
 			"type": "string",
 			"default": "",
@@ -443,13 +443,13 @@ export const accountMerchantLevelDescription: INodeProperties[] = [
 						"Account Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id"
+						"Get Merchants Merchant ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Merchant Id",
+			"displayName": "Merchant ID",
 			"name": "merchantId",
 			"required": true,
 			"description": "The unique identifier of the merchant account.",
@@ -461,7 +461,7 @@ export const accountMerchantLevelDescription: INodeProperties[] = [
 						"Account Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id"
+						"Get Merchants Merchant ID"
 					]
 				}
 			}
@@ -486,7 +486,7 @@ export const accountMerchantLevelDescription: INodeProperties[] = [
 						"Account Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id"
+						"Get Merchants Merchant ID"
 					]
 				}
 			}
@@ -511,7 +511,7 @@ export const accountMerchantLevelDescription: INodeProperties[] = [
 						"Account Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id"
+						"Get Merchants Merchant ID"
 					]
 				}
 			}
@@ -530,13 +530,13 @@ export const accountMerchantLevelDescription: INodeProperties[] = [
 						"Account Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Activate"
+						"Post Merchants Merchant ID Activate"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Merchant Id",
+			"displayName": "Merchant ID",
 			"name": "merchantId",
 			"required": true,
 			"description": "The unique identifier of the merchant account.",
@@ -548,7 +548,7 @@ export const accountMerchantLevelDescription: INodeProperties[] = [
 						"Account Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Activate"
+						"Post Merchants Merchant ID Activate"
 					]
 				}
 			}
@@ -573,7 +573,7 @@ export const accountMerchantLevelDescription: INodeProperties[] = [
 						"Account Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Activate"
+						"Post Merchants Merchant ID Activate"
 					]
 				}
 			}
@@ -598,7 +598,7 @@ export const accountMerchantLevelDescription: INodeProperties[] = [
 						"Account Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Activate"
+						"Post Merchants Merchant ID Activate"
 					]
 				}
 			}

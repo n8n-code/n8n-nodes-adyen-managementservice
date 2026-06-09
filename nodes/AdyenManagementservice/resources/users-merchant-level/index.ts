@@ -15,8 +15,8 @@ export const usersMerchantLevelDescription: INodeProperties[] = [
 			},
 			"options": [
 				{
-					"name": "Get Merchants Merchant Id Users",
-					"value": "Get Merchants Merchant Id Users",
+					"name": "Get Merchants Merchant ID Users",
+					"value": "Get Merchants Merchant ID Users",
 					"action": "Get a list of users",
 					"description": "Returns a list of users associated with the `merchantId` specified in the path.\n\nTo make this request, your API credential must have the following [role](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Users read and write\n",
 					"routing": {
@@ -27,8 +27,8 @@ export const usersMerchantLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Post Merchants Merchant Id Users",
-					"value": "Post Merchants Merchant Id Users",
+					"name": "Post Merchants Merchant ID Users",
+					"value": "Post Merchants Merchant ID Users",
 					"action": "Create a new user",
 					"description": "Creates a user for the `merchantId` specified in the path.\n\nTo make this request, your API credential must have the following [role](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Users read and write\n",
 					"routing": {
@@ -39,8 +39,8 @@ export const usersMerchantLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Merchants Merchant Id Users User Id",
-					"value": "Get Merchants Merchant Id Users User Id",
+					"name": "Get Merchants Merchant ID Users User ID",
+					"value": "Get Merchants Merchant ID Users User ID",
 					"action": "Get user details",
 					"description": "Returns user details for the `userId` and the `merchantId` specified in the path.\n\nTo make this request, your API credential must have the following [role](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Users read and write\n",
 					"routing": {
@@ -51,8 +51,8 @@ export const usersMerchantLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Patch Merchants Merchant Id Users User Id",
-					"value": "Patch Merchants Merchant Id Users User Id",
+					"name": "Patch Merchants Merchant ID Users User ID",
+					"value": "Patch Merchants Merchant ID Users User ID",
 					"action": "Update a user",
 					"description": "Updates user details for the `userId` and the `merchantId` specified in the path.\n\nTo make this request, your API credential must have the following [role](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Users read and write\n",
 					"routing": {
@@ -79,13 +79,13 @@ export const usersMerchantLevelDescription: INodeProperties[] = [
 						"Users Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Users"
+						"Get Merchants Merchant ID Users"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Merchant Id",
+			"displayName": "Merchant ID",
 			"name": "merchantId",
 			"required": true,
 			"description": "Unique identifier of the merchant.",
@@ -97,7 +97,7 @@ export const usersMerchantLevelDescription: INodeProperties[] = [
 						"Users Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Users"
+						"Get Merchants Merchant ID Users"
 					]
 				}
 			}
@@ -122,7 +122,7 @@ export const usersMerchantLevelDescription: INodeProperties[] = [
 						"Users Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Users"
+						"Get Merchants Merchant ID Users"
 					]
 				}
 			}
@@ -147,7 +147,7 @@ export const usersMerchantLevelDescription: INodeProperties[] = [
 						"Users Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Users"
+						"Get Merchants Merchant ID Users"
 					]
 				}
 			}
@@ -172,7 +172,7 @@ export const usersMerchantLevelDescription: INodeProperties[] = [
 						"Users Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Users"
+						"Get Merchants Merchant ID Users"
 					]
 				}
 			}
@@ -197,7 +197,7 @@ export const usersMerchantLevelDescription: INodeProperties[] = [
 						"Users Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Users"
+						"Get Merchants Merchant ID Users"
 					]
 				}
 			}
@@ -222,7 +222,7 @@ export const usersMerchantLevelDescription: INodeProperties[] = [
 						"Users Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Users"
+						"Get Merchants Merchant ID Users"
 					]
 				}
 			}
@@ -241,13 +241,13 @@ export const usersMerchantLevelDescription: INodeProperties[] = [
 						"Users Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Users"
+						"Post Merchants Merchant ID Users"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Merchant Id",
+			"displayName": "Merchant ID",
 			"name": "merchantId",
 			"required": true,
 			"description": "Unique identifier of the merchant.",
@@ -259,7 +259,7 @@ export const usersMerchantLevelDescription: INodeProperties[] = [
 						"Users Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Users"
+						"Post Merchants Merchant ID Users"
 					]
 				}
 			}
@@ -284,7 +284,7 @@ export const usersMerchantLevelDescription: INodeProperties[] = [
 						"Users Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Users"
+						"Post Merchants Merchant ID Users"
 					]
 				}
 			}
@@ -309,7 +309,7 @@ export const usersMerchantLevelDescription: INodeProperties[] = [
 						"Users Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Users"
+						"Post Merchants Merchant ID Users"
 					]
 				}
 			}
@@ -335,7 +335,7 @@ export const usersMerchantLevelDescription: INodeProperties[] = [
 						"Users Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Users"
+						"Post Merchants Merchant ID Users"
 					]
 				}
 			}
@@ -361,7 +361,7 @@ export const usersMerchantLevelDescription: INodeProperties[] = [
 						"Users Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Users"
+						"Post Merchants Merchant ID Users"
 					]
 				}
 			}
@@ -386,7 +386,7 @@ export const usersMerchantLevelDescription: INodeProperties[] = [
 						"Users Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Users"
+						"Post Merchants Merchant ID Users"
 					]
 				}
 			}
@@ -411,7 +411,7 @@ export const usersMerchantLevelDescription: INodeProperties[] = [
 						"Users Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Users"
+						"Post Merchants Merchant ID Users"
 					]
 				}
 			}
@@ -437,7 +437,7 @@ export const usersMerchantLevelDescription: INodeProperties[] = [
 						"Users Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Users"
+						"Post Merchants Merchant ID Users"
 					]
 				}
 			}
@@ -462,7 +462,7 @@ export const usersMerchantLevelDescription: INodeProperties[] = [
 						"Users Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Users"
+						"Post Merchants Merchant ID Users"
 					]
 				}
 			}
@@ -487,7 +487,7 @@ export const usersMerchantLevelDescription: INodeProperties[] = [
 						"Users Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Users"
+						"Post Merchants Merchant ID Users"
 					]
 				}
 			}
@@ -506,13 +506,13 @@ export const usersMerchantLevelDescription: INodeProperties[] = [
 						"Users Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Users User Id"
+						"Get Merchants Merchant ID Users User ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Merchant Id",
+			"displayName": "Merchant ID",
 			"name": "merchantId",
 			"required": true,
 			"description": "Unique identifier of the merchant.",
@@ -524,13 +524,13 @@ export const usersMerchantLevelDescription: INodeProperties[] = [
 						"Users Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Users User Id"
+						"Get Merchants Merchant ID Users User ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "User Id",
+			"displayName": "User ID",
 			"name": "userId",
 			"required": true,
 			"description": "Unique identifier of the user.",
@@ -542,7 +542,7 @@ export const usersMerchantLevelDescription: INodeProperties[] = [
 						"Users Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Users User Id"
+						"Get Merchants Merchant ID Users User ID"
 					]
 				}
 			}
@@ -567,7 +567,7 @@ export const usersMerchantLevelDescription: INodeProperties[] = [
 						"Users Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Users User Id"
+						"Get Merchants Merchant ID Users User ID"
 					]
 				}
 			}
@@ -592,7 +592,7 @@ export const usersMerchantLevelDescription: INodeProperties[] = [
 						"Users Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Users User Id"
+						"Get Merchants Merchant ID Users User ID"
 					]
 				}
 			}
@@ -611,13 +611,13 @@ export const usersMerchantLevelDescription: INodeProperties[] = [
 						"Users Merchant Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Users User Id"
+						"Patch Merchants Merchant ID Users User ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Merchant Id",
+			"displayName": "Merchant ID",
 			"name": "merchantId",
 			"required": true,
 			"description": "Unique identifier of the merchant.",
@@ -629,13 +629,13 @@ export const usersMerchantLevelDescription: INodeProperties[] = [
 						"Users Merchant Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Users User Id"
+						"Patch Merchants Merchant ID Users User ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "User Id",
+			"displayName": "User ID",
 			"name": "userId",
 			"required": true,
 			"description": "Unique identifier of the user.",
@@ -647,7 +647,7 @@ export const usersMerchantLevelDescription: INodeProperties[] = [
 						"Users Merchant Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Users User Id"
+						"Patch Merchants Merchant ID Users User ID"
 					]
 				}
 			}
@@ -672,7 +672,7 @@ export const usersMerchantLevelDescription: INodeProperties[] = [
 						"Users Merchant Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Users User Id"
+						"Patch Merchants Merchant ID Users User ID"
 					]
 				}
 			}
@@ -697,7 +697,7 @@ export const usersMerchantLevelDescription: INodeProperties[] = [
 						"Users Merchant Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Users User Id"
+						"Patch Merchants Merchant ID Users User ID"
 					]
 				}
 			}
@@ -722,7 +722,7 @@ export const usersMerchantLevelDescription: INodeProperties[] = [
 						"Users Merchant Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Users User Id"
+						"Patch Merchants Merchant ID Users User ID"
 					]
 				}
 			}
@@ -747,7 +747,7 @@ export const usersMerchantLevelDescription: INodeProperties[] = [
 						"Users Merchant Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Users User Id"
+						"Patch Merchants Merchant ID Users User ID"
 					]
 				}
 			}
@@ -772,7 +772,7 @@ export const usersMerchantLevelDescription: INodeProperties[] = [
 						"Users Merchant Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Users User Id"
+						"Patch Merchants Merchant ID Users User ID"
 					]
 				}
 			}
@@ -797,7 +797,7 @@ export const usersMerchantLevelDescription: INodeProperties[] = [
 						"Users Merchant Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Users User Id"
+						"Patch Merchants Merchant ID Users User ID"
 					]
 				}
 			}
@@ -822,7 +822,7 @@ export const usersMerchantLevelDescription: INodeProperties[] = [
 						"Users Merchant Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Users User Id"
+						"Patch Merchants Merchant ID Users User ID"
 					]
 				}
 			}
@@ -847,7 +847,7 @@ export const usersMerchantLevelDescription: INodeProperties[] = [
 						"Users Merchant Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Users User Id"
+						"Patch Merchants Merchant ID Users User ID"
 					]
 				}
 			}
@@ -872,7 +872,7 @@ export const usersMerchantLevelDescription: INodeProperties[] = [
 						"Users Merchant Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Users User Id"
+						"Patch Merchants Merchant ID Users User ID"
 					]
 				}
 			}
@@ -897,7 +897,7 @@ export const usersMerchantLevelDescription: INodeProperties[] = [
 						"Users Merchant Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Users User Id"
+						"Patch Merchants Merchant ID Users User ID"
 					]
 				}
 			}

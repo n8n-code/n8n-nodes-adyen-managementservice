@@ -15,8 +15,8 @@ export const apiKeyCompanyLevelDescription: INodeProperties[] = [
 			},
 			"options": [
 				{
-					"name": "Post Companies Company Id Api Credentials Api Credential Id Generate Api Key",
-					"value": "Post Companies Company Id Api Credentials Api Credential Id Generate Api Key",
+					"name": "Post Companies Company ID API Credentials API Credential ID Generate API Key",
+					"value": "Post Companies Company ID API Credentials API Credential ID Generate API Key",
 					"action": "Generate new API key",
 					"description": "Returns a new API key for the API credential. You can use the new API key a few minutes after generating it. The old API key stops working 24 hours after generating a new one.\n\nTo make this request, your API credential must have the following [roles](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—API credentials read and write",
 					"routing": {
@@ -43,13 +43,13 @@ export const apiKeyCompanyLevelDescription: INodeProperties[] = [
 						"API Key Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Api Credentials Api Credential Id Generate Api Key"
+						"Post Companies Company ID API Credentials API Credential ID Generate API Key"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Company Id",
+			"displayName": "Company ID",
 			"name": "companyId",
 			"required": true,
 			"description": "The unique identifier of the company account.",
@@ -61,13 +61,13 @@ export const apiKeyCompanyLevelDescription: INodeProperties[] = [
 						"API Key Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Api Credentials Api Credential Id Generate Api Key"
+						"Post Companies Company ID API Credentials API Credential ID Generate API Key"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Api Credential Id",
+			"displayName": "API Credential ID",
 			"name": "apiCredentialId",
 			"required": true,
 			"description": "Unique identifier of the API credential.",
@@ -79,7 +79,7 @@ export const apiKeyCompanyLevelDescription: INodeProperties[] = [
 						"API Key Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Api Credentials Api Credential Id Generate Api Key"
+						"Post Companies Company ID API Credentials API Credential ID Generate API Key"
 					]
 				}
 			}
@@ -104,7 +104,7 @@ export const apiKeyCompanyLevelDescription: INodeProperties[] = [
 						"API Key Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Api Credentials Api Credential Id Generate Api Key"
+						"Post Companies Company ID API Credentials API Credential ID Generate API Key"
 					]
 				}
 			}
@@ -129,7 +129,7 @@ export const apiKeyCompanyLevelDescription: INodeProperties[] = [
 						"API Key Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Api Credentials Api Credential Id Generate Api Key"
+						"Post Companies Company ID API Credentials API Credential ID Generate API Key"
 					]
 				}
 			}

@@ -15,8 +15,8 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 			},
 			"options": [
 				{
-					"name": "Get Merchants Merchant Id Billing Entities",
-					"value": "Get Merchants Merchant Id Billing Entities",
+					"name": "Get Merchants Merchant ID Billing Entities",
+					"value": "Get Merchants Merchant ID Billing Entities",
 					"action": "Get a list of billing entities",
 					"description": "Returns the billing entities of the merchant account identified in the path.\nA billing entity is a legal entity where we charge orders to. An order for terminal products must contain the ID of a billing entity.\n\nTo make this request, your API credential must have one of the following [roles](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Terminal ordering read\n* Management API—Terminal ordering read and write",
 					"routing": {
@@ -27,8 +27,8 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Merchants Merchant Id Shipping Locations",
-					"value": "Get Merchants Merchant Id Shipping Locations",
+					"name": "Get Merchants Merchant ID Shipping Locations",
+					"value": "Get Merchants Merchant ID Shipping Locations",
 					"action": "Get a list of shipping locations",
 					"description": "Returns the shipping locations for the merchant account identified in the path.\nA shipping location includes the address where orders can be delivered, and an ID which you need to specify when ordering terminal products.\n\nTo make this request, your API credential must have one of the following [roles](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Terminal ordering read\n* Management API—Terminal ordering read and write",
 					"routing": {
@@ -39,8 +39,8 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Post Merchants Merchant Id Shipping Locations",
-					"value": "Post Merchants Merchant Id Shipping Locations",
+					"name": "Post Merchants Merchant ID Shipping Locations",
+					"value": "Post Merchants Merchant ID Shipping Locations",
 					"action": "Create a shipping location",
 					"description": "Creates a shipping location for the merchant account identified in the path. A shipping location defines an address where orders can be shipped to. \n\nTo make this request, your API credential must have the following [role](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Terminal ordering read and write",
 					"routing": {
@@ -51,8 +51,8 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Merchants Merchant Id Terminal Models",
-					"value": "Get Merchants Merchant Id Terminal Models",
+					"name": "Get Merchants Merchant ID Terminal Models",
+					"value": "Get Merchants Merchant ID Terminal Models",
 					"action": "Get a list of terminal models",
 					"description": "Returns the payment terminal models that merchant account identified in the path has access to. The response includes the terminal model ID, which can be used as a query parameter when getting a list of terminals or a list of products for ordering.\n\nTo make this request, your API credential must have one of the following [roles](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Terminal ordering read\n* Management API—Terminal ordering read and write",
 					"routing": {
@@ -63,8 +63,8 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Merchants Merchant Id Terminal Orders",
-					"value": "Get Merchants Merchant Id Terminal Orders",
+					"name": "Get Merchants Merchant ID Terminal Orders",
+					"value": "Get Merchants Merchant ID Terminal Orders",
 					"action": "Get a list of orders",
 					"description": "Returns a list of terminal products orders for the merchant account identified in the path.\n\nTo make this request, your API credential must have one of the following [roles](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Terminal ordering read\n* Management API—Terminal ordering read and write",
 					"routing": {
@@ -75,8 +75,8 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Post Merchants Merchant Id Terminal Orders",
-					"value": "Post Merchants Merchant Id Terminal Orders",
+					"name": "Post Merchants Merchant ID Terminal Orders",
+					"value": "Post Merchants Merchant ID Terminal Orders",
 					"action": "Create an order",
 					"description": "Creates an order for payment terminal products for the merchant account identified in the path.\n\nTo make this request, your API credential must have the following [role](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Terminal ordering read and write",
 					"routing": {
@@ -87,8 +87,8 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Merchants Merchant Id Terminal Orders Order Id",
-					"value": "Get Merchants Merchant Id Terminal Orders Order Id",
+					"name": "Get Merchants Merchant ID Terminal Orders Order ID",
+					"value": "Get Merchants Merchant ID Terminal Orders Order ID",
 					"action": "Get an order",
 					"description": "Returns the details of the terminal products order identified in the path.\n\nTo make this request, your API credential must have one of the following [roles](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Terminal ordering read\n* Management API—Terminal ordering read and write",
 					"routing": {
@@ -99,8 +99,8 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Patch Merchants Merchant Id Terminal Orders Order Id",
-					"value": "Patch Merchants Merchant Id Terminal Orders Order Id",
+					"name": "Patch Merchants Merchant ID Terminal Orders Order ID",
+					"value": "Patch Merchants Merchant ID Terminal Orders Order ID",
 					"action": "Update an order",
 					"description": "Updates the terminal products order identified in the path.\nUpdating is only possible while the order has the status **Placed**.\n\nThe request body only needs to contain what you want to change. \nHowever, to update the products in the `items` array, you must provice the entire array. For example, if the array has three items:\n To remove one item, the array must include the remaining two items. Or to add one item, the array must include all four items.\n\nTo make this request, your API credential must have the following [role](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Terminal ordering read and write",
 					"routing": {
@@ -111,8 +111,8 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Post Merchants Merchant Id Terminal Orders Order Id Cancel",
-					"value": "Post Merchants Merchant Id Terminal Orders Order Id Cancel",
+					"name": "Post Merchants Merchant ID Terminal Orders Order ID Cancel",
+					"value": "Post Merchants Merchant ID Terminal Orders Order ID Cancel",
 					"action": "Cancel an order",
 					"description": "Cancels the terminal products order identified in the path.\nCancelling is only possible while the order has the status **Placed**.\nTo cancel an order, make a POST call without a request body. The response returns the full order details, but with the status changed to **Cancelled**.\n\nTo make this request, your API credential must have the following [role](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Terminal ordering read and write",
 					"routing": {
@@ -123,8 +123,8 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Merchants Merchant Id Terminal Products",
-					"value": "Get Merchants Merchant Id Terminal Products",
+					"name": "Get Merchants Merchant ID Terminal Products",
+					"value": "Get Merchants Merchant ID Terminal Products",
 					"action": "Get a list of terminal products",
 					"description": "Returns a country-specific list of payment terminal packages and parts that the merchant account identified in the path has access to.\n\nTo make this request, your API credential must have one of the following [roles](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Terminal ordering read\n* Management API—Terminal ordering read and write",
 					"routing": {
@@ -151,13 +151,13 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Billing Entities"
+						"Get Merchants Merchant ID Billing Entities"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Merchant Id",
+			"displayName": "Merchant ID",
 			"name": "merchantId",
 			"required": true,
 			"description": "The unique identifier of the merchant account.",
@@ -169,7 +169,7 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Billing Entities"
+						"Get Merchants Merchant ID Billing Entities"
 					]
 				}
 			}
@@ -194,7 +194,7 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Billing Entities"
+						"Get Merchants Merchant ID Billing Entities"
 					]
 				}
 			}
@@ -219,7 +219,7 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Billing Entities"
+						"Get Merchants Merchant ID Billing Entities"
 					]
 				}
 			}
@@ -244,7 +244,7 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Billing Entities"
+						"Get Merchants Merchant ID Billing Entities"
 					]
 				}
 			}
@@ -263,13 +263,13 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Shipping Locations"
+						"Get Merchants Merchant ID Shipping Locations"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Merchant Id",
+			"displayName": "Merchant ID",
 			"name": "merchantId",
 			"required": true,
 			"description": "The unique identifier of the merchant account.",
@@ -281,7 +281,7 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Shipping Locations"
+						"Get Merchants Merchant ID Shipping Locations"
 					]
 				}
 			}
@@ -306,7 +306,7 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Shipping Locations"
+						"Get Merchants Merchant ID Shipping Locations"
 					]
 				}
 			}
@@ -331,7 +331,7 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Shipping Locations"
+						"Get Merchants Merchant ID Shipping Locations"
 					]
 				}
 			}
@@ -356,7 +356,7 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Shipping Locations"
+						"Get Merchants Merchant ID Shipping Locations"
 					]
 				}
 			}
@@ -381,7 +381,7 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Shipping Locations"
+						"Get Merchants Merchant ID Shipping Locations"
 					]
 				}
 			}
@@ -406,7 +406,7 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Shipping Locations"
+						"Get Merchants Merchant ID Shipping Locations"
 					]
 				}
 			}
@@ -425,13 +425,13 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Shipping Locations"
+						"Post Merchants Merchant ID Shipping Locations"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Merchant Id",
+			"displayName": "Merchant ID",
 			"name": "merchantId",
 			"required": true,
 			"description": "The unique identifier of the merchant account.",
@@ -443,7 +443,7 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Shipping Locations"
+						"Post Merchants Merchant ID Shipping Locations"
 					]
 				}
 			}
@@ -468,7 +468,7 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Shipping Locations"
+						"Post Merchants Merchant ID Shipping Locations"
 					]
 				}
 			}
@@ -493,13 +493,13 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Shipping Locations"
+						"Post Merchants Merchant ID Shipping Locations"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "string",
 			"default": "",
@@ -518,7 +518,7 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Shipping Locations"
+						"Post Merchants Merchant ID Shipping Locations"
 					]
 				}
 			}
@@ -543,7 +543,7 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Shipping Locations"
+						"Post Merchants Merchant ID Shipping Locations"
 					]
 				}
 			}
@@ -568,7 +568,7 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Shipping Locations"
+						"Post Merchants Merchant ID Shipping Locations"
 					]
 				}
 			}
@@ -593,7 +593,7 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Shipping Locations"
+						"Post Merchants Merchant ID Shipping Locations"
 					]
 				}
 			}
@@ -612,13 +612,13 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Terminal Models"
+						"Get Merchants Merchant ID Terminal Models"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Merchant Id",
+			"displayName": "Merchant ID",
 			"name": "merchantId",
 			"required": true,
 			"description": "The unique identifier of the merchant account.",
@@ -630,7 +630,7 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Terminal Models"
+						"Get Merchants Merchant ID Terminal Models"
 					]
 				}
 			}
@@ -655,7 +655,7 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Terminal Models"
+						"Get Merchants Merchant ID Terminal Models"
 					]
 				}
 			}
@@ -680,7 +680,7 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Terminal Models"
+						"Get Merchants Merchant ID Terminal Models"
 					]
 				}
 			}
@@ -699,13 +699,13 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Terminal Orders"
+						"Get Merchants Merchant ID Terminal Orders"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Merchant Id",
+			"displayName": "Merchant ID",
 			"name": "merchantId",
 			"required": true,
 			"default": "",
@@ -716,7 +716,7 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Terminal Orders"
+						"Get Merchants Merchant ID Terminal Orders"
 					]
 				}
 			}
@@ -741,7 +741,7 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Terminal Orders"
+						"Get Merchants Merchant ID Terminal Orders"
 					]
 				}
 			}
@@ -766,7 +766,7 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Terminal Orders"
+						"Get Merchants Merchant ID Terminal Orders"
 					]
 				}
 			}
@@ -791,7 +791,7 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Terminal Orders"
+						"Get Merchants Merchant ID Terminal Orders"
 					]
 				}
 			}
@@ -816,7 +816,7 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Terminal Orders"
+						"Get Merchants Merchant ID Terminal Orders"
 					]
 				}
 			}
@@ -841,7 +841,7 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Terminal Orders"
+						"Get Merchants Merchant ID Terminal Orders"
 					]
 				}
 			}
@@ -866,7 +866,7 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Terminal Orders"
+						"Get Merchants Merchant ID Terminal Orders"
 					]
 				}
 			}
@@ -885,13 +885,13 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Terminal Orders"
+						"Post Merchants Merchant ID Terminal Orders"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Merchant Id",
+			"displayName": "Merchant ID",
 			"name": "merchantId",
 			"required": true,
 			"description": "The unique identifier of the merchant account.",
@@ -903,13 +903,13 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Terminal Orders"
+						"Post Merchants Merchant ID Terminal Orders"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Billing Entity Id",
+			"displayName": "Billing Entity ID",
 			"name": "billingEntityId",
 			"type": "string",
 			"default": "",
@@ -928,7 +928,7 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Terminal Orders"
+						"Post Merchants Merchant ID Terminal Orders"
 					]
 				}
 			}
@@ -953,7 +953,7 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Terminal Orders"
+						"Post Merchants Merchant ID Terminal Orders"
 					]
 				}
 			}
@@ -978,13 +978,13 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Terminal Orders"
+						"Post Merchants Merchant ID Terminal Orders"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Shipping Location Id",
+			"displayName": "Shipping Location ID",
 			"name": "shippingLocationId",
 			"type": "string",
 			"default": "",
@@ -1003,13 +1003,13 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Terminal Orders"
+						"Post Merchants Merchant ID Terminal Orders"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Tax Id",
+			"displayName": "Tax ID",
 			"name": "taxId",
 			"type": "string",
 			"default": "",
@@ -1028,7 +1028,7 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Terminal Orders"
+						"Post Merchants Merchant ID Terminal Orders"
 					]
 				}
 			}
@@ -1053,7 +1053,7 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Terminal Orders"
+						"Post Merchants Merchant ID Terminal Orders"
 					]
 				}
 			}
@@ -1078,7 +1078,7 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Terminal Orders"
+						"Post Merchants Merchant ID Terminal Orders"
 					]
 				}
 			}
@@ -1097,13 +1097,13 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Terminal Orders Order Id"
+						"Get Merchants Merchant ID Terminal Orders Order ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Merchant Id",
+			"displayName": "Merchant ID",
 			"name": "merchantId",
 			"required": true,
 			"description": "The unique identifier of the merchant account.",
@@ -1115,13 +1115,13 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Terminal Orders Order Id"
+						"Get Merchants Merchant ID Terminal Orders Order ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Order Id",
+			"displayName": "Order ID",
 			"name": "orderId",
 			"required": true,
 			"description": "The unique identifier of the order.",
@@ -1133,7 +1133,7 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Terminal Orders Order Id"
+						"Get Merchants Merchant ID Terminal Orders Order ID"
 					]
 				}
 			}
@@ -1158,7 +1158,7 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Terminal Orders Order Id"
+						"Get Merchants Merchant ID Terminal Orders Order ID"
 					]
 				}
 			}
@@ -1183,7 +1183,7 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Terminal Orders Order Id"
+						"Get Merchants Merchant ID Terminal Orders Order ID"
 					]
 				}
 			}
@@ -1202,13 +1202,13 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Terminal Orders Order Id"
+						"Patch Merchants Merchant ID Terminal Orders Order ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Merchant Id",
+			"displayName": "Merchant ID",
 			"name": "merchantId",
 			"required": true,
 			"description": "The unique identifier of the merchant account.",
@@ -1220,13 +1220,13 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Terminal Orders Order Id"
+						"Patch Merchants Merchant ID Terminal Orders Order ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Order Id",
+			"displayName": "Order ID",
 			"name": "orderId",
 			"required": true,
 			"description": "The unique identifier of the order.",
@@ -1238,13 +1238,13 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Terminal Orders Order Id"
+						"Patch Merchants Merchant ID Terminal Orders Order ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Billing Entity Id",
+			"displayName": "Billing Entity ID",
 			"name": "billingEntityId",
 			"type": "string",
 			"default": "",
@@ -1263,7 +1263,7 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Terminal Orders Order Id"
+						"Patch Merchants Merchant ID Terminal Orders Order ID"
 					]
 				}
 			}
@@ -1288,7 +1288,7 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Terminal Orders Order Id"
+						"Patch Merchants Merchant ID Terminal Orders Order ID"
 					]
 				}
 			}
@@ -1313,13 +1313,13 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Terminal Orders Order Id"
+						"Patch Merchants Merchant ID Terminal Orders Order ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Shipping Location Id",
+			"displayName": "Shipping Location ID",
 			"name": "shippingLocationId",
 			"type": "string",
 			"default": "",
@@ -1338,13 +1338,13 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Terminal Orders Order Id"
+						"Patch Merchants Merchant ID Terminal Orders Order ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Tax Id",
+			"displayName": "Tax ID",
 			"name": "taxId",
 			"type": "string",
 			"default": "",
@@ -1363,7 +1363,7 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Terminal Orders Order Id"
+						"Patch Merchants Merchant ID Terminal Orders Order ID"
 					]
 				}
 			}
@@ -1388,7 +1388,7 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Terminal Orders Order Id"
+						"Patch Merchants Merchant ID Terminal Orders Order ID"
 					]
 				}
 			}
@@ -1413,7 +1413,7 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Terminal Orders Order Id"
+						"Patch Merchants Merchant ID Terminal Orders Order ID"
 					]
 				}
 			}
@@ -1432,13 +1432,13 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Terminal Orders Order Id Cancel"
+						"Post Merchants Merchant ID Terminal Orders Order ID Cancel"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Merchant Id",
+			"displayName": "Merchant ID",
 			"name": "merchantId",
 			"required": true,
 			"description": "The unique identifier of the merchant account.",
@@ -1450,13 +1450,13 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Terminal Orders Order Id Cancel"
+						"Post Merchants Merchant ID Terminal Orders Order ID Cancel"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Order Id",
+			"displayName": "Order ID",
 			"name": "orderId",
 			"required": true,
 			"description": "The unique identifier of the order.",
@@ -1468,7 +1468,7 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Terminal Orders Order Id Cancel"
+						"Post Merchants Merchant ID Terminal Orders Order ID Cancel"
 					]
 				}
 			}
@@ -1493,7 +1493,7 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Terminal Orders Order Id Cancel"
+						"Post Merchants Merchant ID Terminal Orders Order ID Cancel"
 					]
 				}
 			}
@@ -1518,7 +1518,7 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Terminal Orders Order Id Cancel"
+						"Post Merchants Merchant ID Terminal Orders Order ID Cancel"
 					]
 				}
 			}
@@ -1537,13 +1537,13 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Terminal Products"
+						"Get Merchants Merchant ID Terminal Products"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Merchant Id",
+			"displayName": "Merchant ID",
 			"name": "merchantId",
 			"required": true,
 			"description": "The unique identifier of the merchant account.",
@@ -1555,7 +1555,7 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Terminal Products"
+						"Get Merchants Merchant ID Terminal Products"
 					]
 				}
 			}
@@ -1581,13 +1581,13 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Terminal Products"
+						"Get Merchants Merchant ID Terminal Products"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Terminal Model Id",
+			"displayName": "Terminal Model ID",
 			"name": "terminalModelId",
 			"description": "The terminal model to return products for. Use the ID returned in the [GET `/terminalModels`](https://docs.adyen.com/api-explorer/#/ManagementService/latest/get/merchants/{merchantId}/terminalModels) response. For example, **Verifone.M400**",
 			"default": "",
@@ -1606,7 +1606,7 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Terminal Products"
+						"Get Merchants Merchant ID Terminal Products"
 					]
 				}
 			}
@@ -1631,7 +1631,7 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Terminal Products"
+						"Get Merchants Merchant ID Terminal Products"
 					]
 				}
 			}
@@ -1656,7 +1656,7 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Terminal Products"
+						"Get Merchants Merchant ID Terminal Products"
 					]
 				}
 			}
@@ -1681,7 +1681,7 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Terminal Products"
+						"Get Merchants Merchant ID Terminal Products"
 					]
 				}
 			}
@@ -1706,7 +1706,7 @@ export const terminalOrdersMerchantLevelDescription: INodeProperties[] = [
 						"Terminal Orders Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Terminal Products"
+						"Get Merchants Merchant ID Terminal Products"
 					]
 				}
 			}

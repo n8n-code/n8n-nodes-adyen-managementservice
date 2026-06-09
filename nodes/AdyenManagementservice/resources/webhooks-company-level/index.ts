@@ -15,8 +15,8 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 			},
 			"options": [
 				{
-					"name": "Get Companies Company Id Webhooks",
-					"value": "Get Companies Company Id Webhooks",
+					"name": "Get Companies Company ID Webhooks",
+					"value": "Get Companies Company ID Webhooks",
 					"action": "List all webhooks",
 					"description": "Lists all webhook configurations for the company account.\n\nTo make this request, your API credential must have one of the following [roles](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Webhooks read\n* Management API—Webhooks read and write",
 					"routing": {
@@ -27,8 +27,8 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Post Companies Company Id Webhooks",
-					"value": "Post Companies Company Id Webhooks",
+					"name": "Post Companies Company ID Webhooks",
+					"value": "Post Companies Company ID Webhooks",
 					"action": "Set up a webhook",
 					"description": "Subscribe to receive webhook notifications about events related to your company account. You can add basic authentication to make sure the data is secure.\n\nTo make this request, your API credential must have the following [roles](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Webhooks read and write",
 					"routing": {
@@ -39,8 +39,8 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Delete Companies Company Id Webhooks Webhook Id",
-					"value": "Delete Companies Company Id Webhooks Webhook Id",
+					"name": "Delete Companies Company ID Webhooks Webhook ID",
+					"value": "Delete Companies Company ID Webhooks Webhook ID",
 					"action": "Remove a webhook",
 					"description": "Remove the configuration for the webhook identified in the path.\n\nTo make this request, your API credential must have the following [roles](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Webhooks read and write",
 					"routing": {
@@ -51,8 +51,8 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Companies Company Id Webhooks Webhook Id",
-					"value": "Get Companies Company Id Webhooks Webhook Id",
+					"name": "Get Companies Company ID Webhooks Webhook ID",
+					"value": "Get Companies Company ID Webhooks Webhook ID",
 					"action": "Get a webhook",
 					"description": "Returns the configuration for the webhook identified in the path.\n\nTo make this request, your API credential must have one of the following [roles](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Webhooks read\n* Management API—Webhooks read and write",
 					"routing": {
@@ -63,8 +63,8 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Patch Companies Company Id Webhooks Webhook Id",
-					"value": "Patch Companies Company Id Webhooks Webhook Id",
+					"name": "Patch Companies Company ID Webhooks Webhook ID",
+					"value": "Patch Companies Company ID Webhooks Webhook ID",
 					"action": "Update a webhook",
 					"description": "Make changes to the configuration of the webhook identified in the path. The request contains the new values you want to have in the webhook configuration. The response contains the full configuration for the webhook, which includes the new values from the request.\n\nTo make this request, your API credential must have the following [roles](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Webhooks read and write",
 					"routing": {
@@ -75,8 +75,8 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Post Companies Company Id Webhooks Webhook Id Generate Hmac",
-					"value": "Post Companies Company Id Webhooks Webhook Id Generate Hmac",
+					"name": "Post Companies Company ID Webhooks Webhook ID Generate Hmac",
+					"value": "Post Companies Company ID Webhooks Webhook ID Generate Hmac",
 					"action": "Generate an HMAC key",
 					"description": "Returns an [HMAC key](https://en.wikipedia.org/wiki/HMAC) for the webhook identified in the path. This key allows you to check the integrity and the origin of the notifications you receive.By creating an HMAC key, you start receiving [HMAC-signed notifications](https://docs.adyen.com/development-resources/webhooks/verify-hmac-signatures#enable-hmac-signatures) from Adyen. Find out more about how to [verify HMAC signatures](https://docs.adyen.com/development-resources/webhooks/verify-hmac-signatures).\n\nTo make this request, your API credential must have the following [roles](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Webhooks read and write",
 					"routing": {
@@ -87,8 +87,8 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Post Companies Company Id Webhooks Webhook Id Test",
-					"value": "Post Companies Company Id Webhooks Webhook Id Test",
+					"name": "Post Companies Company ID Webhooks Webhook ID Test",
+					"value": "Post Companies Company ID Webhooks Webhook ID Test",
 					"action": "Test a webhook",
 					"description": "Sends sample notifications to test if the webhook is set up correctly.\n\nWe send sample notifications for maximum 20 of the merchant accounts that the webhook is configured for. If the webhook is configured for more than 20 merchant accounts, use the `merchantIds` array to specify a subset of the merchant accounts for which to send test notifications.\n\nWe send four test notifications for each event code you choose. They cover success and failure scenarios for the hard-coded currencies EUR and GBP, regardless of the currencies configured in the merchant accounts. For custom notifications, we only send the specified custom notification.\n\nThe response describes the result of the test. The `status` field tells you if the test was successful or not. You can use the other response fields to troubleshoot unsuccessful tests.\n\nTo make this request, your API credential must have the following [roles](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Webhooks read and write",
 					"routing": {
@@ -115,13 +115,13 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Webhooks"
+						"Get Companies Company ID Webhooks"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Company Id",
+			"displayName": "Company ID",
 			"name": "companyId",
 			"required": true,
 			"description": "Unique identifier of the [company account](https://docs.adyen.com/account/account-structure#company-account).",
@@ -133,7 +133,7 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Webhooks"
+						"Get Companies Company ID Webhooks"
 					]
 				}
 			}
@@ -158,7 +158,7 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Webhooks"
+						"Get Companies Company ID Webhooks"
 					]
 				}
 			}
@@ -183,7 +183,7 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Webhooks"
+						"Get Companies Company ID Webhooks"
 					]
 				}
 			}
@@ -208,7 +208,7 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Webhooks"
+						"Get Companies Company ID Webhooks"
 					]
 				}
 			}
@@ -233,7 +233,7 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Webhooks"
+						"Get Companies Company ID Webhooks"
 					]
 				}
 			}
@@ -252,13 +252,13 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Webhooks"
+						"Post Companies Company ID Webhooks"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Company Id",
+			"displayName": "Company ID",
 			"name": "companyId",
 			"required": true,
 			"description": "Unique identifier of the [company account](https://docs.adyen.com/account/account-structure#company-account).",
@@ -270,7 +270,7 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Webhooks"
+						"Post Companies Company ID Webhooks"
 					]
 				}
 			}
@@ -295,7 +295,7 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Webhooks"
+						"Post Companies Company ID Webhooks"
 					]
 				}
 			}
@@ -320,7 +320,7 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Webhooks"
+						"Post Companies Company ID Webhooks"
 					]
 				}
 			}
@@ -345,7 +345,7 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Webhooks"
+						"Post Companies Company ID Webhooks"
 					]
 				}
 			}
@@ -371,7 +371,7 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Webhooks"
+						"Post Companies Company ID Webhooks"
 					]
 				}
 			}
@@ -396,7 +396,7 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Webhooks"
+						"Post Companies Company ID Webhooks"
 					]
 				}
 			}
@@ -410,11 +410,11 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 			"description": "Format or protocol for receiving webhooks. Possible values:\n* **soap**\n* **http**\n* **json** ",
 			"options": [
 				{
-					"name": "Http",
+					"name": "HTTP",
 					"value": "http"
 				},
 				{
-					"name": "Json",
+					"name": "JSON",
 					"value": "json"
 				},
 				{
@@ -436,7 +436,7 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Webhooks"
+						"Post Companies Company ID Webhooks"
 					]
 				}
 			}
@@ -461,7 +461,7 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Webhooks"
+						"Post Companies Company ID Webhooks"
 					]
 				}
 			}
@@ -501,7 +501,7 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Webhooks"
+						"Post Companies Company ID Webhooks"
 					]
 				}
 			}
@@ -527,7 +527,7 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Webhooks"
+						"Post Companies Company ID Webhooks"
 					]
 				}
 			}
@@ -562,7 +562,7 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Webhooks"
+						"Post Companies Company ID Webhooks"
 					]
 				}
 			}
@@ -587,7 +587,7 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Webhooks"
+						"Post Companies Company ID Webhooks"
 					]
 				}
 			}
@@ -612,13 +612,13 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Webhooks"
+						"Post Companies Company ID Webhooks"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Ssl Version",
+			"displayName": "SSL Version",
 			"name": "sslVersion",
 			"type": "options",
 			"default": "HTTP",
@@ -671,7 +671,7 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Webhooks"
+						"Post Companies Company ID Webhooks"
 					]
 				}
 			}
@@ -697,14 +697,14 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Webhooks"
+						"Post Companies Company ID Webhooks"
 					]
 				}
 			}
 		},
 		{
 			"required": true,
-			"displayName": "Url",
+			"displayName": "URL",
 			"name": "url",
 			"type": "string",
 			"default": "",
@@ -723,7 +723,7 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Webhooks"
+						"Post Companies Company ID Webhooks"
 					]
 				}
 			}
@@ -748,7 +748,7 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Webhooks"
+						"Post Companies Company ID Webhooks"
 					]
 				}
 			}
@@ -773,7 +773,7 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Webhooks"
+						"Post Companies Company ID Webhooks"
 					]
 				}
 			}
@@ -798,7 +798,7 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Webhooks"
+						"Post Companies Company ID Webhooks"
 					]
 				}
 			}
@@ -817,13 +817,13 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Delete Companies Company Id Webhooks Webhook Id"
+						"Delete Companies Company ID Webhooks Webhook ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Company Id",
+			"displayName": "Company ID",
 			"name": "companyId",
 			"required": true,
 			"description": "The unique identifier of the company account.",
@@ -835,13 +835,13 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Delete Companies Company Id Webhooks Webhook Id"
+						"Delete Companies Company ID Webhooks Webhook ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Webhook Id",
+			"displayName": "Webhook ID",
 			"name": "webhookId",
 			"required": true,
 			"description": "Unique identifier of the webhook configuration.",
@@ -853,7 +853,7 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Delete Companies Company Id Webhooks Webhook Id"
+						"Delete Companies Company ID Webhooks Webhook ID"
 					]
 				}
 			}
@@ -878,7 +878,7 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Delete Companies Company Id Webhooks Webhook Id"
+						"Delete Companies Company ID Webhooks Webhook ID"
 					]
 				}
 			}
@@ -903,7 +903,7 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Delete Companies Company Id Webhooks Webhook Id"
+						"Delete Companies Company ID Webhooks Webhook ID"
 					]
 				}
 			}
@@ -922,13 +922,13 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Webhooks Webhook Id"
+						"Get Companies Company ID Webhooks Webhook ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Company Id",
+			"displayName": "Company ID",
 			"name": "companyId",
 			"required": true,
 			"description": "Unique identifier of the [company account](https://docs.adyen.com/account/account-structure#company-account).",
@@ -940,13 +940,13 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Webhooks Webhook Id"
+						"Get Companies Company ID Webhooks Webhook ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Webhook Id",
+			"displayName": "Webhook ID",
 			"name": "webhookId",
 			"required": true,
 			"description": "Unique identifier of the webhook configuration.",
@@ -958,7 +958,7 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Webhooks Webhook Id"
+						"Get Companies Company ID Webhooks Webhook ID"
 					]
 				}
 			}
@@ -983,7 +983,7 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Webhooks Webhook Id"
+						"Get Companies Company ID Webhooks Webhook ID"
 					]
 				}
 			}
@@ -1008,7 +1008,7 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Webhooks Webhook Id"
+						"Get Companies Company ID Webhooks Webhook ID"
 					]
 				}
 			}
@@ -1027,13 +1027,13 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Webhooks Webhook Id"
+						"Patch Companies Company ID Webhooks Webhook ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Company Id",
+			"displayName": "Company ID",
 			"name": "companyId",
 			"required": true,
 			"description": "The unique identifier of the company account.",
@@ -1045,13 +1045,13 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Webhooks Webhook Id"
+						"Patch Companies Company ID Webhooks Webhook ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Webhook Id",
+			"displayName": "Webhook ID",
 			"name": "webhookId",
 			"required": true,
 			"description": "Unique identifier of the webhook configuration.",
@@ -1063,7 +1063,7 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Webhooks Webhook Id"
+						"Patch Companies Company ID Webhooks Webhook ID"
 					]
 				}
 			}
@@ -1088,7 +1088,7 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Webhooks Webhook Id"
+						"Patch Companies Company ID Webhooks Webhook ID"
 					]
 				}
 			}
@@ -1113,7 +1113,7 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Webhooks Webhook Id"
+						"Patch Companies Company ID Webhooks Webhook ID"
 					]
 				}
 			}
@@ -1138,7 +1138,7 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Webhooks Webhook Id"
+						"Patch Companies Company ID Webhooks Webhook ID"
 					]
 				}
 			}
@@ -1163,7 +1163,7 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Webhooks Webhook Id"
+						"Patch Companies Company ID Webhooks Webhook ID"
 					]
 				}
 			}
@@ -1188,7 +1188,7 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Webhooks Webhook Id"
+						"Patch Companies Company ID Webhooks Webhook ID"
 					]
 				}
 			}
@@ -1201,11 +1201,11 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 			"description": "Format or protocol for receiving webhooks. Possible values:\n* **soap**\n* **http**\n* **json** ",
 			"options": [
 				{
-					"name": "Http",
+					"name": "HTTP",
 					"value": "http"
 				},
 				{
-					"name": "Json",
+					"name": "JSON",
 					"value": "json"
 				},
 				{
@@ -1227,7 +1227,7 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Webhooks Webhook Id"
+						"Patch Companies Company ID Webhooks Webhook ID"
 					]
 				}
 			}
@@ -1252,7 +1252,7 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Webhooks Webhook Id"
+						"Patch Companies Company ID Webhooks Webhook ID"
 					]
 				}
 			}
@@ -1291,7 +1291,7 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Webhooks Webhook Id"
+						"Patch Companies Company ID Webhooks Webhook ID"
 					]
 				}
 			}
@@ -1316,7 +1316,7 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Webhooks Webhook Id"
+						"Patch Companies Company ID Webhooks Webhook ID"
 					]
 				}
 			}
@@ -1351,7 +1351,7 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Webhooks Webhook Id"
+						"Patch Companies Company ID Webhooks Webhook ID"
 					]
 				}
 			}
@@ -1376,7 +1376,7 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Webhooks Webhook Id"
+						"Patch Companies Company ID Webhooks Webhook ID"
 					]
 				}
 			}
@@ -1401,13 +1401,13 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Webhooks Webhook Id"
+						"Patch Companies Company ID Webhooks Webhook ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Ssl Version",
+			"displayName": "SSL Version",
 			"name": "sslVersion",
 			"type": "options",
 			"default": "HTTP",
@@ -1460,13 +1460,13 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Webhooks Webhook Id"
+						"Patch Companies Company ID Webhooks Webhook ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Url",
+			"displayName": "URL",
 			"name": "url",
 			"type": "string",
 			"default": "",
@@ -1485,7 +1485,7 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Webhooks Webhook Id"
+						"Patch Companies Company ID Webhooks Webhook ID"
 					]
 				}
 			}
@@ -1510,7 +1510,7 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Webhooks Webhook Id"
+						"Patch Companies Company ID Webhooks Webhook ID"
 					]
 				}
 			}
@@ -1535,7 +1535,7 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Webhooks Webhook Id"
+						"Patch Companies Company ID Webhooks Webhook ID"
 					]
 				}
 			}
@@ -1560,7 +1560,7 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Webhooks Webhook Id"
+						"Patch Companies Company ID Webhooks Webhook ID"
 					]
 				}
 			}
@@ -1579,13 +1579,13 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Webhooks Webhook Id Generate Hmac"
+						"Post Companies Company ID Webhooks Webhook ID Generate Hmac"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Company Id",
+			"displayName": "Company ID",
 			"name": "companyId",
 			"required": true,
 			"description": "The unique identifier of the company account.",
@@ -1597,13 +1597,13 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Webhooks Webhook Id Generate Hmac"
+						"Post Companies Company ID Webhooks Webhook ID Generate Hmac"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Webhook Id",
+			"displayName": "Webhook ID",
 			"name": "webhookId",
 			"required": true,
 			"description": "Unique identifier of the webhook configuration.",
@@ -1615,7 +1615,7 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Webhooks Webhook Id Generate Hmac"
+						"Post Companies Company ID Webhooks Webhook ID Generate Hmac"
 					]
 				}
 			}
@@ -1640,7 +1640,7 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Webhooks Webhook Id Generate Hmac"
+						"Post Companies Company ID Webhooks Webhook ID Generate Hmac"
 					]
 				}
 			}
@@ -1665,7 +1665,7 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Webhooks Webhook Id Generate Hmac"
+						"Post Companies Company ID Webhooks Webhook ID Generate Hmac"
 					]
 				}
 			}
@@ -1684,13 +1684,13 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Webhooks Webhook Id Test"
+						"Post Companies Company ID Webhooks Webhook ID Test"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Company Id",
+			"displayName": "Company ID",
 			"name": "companyId",
 			"required": true,
 			"description": "The unique identifier of the company account.",
@@ -1702,13 +1702,13 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Webhooks Webhook Id Test"
+						"Post Companies Company ID Webhooks Webhook ID Test"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Webhook Id",
+			"displayName": "Webhook ID",
 			"name": "webhookId",
 			"required": true,
 			"description": "Unique identifier of the webhook configuration.",
@@ -1720,7 +1720,7 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Webhooks Webhook Id Test"
+						"Post Companies Company ID Webhooks Webhook ID Test"
 					]
 				}
 			}
@@ -1745,7 +1745,7 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Webhooks Webhook Id Test"
+						"Post Companies Company ID Webhooks Webhook ID Test"
 					]
 				}
 			}
@@ -1770,7 +1770,7 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Webhooks Webhook Id Test"
+						"Post Companies Company ID Webhooks Webhook ID Test"
 					]
 				}
 			}
@@ -1795,7 +1795,7 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Webhooks Webhook Id Test"
+						"Post Companies Company ID Webhooks Webhook ID Test"
 					]
 				}
 			}
@@ -1820,7 +1820,7 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Webhooks Webhook Id Test"
+						"Post Companies Company ID Webhooks Webhook ID Test"
 					]
 				}
 			}
@@ -1845,7 +1845,7 @@ export const webhooksCompanyLevelDescription: INodeProperties[] = [
 						"Webhooks Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Webhooks Webhook Id Test"
+						"Post Companies Company ID Webhooks Webhook ID Test"
 					]
 				}
 			}

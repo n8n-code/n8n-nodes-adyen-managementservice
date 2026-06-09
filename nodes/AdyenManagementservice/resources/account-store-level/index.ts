@@ -15,8 +15,8 @@ export const accountStoreLevelDescription: INodeProperties[] = [
 			},
 			"options": [
 				{
-					"name": "Get Merchants Merchant Id Stores",
-					"value": "Get Merchants Merchant Id Stores",
+					"name": "Get Merchants Merchant ID Stores",
+					"value": "Get Merchants Merchant ID Stores",
 					"action": "Get a list of stores",
 					"description": "Returns a list of stores for the merchant account identified in the path. The list is grouped into pages as defined by the query parameters.\n\nTo make this request, your API credential must have one of the following [roles](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Stores read\n* Management API—Stores read and write",
 					"routing": {
@@ -27,8 +27,8 @@ export const accountStoreLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Post Merchants Merchant Id Stores",
-					"value": "Post Merchants Merchant Id Stores",
+					"name": "Post Merchants Merchant ID Stores",
+					"value": "Post Merchants Merchant ID Stores",
 					"action": "Create a store",
 					"description": "Creates a store for the merchant account identified in the path.\n\nTo make this request, your API credential must have the following [role](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Stores read and write",
 					"routing": {
@@ -39,8 +39,8 @@ export const accountStoreLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Merchants Merchant Id Stores Store Id",
-					"value": "Get Merchants Merchant Id Stores Store Id",
+					"name": "Get Merchants Merchant ID Stores Store ID",
+					"value": "Get Merchants Merchant ID Stores Store ID",
 					"action": "Get a store",
 					"description": "Returns the details of the store identified in the path.\n\nTo make this request, your API credential must have one of the following [roles](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Stores read\n* Management API—Stores read and write",
 					"routing": {
@@ -51,8 +51,8 @@ export const accountStoreLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Patch Merchants Merchant Id Stores Store Id",
-					"value": "Patch Merchants Merchant Id Stores Store Id",
+					"name": "Patch Merchants Merchant ID Stores Store ID",
+					"value": "Patch Merchants Merchant ID Stores Store ID",
 					"action": "Update a store",
 					"description": "Updates the store identified in the path. You can only update some store parameters.\n\nTo make this request, your API credential must have the following [role](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Stores read and write",
 					"routing": {
@@ -87,8 +87,8 @@ export const accountStoreLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Stores Store Id",
-					"value": "Get Stores Store Id",
+					"name": "Get Stores Store ID",
+					"value": "Get Stores Store ID",
 					"action": "Get a store",
 					"description": "Returns the details of the store identified in the path.\n\nTo make this request, your API credential must have one of the following [roles](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Stores read\n* Management API—Stores read and write",
 					"routing": {
@@ -99,8 +99,8 @@ export const accountStoreLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Patch Stores Store Id",
-					"value": "Patch Stores Store Id",
+					"name": "Patch Stores Store ID",
+					"value": "Patch Stores Store ID",
 					"action": "Update a store",
 					"description": "Updates the store identified in the path.\nYou can only update some store parameters.\n\nTo make this request, your API credential must have the following [role](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Stores read and write",
 					"routing": {
@@ -127,13 +127,13 @@ export const accountStoreLevelDescription: INodeProperties[] = [
 						"Account Store Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Stores"
+						"Get Merchants Merchant ID Stores"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Merchant Id",
+			"displayName": "Merchant ID",
 			"name": "merchantId",
 			"required": true,
 			"description": "The unique identifier of the merchant account.",
@@ -145,7 +145,7 @@ export const accountStoreLevelDescription: INodeProperties[] = [
 						"Account Store Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Stores"
+						"Get Merchants Merchant ID Stores"
 					]
 				}
 			}
@@ -170,7 +170,7 @@ export const accountStoreLevelDescription: INodeProperties[] = [
 						"Account Store Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Stores"
+						"Get Merchants Merchant ID Stores"
 					]
 				}
 			}
@@ -195,7 +195,7 @@ export const accountStoreLevelDescription: INodeProperties[] = [
 						"Account Store Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Stores"
+						"Get Merchants Merchant ID Stores"
 					]
 				}
 			}
@@ -220,7 +220,7 @@ export const accountStoreLevelDescription: INodeProperties[] = [
 						"Account Store Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Stores"
+						"Get Merchants Merchant ID Stores"
 					]
 				}
 			}
@@ -245,7 +245,7 @@ export const accountStoreLevelDescription: INodeProperties[] = [
 						"Account Store Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Stores"
+						"Get Merchants Merchant ID Stores"
 					]
 				}
 			}
@@ -270,7 +270,7 @@ export const accountStoreLevelDescription: INodeProperties[] = [
 						"Account Store Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Stores"
+						"Get Merchants Merchant ID Stores"
 					]
 				}
 			}
@@ -289,13 +289,13 @@ export const accountStoreLevelDescription: INodeProperties[] = [
 						"Account Store Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Stores"
+						"Post Merchants Merchant ID Stores"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Merchant Id",
+			"displayName": "Merchant ID",
 			"name": "merchantId",
 			"required": true,
 			"description": "The unique identifier of the merchant account.",
@@ -307,7 +307,7 @@ export const accountStoreLevelDescription: INodeProperties[] = [
 						"Account Store Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Stores"
+						"Post Merchants Merchant ID Stores"
 					]
 				}
 			}
@@ -333,7 +333,7 @@ export const accountStoreLevelDescription: INodeProperties[] = [
 						"Account Store Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Stores"
+						"Post Merchants Merchant ID Stores"
 					]
 				}
 			}
@@ -358,7 +358,7 @@ export const accountStoreLevelDescription: INodeProperties[] = [
 						"Account Store Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Stores"
+						"Post Merchants Merchant ID Stores"
 					]
 				}
 			}
@@ -384,13 +384,13 @@ export const accountStoreLevelDescription: INodeProperties[] = [
 						"Account Store Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Stores"
+						"Post Merchants Merchant ID Stores"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "External Reference Id",
+			"displayName": "External Reference ID",
 			"name": "externalReferenceId",
 			"type": "string",
 			"default": "",
@@ -409,7 +409,7 @@ export const accountStoreLevelDescription: INodeProperties[] = [
 						"Account Store Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Stores"
+						"Post Merchants Merchant ID Stores"
 					]
 				}
 			}
@@ -435,7 +435,7 @@ export const accountStoreLevelDescription: INodeProperties[] = [
 						"Account Store Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Stores"
+						"Post Merchants Merchant ID Stores"
 					]
 				}
 			}
@@ -460,7 +460,7 @@ export const accountStoreLevelDescription: INodeProperties[] = [
 						"Account Store Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Stores"
+						"Post Merchants Merchant ID Stores"
 					]
 				}
 			}
@@ -486,7 +486,7 @@ export const accountStoreLevelDescription: INodeProperties[] = [
 						"Account Store Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Stores"
+						"Post Merchants Merchant ID Stores"
 					]
 				}
 			}
@@ -511,7 +511,7 @@ export const accountStoreLevelDescription: INodeProperties[] = [
 						"Account Store Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Stores"
+						"Post Merchants Merchant ID Stores"
 					]
 				}
 			}
@@ -536,7 +536,7 @@ export const accountStoreLevelDescription: INodeProperties[] = [
 						"Account Store Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Stores"
+						"Post Merchants Merchant ID Stores"
 					]
 				}
 			}
@@ -561,7 +561,7 @@ export const accountStoreLevelDescription: INodeProperties[] = [
 						"Account Store Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Stores"
+						"Post Merchants Merchant ID Stores"
 					]
 				}
 			}
@@ -580,13 +580,13 @@ export const accountStoreLevelDescription: INodeProperties[] = [
 						"Account Store Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Stores Store Id"
+						"Get Merchants Merchant ID Stores Store ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Merchant Id",
+			"displayName": "Merchant ID",
 			"name": "merchantId",
 			"required": true,
 			"description": "The unique identifier of the merchant account.",
@@ -598,13 +598,13 @@ export const accountStoreLevelDescription: INodeProperties[] = [
 						"Account Store Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Stores Store Id"
+						"Get Merchants Merchant ID Stores Store ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Store Id",
+			"displayName": "Store ID",
 			"name": "storeId",
 			"required": true,
 			"description": "The unique identifier of the store.",
@@ -616,7 +616,7 @@ export const accountStoreLevelDescription: INodeProperties[] = [
 						"Account Store Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Stores Store Id"
+						"Get Merchants Merchant ID Stores Store ID"
 					]
 				}
 			}
@@ -641,7 +641,7 @@ export const accountStoreLevelDescription: INodeProperties[] = [
 						"Account Store Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Stores Store Id"
+						"Get Merchants Merchant ID Stores Store ID"
 					]
 				}
 			}
@@ -666,7 +666,7 @@ export const accountStoreLevelDescription: INodeProperties[] = [
 						"Account Store Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Stores Store Id"
+						"Get Merchants Merchant ID Stores Store ID"
 					]
 				}
 			}
@@ -685,13 +685,13 @@ export const accountStoreLevelDescription: INodeProperties[] = [
 						"Account Store Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Stores Store Id"
+						"Patch Merchants Merchant ID Stores Store ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Merchant Id",
+			"displayName": "Merchant ID",
 			"name": "merchantId",
 			"required": true,
 			"description": "The unique identifier of the merchant account.",
@@ -703,13 +703,13 @@ export const accountStoreLevelDescription: INodeProperties[] = [
 						"Account Store Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Stores Store Id"
+						"Patch Merchants Merchant ID Stores Store ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Store Id",
+			"displayName": "Store ID",
 			"name": "storeId",
 			"required": true,
 			"description": "The unique identifier of the store.",
@@ -721,7 +721,7 @@ export const accountStoreLevelDescription: INodeProperties[] = [
 						"Account Store Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Stores Store Id"
+						"Patch Merchants Merchant ID Stores Store ID"
 					]
 				}
 			}
@@ -746,7 +746,7 @@ export const accountStoreLevelDescription: INodeProperties[] = [
 						"Account Store Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Stores Store Id"
+						"Patch Merchants Merchant ID Stores Store ID"
 					]
 				}
 			}
@@ -771,7 +771,7 @@ export const accountStoreLevelDescription: INodeProperties[] = [
 						"Account Store Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Stores Store Id"
+						"Patch Merchants Merchant ID Stores Store ID"
 					]
 				}
 			}
@@ -796,13 +796,13 @@ export const accountStoreLevelDescription: INodeProperties[] = [
 						"Account Store Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Stores Store Id"
+						"Patch Merchants Merchant ID Stores Store ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "External Reference Id",
+			"displayName": "External Reference ID",
 			"name": "externalReferenceId",
 			"type": "string",
 			"default": "",
@@ -821,7 +821,7 @@ export const accountStoreLevelDescription: INodeProperties[] = [
 						"Account Store Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Stores Store Id"
+						"Patch Merchants Merchant ID Stores Store ID"
 					]
 				}
 			}
@@ -846,7 +846,7 @@ export const accountStoreLevelDescription: INodeProperties[] = [
 						"Account Store Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Stores Store Id"
+						"Patch Merchants Merchant ID Stores Store ID"
 					]
 				}
 			}
@@ -885,7 +885,7 @@ export const accountStoreLevelDescription: INodeProperties[] = [
 						"Account Store Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Stores Store Id"
+						"Patch Merchants Merchant ID Stores Store ID"
 					]
 				}
 			}
@@ -910,7 +910,7 @@ export const accountStoreLevelDescription: INodeProperties[] = [
 						"Account Store Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Stores Store Id"
+						"Patch Merchants Merchant ID Stores Store ID"
 					]
 				}
 			}
@@ -935,7 +935,7 @@ export const accountStoreLevelDescription: INodeProperties[] = [
 						"Account Store Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Stores Store Id"
+						"Patch Merchants Merchant ID Stores Store ID"
 					]
 				}
 			}
@@ -1035,7 +1035,7 @@ export const accountStoreLevelDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Merchant Id",
+			"displayName": "Merchant ID",
 			"name": "merchantId",
 			"description": "The unique identifier of the merchant account.",
 			"default": "",
@@ -1206,7 +1206,7 @@ export const accountStoreLevelDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "External Reference Id",
+			"displayName": "External Reference ID",
 			"name": "externalReferenceId",
 			"type": "string",
 			"default": "",
@@ -1232,7 +1232,7 @@ export const accountStoreLevelDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Merchant Id",
+			"displayName": "Merchant ID",
 			"name": "merchantId",
 			"type": "string",
 			"default": "",
@@ -1422,13 +1422,13 @@ export const accountStoreLevelDescription: INodeProperties[] = [
 						"Account Store Level"
 					],
 					"operation": [
-						"Get Stores Store Id"
+						"Get Stores Store ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Store Id",
+			"displayName": "Store ID",
 			"name": "storeId",
 			"required": true,
 			"description": "The unique identifier of the store.",
@@ -1440,7 +1440,7 @@ export const accountStoreLevelDescription: INodeProperties[] = [
 						"Account Store Level"
 					],
 					"operation": [
-						"Get Stores Store Id"
+						"Get Stores Store ID"
 					]
 				}
 			}
@@ -1465,7 +1465,7 @@ export const accountStoreLevelDescription: INodeProperties[] = [
 						"Account Store Level"
 					],
 					"operation": [
-						"Get Stores Store Id"
+						"Get Stores Store ID"
 					]
 				}
 			}
@@ -1490,7 +1490,7 @@ export const accountStoreLevelDescription: INodeProperties[] = [
 						"Account Store Level"
 					],
 					"operation": [
-						"Get Stores Store Id"
+						"Get Stores Store ID"
 					]
 				}
 			}
@@ -1509,13 +1509,13 @@ export const accountStoreLevelDescription: INodeProperties[] = [
 						"Account Store Level"
 					],
 					"operation": [
-						"Patch Stores Store Id"
+						"Patch Stores Store ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Store Id",
+			"displayName": "Store ID",
 			"name": "storeId",
 			"required": true,
 			"description": "The unique identifier of the store.",
@@ -1527,7 +1527,7 @@ export const accountStoreLevelDescription: INodeProperties[] = [
 						"Account Store Level"
 					],
 					"operation": [
-						"Patch Stores Store Id"
+						"Patch Stores Store ID"
 					]
 				}
 			}
@@ -1552,7 +1552,7 @@ export const accountStoreLevelDescription: INodeProperties[] = [
 						"Account Store Level"
 					],
 					"operation": [
-						"Patch Stores Store Id"
+						"Patch Stores Store ID"
 					]
 				}
 			}
@@ -1577,7 +1577,7 @@ export const accountStoreLevelDescription: INodeProperties[] = [
 						"Account Store Level"
 					],
 					"operation": [
-						"Patch Stores Store Id"
+						"Patch Stores Store ID"
 					]
 				}
 			}
@@ -1602,13 +1602,13 @@ export const accountStoreLevelDescription: INodeProperties[] = [
 						"Account Store Level"
 					],
 					"operation": [
-						"Patch Stores Store Id"
+						"Patch Stores Store ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "External Reference Id",
+			"displayName": "External Reference ID",
 			"name": "externalReferenceId",
 			"type": "string",
 			"default": "",
@@ -1627,7 +1627,7 @@ export const accountStoreLevelDescription: INodeProperties[] = [
 						"Account Store Level"
 					],
 					"operation": [
-						"Patch Stores Store Id"
+						"Patch Stores Store ID"
 					]
 				}
 			}
@@ -1652,7 +1652,7 @@ export const accountStoreLevelDescription: INodeProperties[] = [
 						"Account Store Level"
 					],
 					"operation": [
-						"Patch Stores Store Id"
+						"Patch Stores Store ID"
 					]
 				}
 			}
@@ -1691,7 +1691,7 @@ export const accountStoreLevelDescription: INodeProperties[] = [
 						"Account Store Level"
 					],
 					"operation": [
-						"Patch Stores Store Id"
+						"Patch Stores Store ID"
 					]
 				}
 			}
@@ -1716,7 +1716,7 @@ export const accountStoreLevelDescription: INodeProperties[] = [
 						"Account Store Level"
 					],
 					"operation": [
-						"Patch Stores Store Id"
+						"Patch Stores Store ID"
 					]
 				}
 			}
@@ -1741,7 +1741,7 @@ export const accountStoreLevelDescription: INodeProperties[] = [
 						"Account Store Level"
 					],
 					"operation": [
-						"Patch Stores Store Id"
+						"Patch Stores Store ID"
 					]
 				}
 			}

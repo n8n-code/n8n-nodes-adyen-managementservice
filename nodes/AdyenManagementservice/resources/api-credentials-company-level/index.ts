@@ -15,8 +15,8 @@ export const apiCredentialsCompanyLevelDescription: INodeProperties[] = [
 			},
 			"options": [
 				{
-					"name": "Get Companies Company Id Api Credentials",
-					"value": "Get Companies Company Id Api Credentials",
+					"name": "Get Companies Company ID API Credentials",
+					"value": "Get Companies Company ID API Credentials",
 					"action": "Get a list of API credentials",
 					"description": "Returns the list of [API credentials](https://docs.adyen.com/development-resources/api-credentials) for the company account. The list is grouped into pages as defined by the query parameters.\n\nTo make this request, your API credential must have the following [roles](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—API credentials read and write",
 					"routing": {
@@ -27,8 +27,8 @@ export const apiCredentialsCompanyLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Post Companies Company Id Api Credentials",
-					"value": "Post Companies Company Id Api Credentials",
+					"name": "Post Companies Company ID API Credentials",
+					"value": "Post Companies Company ID API Credentials",
 					"action": "Create an API credential.",
 					"description": "Creates an [API credential](https://docs.adyen.com/development-resources/api-credentials) for the company account identified in the path. In the request, you can specify which merchant accounts the new API credential will have access to, as well as its roles and allowed origins.\n\nThe response includes several types of authentication details:\n* [API key](https://docs.adyen.com/development-resources/api-authentication#api-key-authentication): used for API request authentication.\n* [Client key](https://docs.adyen.com/development-resources/client-side-authentication#how-it-works): public key used for client-side authentication.\n* [Username and password](https://docs.adyen.com/development-resources/api-authentication#using-basic-authentication): used for basic authentication.\n\n> Make sure you store the API key securely in your system. You won't be able to retrieve it later.\n\nIf your API key is lost or compromised, you need to [generate a new API key](https://docs.adyen.com/api-explorer/#/ManagementService/v1/post/companies/{companyId}/apiCredentials/{apiCredentialId}/generateApiKey).\n\nTo make this request, your API credential must have the following [roles](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—API credentials read and write",
 					"routing": {
@@ -39,8 +39,8 @@ export const apiCredentialsCompanyLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Companies Company Id Api Credentials Api Credential Id",
-					"value": "Get Companies Company Id Api Credentials Api Credential Id",
+					"name": "Get Companies Company ID API Credentials API Credential ID",
+					"value": "Get Companies Company ID API Credentials API Credential ID",
 					"action": "Get an API credential",
 					"description": "Returns the [API credential](https://docs.adyen.com/development-resources/api-credentials) identified in the path.\n\nTo make this request, your API credential must have the following [roles](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—API credentials read and write",
 					"routing": {
@@ -51,8 +51,8 @@ export const apiCredentialsCompanyLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Patch Companies Company Id Api Credentials Api Credential Id",
-					"value": "Patch Companies Company Id Api Credentials Api Credential Id",
+					"name": "Patch Companies Company ID API Credentials API Credential ID",
+					"value": "Patch Companies Company ID API Credentials API Credential ID",
 					"action": "Update an API credential.",
 					"description": "Changes the API credential's roles, merchant account access, or allowed origins. The request has the new values for the fields you want to change. The response contains the full updated API credential, including the new values from the request. \n\nTo make this request, your API credential must have the following [roles](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—API credentials read and write",
 					"routing": {
@@ -79,13 +79,13 @@ export const apiCredentialsCompanyLevelDescription: INodeProperties[] = [
 						"API Credentials Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Api Credentials"
+						"Get Companies Company ID API Credentials"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Company Id",
+			"displayName": "Company ID",
 			"name": "companyId",
 			"required": true,
 			"description": "The unique identifier of the company account.",
@@ -97,7 +97,7 @@ export const apiCredentialsCompanyLevelDescription: INodeProperties[] = [
 						"API Credentials Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Api Credentials"
+						"Get Companies Company ID API Credentials"
 					]
 				}
 			}
@@ -122,7 +122,7 @@ export const apiCredentialsCompanyLevelDescription: INodeProperties[] = [
 						"API Credentials Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Api Credentials"
+						"Get Companies Company ID API Credentials"
 					]
 				}
 			}
@@ -147,7 +147,7 @@ export const apiCredentialsCompanyLevelDescription: INodeProperties[] = [
 						"API Credentials Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Api Credentials"
+						"Get Companies Company ID API Credentials"
 					]
 				}
 			}
@@ -172,7 +172,7 @@ export const apiCredentialsCompanyLevelDescription: INodeProperties[] = [
 						"API Credentials Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Api Credentials"
+						"Get Companies Company ID API Credentials"
 					]
 				}
 			}
@@ -197,7 +197,7 @@ export const apiCredentialsCompanyLevelDescription: INodeProperties[] = [
 						"API Credentials Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Api Credentials"
+						"Get Companies Company ID API Credentials"
 					]
 				}
 			}
@@ -216,13 +216,13 @@ export const apiCredentialsCompanyLevelDescription: INodeProperties[] = [
 						"API Credentials Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Api Credentials"
+						"Post Companies Company ID API Credentials"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Company Id",
+			"displayName": "Company ID",
 			"name": "companyId",
 			"required": true,
 			"description": "The unique identifier of the company account.",
@@ -234,7 +234,7 @@ export const apiCredentialsCompanyLevelDescription: INodeProperties[] = [
 						"API Credentials Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Api Credentials"
+						"Post Companies Company ID API Credentials"
 					]
 				}
 			}
@@ -259,7 +259,7 @@ export const apiCredentialsCompanyLevelDescription: INodeProperties[] = [
 						"API Credentials Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Api Credentials"
+						"Post Companies Company ID API Credentials"
 					]
 				}
 			}
@@ -284,7 +284,7 @@ export const apiCredentialsCompanyLevelDescription: INodeProperties[] = [
 						"API Credentials Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Api Credentials"
+						"Post Companies Company ID API Credentials"
 					]
 				}
 			}
@@ -309,7 +309,7 @@ export const apiCredentialsCompanyLevelDescription: INodeProperties[] = [
 						"API Credentials Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Api Credentials"
+						"Post Companies Company ID API Credentials"
 					]
 				}
 			}
@@ -334,7 +334,7 @@ export const apiCredentialsCompanyLevelDescription: INodeProperties[] = [
 						"API Credentials Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Api Credentials"
+						"Post Companies Company ID API Credentials"
 					]
 				}
 			}
@@ -359,7 +359,7 @@ export const apiCredentialsCompanyLevelDescription: INodeProperties[] = [
 						"API Credentials Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Api Credentials"
+						"Post Companies Company ID API Credentials"
 					]
 				}
 			}
@@ -384,7 +384,7 @@ export const apiCredentialsCompanyLevelDescription: INodeProperties[] = [
 						"API Credentials Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Api Credentials"
+						"Post Companies Company ID API Credentials"
 					]
 				}
 			}
@@ -403,13 +403,13 @@ export const apiCredentialsCompanyLevelDescription: INodeProperties[] = [
 						"API Credentials Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Api Credentials Api Credential Id"
+						"Get Companies Company ID API Credentials API Credential ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Company Id",
+			"displayName": "Company ID",
 			"name": "companyId",
 			"required": true,
 			"description": "The unique identifier of the company account.",
@@ -421,13 +421,13 @@ export const apiCredentialsCompanyLevelDescription: INodeProperties[] = [
 						"API Credentials Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Api Credentials Api Credential Id"
+						"Get Companies Company ID API Credentials API Credential ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Api Credential Id",
+			"displayName": "API Credential ID",
 			"name": "apiCredentialId",
 			"required": true,
 			"description": "Unique identifier of the API credential.",
@@ -439,7 +439,7 @@ export const apiCredentialsCompanyLevelDescription: INodeProperties[] = [
 						"API Credentials Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Api Credentials Api Credential Id"
+						"Get Companies Company ID API Credentials API Credential ID"
 					]
 				}
 			}
@@ -464,7 +464,7 @@ export const apiCredentialsCompanyLevelDescription: INodeProperties[] = [
 						"API Credentials Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Api Credentials Api Credential Id"
+						"Get Companies Company ID API Credentials API Credential ID"
 					]
 				}
 			}
@@ -489,7 +489,7 @@ export const apiCredentialsCompanyLevelDescription: INodeProperties[] = [
 						"API Credentials Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Api Credentials Api Credential Id"
+						"Get Companies Company ID API Credentials API Credential ID"
 					]
 				}
 			}
@@ -508,13 +508,13 @@ export const apiCredentialsCompanyLevelDescription: INodeProperties[] = [
 						"API Credentials Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Api Credentials Api Credential Id"
+						"Patch Companies Company ID API Credentials API Credential ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Company Id",
+			"displayName": "Company ID",
 			"name": "companyId",
 			"required": true,
 			"description": "The unique identifier of the company account.",
@@ -526,13 +526,13 @@ export const apiCredentialsCompanyLevelDescription: INodeProperties[] = [
 						"API Credentials Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Api Credentials Api Credential Id"
+						"Patch Companies Company ID API Credentials API Credential ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Api Credential Id",
+			"displayName": "API Credential ID",
 			"name": "apiCredentialId",
 			"required": true,
 			"description": "Unique identifier of the API credential.",
@@ -544,7 +544,7 @@ export const apiCredentialsCompanyLevelDescription: INodeProperties[] = [
 						"API Credentials Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Api Credentials Api Credential Id"
+						"Patch Companies Company ID API Credentials API Credential ID"
 					]
 				}
 			}
@@ -569,7 +569,7 @@ export const apiCredentialsCompanyLevelDescription: INodeProperties[] = [
 						"API Credentials Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Api Credentials Api Credential Id"
+						"Patch Companies Company ID API Credentials API Credential ID"
 					]
 				}
 			}
@@ -594,7 +594,7 @@ export const apiCredentialsCompanyLevelDescription: INodeProperties[] = [
 						"API Credentials Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Api Credentials Api Credential Id"
+						"Patch Companies Company ID API Credentials API Credential ID"
 					]
 				}
 			}
@@ -619,7 +619,7 @@ export const apiCredentialsCompanyLevelDescription: INodeProperties[] = [
 						"API Credentials Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Api Credentials Api Credential Id"
+						"Patch Companies Company ID API Credentials API Credential ID"
 					]
 				}
 			}
@@ -644,7 +644,7 @@ export const apiCredentialsCompanyLevelDescription: INodeProperties[] = [
 						"API Credentials Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Api Credentials Api Credential Id"
+						"Patch Companies Company ID API Credentials API Credential ID"
 					]
 				}
 			}
@@ -669,7 +669,7 @@ export const apiCredentialsCompanyLevelDescription: INodeProperties[] = [
 						"API Credentials Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Api Credentials Api Credential Id"
+						"Patch Companies Company ID API Credentials API Credential ID"
 					]
 				}
 			}
@@ -694,7 +694,7 @@ export const apiCredentialsCompanyLevelDescription: INodeProperties[] = [
 						"API Credentials Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Api Credentials Api Credential Id"
+						"Patch Companies Company ID API Credentials API Credential ID"
 					]
 				}
 			}
@@ -719,7 +719,7 @@ export const apiCredentialsCompanyLevelDescription: INodeProperties[] = [
 						"API Credentials Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Api Credentials Api Credential Id"
+						"Patch Companies Company ID API Credentials API Credential ID"
 					]
 				}
 			}

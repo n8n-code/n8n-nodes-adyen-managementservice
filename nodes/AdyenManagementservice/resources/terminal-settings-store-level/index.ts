@@ -15,8 +15,8 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 			},
 			"options": [
 				{
-					"name": "Get Merchants Merchant Id Stores Reference Terminal Logos",
-					"value": "Get Merchants Merchant Id Stores Reference Terminal Logos",
+					"name": "Get Merchants Merchant ID Stores Reference Terminal Logos",
+					"value": "Get Merchants Merchant ID Stores Reference Terminal Logos",
 					"action": "Get the terminal logo",
 					"description": "Returns the logo that is configured for a specific payment terminal model at the store identified in the path. \nThe logo is returned as a Base64-encoded string. You need to Base64-decode the string to get the actual image file. \nThis logo applies to all terminals of the specified model under the store, unless a different logo is configured for an individual terminal.\n\nTo make this request, your API credential must have one of the following [roles](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Terminal settings read\n* Management API—Terminal settings read and write",
 					"routing": {
@@ -27,8 +27,8 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Patch Merchants Merchant Id Stores Reference Terminal Logos",
-					"value": "Patch Merchants Merchant Id Stores Reference Terminal Logos",
+					"name": "Patch Merchants Merchant ID Stores Reference Terminal Logos",
+					"value": "Patch Merchants Merchant ID Stores Reference Terminal Logos",
 					"action": "Update the terminal logo",
 					"description": "Updates the logo that is configured for a specific payment terminal model at the store identified in the path. You can update the logo for only one terminal model at a time.\nThis logo applies to all terminals of the specified model under the store, unless a different logo is configured for an individual terminal. \n\n* To change the logo, specify the image file as a Base64-encoded string.\n* To restore the logo inherited from a higher level (merchant or company account), specify an empty logo value.\n\nTo make this request, your API credential must have the following [role](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Terminal settings read and write",
 					"routing": {
@@ -39,8 +39,8 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Merchants Merchant Id Stores Reference Terminal Settings",
-					"value": "Get Merchants Merchant Id Stores Reference Terminal Settings",
+					"name": "Get Merchants Merchant ID Stores Reference Terminal Settings",
+					"value": "Get Merchants Merchant ID Stores Reference Terminal Settings",
 					"action": "Get terminal settings",
 					"description": "Returns the payment terminal settings that are configured for the store identified in the path. These settings apply to all terminals under the store unless different values are configured for an individual terminal.\n\nTo make this request, your API credential must have one of the following [roles](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Terminal settings read\n* Management API—Terminal settings read and write\n\nFor [sensitive terminal settings](https://docs.adyen.com/point-of-sale/automating-terminal-management/configure-terminals-api#sensitive-terminal-settings), your API credential must have the following role:\n* Management API—Terminal settings Advanced read and write",
 					"routing": {
@@ -51,8 +51,8 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Patch Merchants Merchant Id Stores Reference Terminal Settings",
-					"value": "Patch Merchants Merchant Id Stores Reference Terminal Settings",
+					"name": "Patch Merchants Merchant ID Stores Reference Terminal Settings",
+					"value": "Patch Merchants Merchant ID Stores Reference Terminal Settings",
 					"action": "Update terminal settings",
 					"description": "Updates payment terminal settings for the store identified in the path. These settings apply to all terminals under the store, unless different values are configured for an individual terminal.\n\n* To change a parameter value, include the full object that contains the parameter, even if you don't want to change all parameters in the object.\n* To restore a parameter value inherited from a higher level, include the full object that contains the parameter, and specify an empty value for the parameter or omit the parameter.\n* Objects that are not included in the request are not updated.\n\nTo make this request, your API credential must have the following [role](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Terminal settings read and write\n\nFor [sensitive terminal settings](https://docs.adyen.com/point-of-sale/automating-terminal-management/configure-terminals-api#sensitive-terminal-settings), your API credential must have the following role:\n* Management API—Terminal settings Advanced read and write",
 					"routing": {
@@ -63,8 +63,8 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Stores Store Id Terminal Logos",
-					"value": "Get Stores Store Id Terminal Logos",
+					"name": "Get Stores Store ID Terminal Logos",
+					"value": "Get Stores Store ID Terminal Logos",
 					"action": "Get the terminal logo",
 					"description": "Returns the logo that is configured for a specific payment terminal model at the store identified in the path. \nThe logo is returned as a Base64-encoded string. You need to Base64-decode the string to get the actual image file. \nThis logo applies to all terminals of that model under the store unless a different logo is configured for an individual terminal.\n\nTo make this request, your API credential must have one of the following [roles](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Terminal settings read\n* Management API—Terminal settings read and write",
 					"routing": {
@@ -75,8 +75,8 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Patch Stores Store Id Terminal Logos",
-					"value": "Patch Stores Store Id Terminal Logos",
+					"name": "Patch Stores Store ID Terminal Logos",
+					"value": "Patch Stores Store ID Terminal Logos",
 					"action": "Update the terminal logo",
 					"description": "Updates the logo that is configured for a specific payment terminal model at the store identified in the path. You can update the logo for only one terminal model at a time.\nThis logo applies to all terminals of the specified model under the store, unless a different logo is configured for an individual terminal. \n\n* To change the logo, specify the image file as a Base64-encoded string.\n* To restore the logo inherited from a higher level (merchant or company account), specify an empty logo value.\n\nTo make this request, your API credential must have the following [role](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Terminal settings read and write",
 					"routing": {
@@ -87,8 +87,8 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Stores Store Id Terminal Settings",
-					"value": "Get Stores Store Id Terminal Settings",
+					"name": "Get Stores Store ID Terminal Settings",
+					"value": "Get Stores Store ID Terminal Settings",
 					"action": "Get terminal settings",
 					"description": "Returns the payment terminal settings that are configured for the store identified in the path. These settings apply to all terminals under the store unless different values are configured for an individual terminal.\n\nTo make this request, your API credential must have one of the following [roles](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Terminal settings read\n* Management API—Terminal settings read and write\n\nFor [sensitive terminal settings](https://docs.adyen.com/point-of-sale/automating-terminal-management/configure-terminals-api#sensitive-terminal-settings), your API credential must have the following role:\n* Management API—Terminal settings Advanced read and write",
 					"routing": {
@@ -99,8 +99,8 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Patch Stores Store Id Terminal Settings",
-					"value": "Patch Stores Store Id Terminal Settings",
+					"name": "Patch Stores Store ID Terminal Settings",
+					"value": "Patch Stores Store ID Terminal Settings",
 					"action": "Update terminal settings",
 					"description": "Updates payment terminal settings for the store identified in the path. These settings apply to all terminals under the store, unless different values are configured for an individual terminal.\n\n* To change a parameter value, include the full object that contains the parameter, even if you don't want to change all parameters in the object.\n* To restore a parameter value inherited from a higher level, include the full object that contains the parameter, and specify an empty value for the parameter or omit the parameter.\n* Objects that are not included in the request are not updated.\n\nTo make this request, your API credential must have the following [role](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Terminal settings read and write\n\nFor [sensitive terminal settings](https://docs.adyen.com/point-of-sale/automating-terminal-management/configure-terminals-api#sensitive-terminal-settings), your API credential must have the following role:\n* Management API—Terminal settings Advanced read and write",
 					"routing": {
@@ -127,13 +127,13 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Stores Reference Terminal Logos"
+						"Get Merchants Merchant ID Stores Reference Terminal Logos"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Merchant Id",
+			"displayName": "Merchant ID",
 			"name": "merchantId",
 			"required": true,
 			"description": "The unique identifier of the merchant account.",
@@ -145,7 +145,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Stores Reference Terminal Logos"
+						"Get Merchants Merchant ID Stores Reference Terminal Logos"
 					]
 				}
 			}
@@ -163,7 +163,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Stores Reference Terminal Logos"
+						"Get Merchants Merchant ID Stores Reference Terminal Logos"
 					]
 				}
 			}
@@ -189,7 +189,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Stores Reference Terminal Logos"
+						"Get Merchants Merchant ID Stores Reference Terminal Logos"
 					]
 				}
 			}
@@ -214,7 +214,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Stores Reference Terminal Logos"
+						"Get Merchants Merchant ID Stores Reference Terminal Logos"
 					]
 				}
 			}
@@ -239,7 +239,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Stores Reference Terminal Logos"
+						"Get Merchants Merchant ID Stores Reference Terminal Logos"
 					]
 				}
 			}
@@ -258,13 +258,13 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Stores Reference Terminal Logos"
+						"Patch Merchants Merchant ID Stores Reference Terminal Logos"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Merchant Id",
+			"displayName": "Merchant ID",
 			"name": "merchantId",
 			"required": true,
 			"description": "The unique identifier of the merchant account.",
@@ -276,7 +276,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Stores Reference Terminal Logos"
+						"Patch Merchants Merchant ID Stores Reference Terminal Logos"
 					]
 				}
 			}
@@ -294,7 +294,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Stores Reference Terminal Logos"
+						"Patch Merchants Merchant ID Stores Reference Terminal Logos"
 					]
 				}
 			}
@@ -320,7 +320,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Stores Reference Terminal Logos"
+						"Patch Merchants Merchant ID Stores Reference Terminal Logos"
 					]
 				}
 			}
@@ -345,7 +345,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Stores Reference Terminal Logos"
+						"Patch Merchants Merchant ID Stores Reference Terminal Logos"
 					]
 				}
 			}
@@ -370,7 +370,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Stores Reference Terminal Logos"
+						"Patch Merchants Merchant ID Stores Reference Terminal Logos"
 					]
 				}
 			}
@@ -395,7 +395,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Stores Reference Terminal Logos"
+						"Patch Merchants Merchant ID Stores Reference Terminal Logos"
 					]
 				}
 			}
@@ -414,13 +414,13 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Stores Reference Terminal Settings"
+						"Get Merchants Merchant ID Stores Reference Terminal Settings"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Merchant Id",
+			"displayName": "Merchant ID",
 			"name": "merchantId",
 			"required": true,
 			"description": "The unique identifier of the merchant account.",
@@ -432,7 +432,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Stores Reference Terminal Settings"
+						"Get Merchants Merchant ID Stores Reference Terminal Settings"
 					]
 				}
 			}
@@ -450,7 +450,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Stores Reference Terminal Settings"
+						"Get Merchants Merchant ID Stores Reference Terminal Settings"
 					]
 				}
 			}
@@ -475,7 +475,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Stores Reference Terminal Settings"
+						"Get Merchants Merchant ID Stores Reference Terminal Settings"
 					]
 				}
 			}
@@ -500,7 +500,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Stores Reference Terminal Settings"
+						"Get Merchants Merchant ID Stores Reference Terminal Settings"
 					]
 				}
 			}
@@ -519,13 +519,13 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Stores Reference Terminal Settings"
+						"Patch Merchants Merchant ID Stores Reference Terminal Settings"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Merchant Id",
+			"displayName": "Merchant ID",
 			"name": "merchantId",
 			"required": true,
 			"description": "The unique identifier of the merchant account.",
@@ -537,7 +537,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Stores Reference Terminal Settings"
+						"Patch Merchants Merchant ID Stores Reference Terminal Settings"
 					]
 				}
 			}
@@ -555,7 +555,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Stores Reference Terminal Settings"
+						"Patch Merchants Merchant ID Stores Reference Terminal Settings"
 					]
 				}
 			}
@@ -580,7 +580,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Stores Reference Terminal Settings"
+						"Patch Merchants Merchant ID Stores Reference Terminal Settings"
 					]
 				}
 			}
@@ -605,7 +605,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Stores Reference Terminal Settings"
+						"Patch Merchants Merchant ID Stores Reference Terminal Settings"
 					]
 				}
 			}
@@ -630,7 +630,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Stores Reference Terminal Settings"
+						"Patch Merchants Merchant ID Stores Reference Terminal Settings"
 					]
 				}
 			}
@@ -655,7 +655,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Stores Reference Terminal Settings"
+						"Patch Merchants Merchant ID Stores Reference Terminal Settings"
 					]
 				}
 			}
@@ -680,7 +680,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Stores Reference Terminal Settings"
+						"Patch Merchants Merchant ID Stores Reference Terminal Settings"
 					]
 				}
 			}
@@ -705,7 +705,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Stores Reference Terminal Settings"
+						"Patch Merchants Merchant ID Stores Reference Terminal Settings"
 					]
 				}
 			}
@@ -730,7 +730,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Stores Reference Terminal Settings"
+						"Patch Merchants Merchant ID Stores Reference Terminal Settings"
 					]
 				}
 			}
@@ -755,7 +755,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Stores Reference Terminal Settings"
+						"Patch Merchants Merchant ID Stores Reference Terminal Settings"
 					]
 				}
 			}
@@ -780,7 +780,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Stores Reference Terminal Settings"
+						"Patch Merchants Merchant ID Stores Reference Terminal Settings"
 					]
 				}
 			}
@@ -805,7 +805,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Stores Reference Terminal Settings"
+						"Patch Merchants Merchant ID Stores Reference Terminal Settings"
 					]
 				}
 			}
@@ -830,7 +830,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Stores Reference Terminal Settings"
+						"Patch Merchants Merchant ID Stores Reference Terminal Settings"
 					]
 				}
 			}
@@ -855,7 +855,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Stores Reference Terminal Settings"
+						"Patch Merchants Merchant ID Stores Reference Terminal Settings"
 					]
 				}
 			}
@@ -880,7 +880,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Stores Reference Terminal Settings"
+						"Patch Merchants Merchant ID Stores Reference Terminal Settings"
 					]
 				}
 			}
@@ -905,7 +905,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Stores Reference Terminal Settings"
+						"Patch Merchants Merchant ID Stores Reference Terminal Settings"
 					]
 				}
 			}
@@ -930,7 +930,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Stores Reference Terminal Settings"
+						"Patch Merchants Merchant ID Stores Reference Terminal Settings"
 					]
 				}
 			}
@@ -955,7 +955,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Stores Reference Terminal Settings"
+						"Patch Merchants Merchant ID Stores Reference Terminal Settings"
 					]
 				}
 			}
@@ -980,7 +980,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Stores Reference Terminal Settings"
+						"Patch Merchants Merchant ID Stores Reference Terminal Settings"
 					]
 				}
 			}
@@ -1005,7 +1005,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Stores Reference Terminal Settings"
+						"Patch Merchants Merchant ID Stores Reference Terminal Settings"
 					]
 				}
 			}
@@ -1030,7 +1030,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Stores Reference Terminal Settings"
+						"Patch Merchants Merchant ID Stores Reference Terminal Settings"
 					]
 				}
 			}
@@ -1049,13 +1049,13 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Get Stores Store Id Terminal Logos"
+						"Get Stores Store ID Terminal Logos"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Store Id",
+			"displayName": "Store ID",
 			"name": "storeId",
 			"required": true,
 			"description": "The unique identifier of the store.",
@@ -1067,7 +1067,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Get Stores Store Id Terminal Logos"
+						"Get Stores Store ID Terminal Logos"
 					]
 				}
 			}
@@ -1093,7 +1093,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Get Stores Store Id Terminal Logos"
+						"Get Stores Store ID Terminal Logos"
 					]
 				}
 			}
@@ -1118,7 +1118,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Get Stores Store Id Terminal Logos"
+						"Get Stores Store ID Terminal Logos"
 					]
 				}
 			}
@@ -1143,7 +1143,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Get Stores Store Id Terminal Logos"
+						"Get Stores Store ID Terminal Logos"
 					]
 				}
 			}
@@ -1162,13 +1162,13 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Patch Stores Store Id Terminal Logos"
+						"Patch Stores Store ID Terminal Logos"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Store Id",
+			"displayName": "Store ID",
 			"name": "storeId",
 			"required": true,
 			"description": "The unique identifier of the store.",
@@ -1180,7 +1180,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Patch Stores Store Id Terminal Logos"
+						"Patch Stores Store ID Terminal Logos"
 					]
 				}
 			}
@@ -1206,7 +1206,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Patch Stores Store Id Terminal Logos"
+						"Patch Stores Store ID Terminal Logos"
 					]
 				}
 			}
@@ -1231,7 +1231,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Patch Stores Store Id Terminal Logos"
+						"Patch Stores Store ID Terminal Logos"
 					]
 				}
 			}
@@ -1256,7 +1256,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Patch Stores Store Id Terminal Logos"
+						"Patch Stores Store ID Terminal Logos"
 					]
 				}
 			}
@@ -1281,7 +1281,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Patch Stores Store Id Terminal Logos"
+						"Patch Stores Store ID Terminal Logos"
 					]
 				}
 			}
@@ -1300,13 +1300,13 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Get Stores Store Id Terminal Settings"
+						"Get Stores Store ID Terminal Settings"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Store Id",
+			"displayName": "Store ID",
 			"name": "storeId",
 			"required": true,
 			"description": "The unique identifier of the store.",
@@ -1318,7 +1318,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Get Stores Store Id Terminal Settings"
+						"Get Stores Store ID Terminal Settings"
 					]
 				}
 			}
@@ -1343,7 +1343,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Get Stores Store Id Terminal Settings"
+						"Get Stores Store ID Terminal Settings"
 					]
 				}
 			}
@@ -1368,7 +1368,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Get Stores Store Id Terminal Settings"
+						"Get Stores Store ID Terminal Settings"
 					]
 				}
 			}
@@ -1387,13 +1387,13 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Patch Stores Store Id Terminal Settings"
+						"Patch Stores Store ID Terminal Settings"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Store Id",
+			"displayName": "Store ID",
 			"name": "storeId",
 			"required": true,
 			"description": "The unique identifier of the store.",
@@ -1405,7 +1405,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Patch Stores Store Id Terminal Settings"
+						"Patch Stores Store ID Terminal Settings"
 					]
 				}
 			}
@@ -1430,7 +1430,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Patch Stores Store Id Terminal Settings"
+						"Patch Stores Store ID Terminal Settings"
 					]
 				}
 			}
@@ -1455,7 +1455,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Patch Stores Store Id Terminal Settings"
+						"Patch Stores Store ID Terminal Settings"
 					]
 				}
 			}
@@ -1480,7 +1480,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Patch Stores Store Id Terminal Settings"
+						"Patch Stores Store ID Terminal Settings"
 					]
 				}
 			}
@@ -1505,7 +1505,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Patch Stores Store Id Terminal Settings"
+						"Patch Stores Store ID Terminal Settings"
 					]
 				}
 			}
@@ -1530,7 +1530,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Patch Stores Store Id Terminal Settings"
+						"Patch Stores Store ID Terminal Settings"
 					]
 				}
 			}
@@ -1555,7 +1555,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Patch Stores Store Id Terminal Settings"
+						"Patch Stores Store ID Terminal Settings"
 					]
 				}
 			}
@@ -1580,7 +1580,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Patch Stores Store Id Terminal Settings"
+						"Patch Stores Store ID Terminal Settings"
 					]
 				}
 			}
@@ -1605,7 +1605,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Patch Stores Store Id Terminal Settings"
+						"Patch Stores Store ID Terminal Settings"
 					]
 				}
 			}
@@ -1630,7 +1630,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Patch Stores Store Id Terminal Settings"
+						"Patch Stores Store ID Terminal Settings"
 					]
 				}
 			}
@@ -1655,7 +1655,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Patch Stores Store Id Terminal Settings"
+						"Patch Stores Store ID Terminal Settings"
 					]
 				}
 			}
@@ -1680,7 +1680,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Patch Stores Store Id Terminal Settings"
+						"Patch Stores Store ID Terminal Settings"
 					]
 				}
 			}
@@ -1705,7 +1705,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Patch Stores Store Id Terminal Settings"
+						"Patch Stores Store ID Terminal Settings"
 					]
 				}
 			}
@@ -1730,7 +1730,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Patch Stores Store Id Terminal Settings"
+						"Patch Stores Store ID Terminal Settings"
 					]
 				}
 			}
@@ -1755,7 +1755,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Patch Stores Store Id Terminal Settings"
+						"Patch Stores Store ID Terminal Settings"
 					]
 				}
 			}
@@ -1780,7 +1780,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Patch Stores Store Id Terminal Settings"
+						"Patch Stores Store ID Terminal Settings"
 					]
 				}
 			}
@@ -1805,7 +1805,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Patch Stores Store Id Terminal Settings"
+						"Patch Stores Store ID Terminal Settings"
 					]
 				}
 			}
@@ -1830,7 +1830,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Patch Stores Store Id Terminal Settings"
+						"Patch Stores Store ID Terminal Settings"
 					]
 				}
 			}
@@ -1855,7 +1855,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Patch Stores Store Id Terminal Settings"
+						"Patch Stores Store ID Terminal Settings"
 					]
 				}
 			}
@@ -1880,7 +1880,7 @@ export const terminalSettingsStoreLevelDescription: INodeProperties[] = [
 						"Terminal Settings Store Level"
 					],
 					"operation": [
-						"Patch Stores Store Id Terminal Settings"
+						"Patch Stores Store ID Terminal Settings"
 					]
 				}
 			}

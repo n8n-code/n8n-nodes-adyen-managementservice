@@ -15,8 +15,8 @@ export const terminalActionsCompanyLevelDescription: INodeProperties[] = [
 			},
 			"options": [
 				{
-					"name": "Get Companies Company Id Android Apps",
-					"value": "Get Companies Company Id Android Apps",
+					"name": "Get Companies Company ID Android Apps",
+					"value": "Get Companies Company ID Android Apps",
 					"action": "Get a list of Android apps",
 					"description": "Returns a list of the Android apps that are available for the company identified in the path. \nThese apps have been uploaded to Adyen and can be installed or uninstalled on Android payment terminals through [terminal actions](https://docs.adyen.com/point-of-sale/automating-terminal-management/terminal-actions-api).\n\nTo make this request, your API credential must have one of the following [roles](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Terminal actions read\n* Management API—Terminal actions read and write",
 					"routing": {
@@ -27,8 +27,8 @@ export const terminalActionsCompanyLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Companies Company Id Android Certificates",
-					"value": "Get Companies Company Id Android Certificates",
+					"name": "Get Companies Company ID Android Certificates",
+					"value": "Get Companies Company ID Android Certificates",
 					"action": "Get a list of Android certificates",
 					"description": "Returns a list of the Android certificates that are available for the company identified in the path.\nTypically, these certificates enable running apps on Android payment terminals. The certifcates in the list have been uploaded to Adyen and can be installed or uninstalled on Android terminals through [terminal actions](https://docs.adyen.com/point-of-sale/automating-terminal-management/terminal-actions-api).\n\nTo make this request, your API credential must have one of the following [roles](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Terminal actions read\n* Management API—Terminal actions read and write",
 					"routing": {
@@ -39,8 +39,8 @@ export const terminalActionsCompanyLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Companies Company Id Terminal Actions",
-					"value": "Get Companies Company Id Terminal Actions",
+					"name": "Get Companies Company ID Terminal Actions",
+					"value": "Get Companies Company ID Terminal Actions",
 					"action": "Get a list of terminal actions",
 					"description": "Returns the [terminal actions](https://docs.adyen.com/point-of-sale/automating-terminal-management/terminal-actions-api) that have been scheduled for the company identified in the path.The response doesn't include actions that are scheduled by Adyen.\nTo make this request, your API credential must have one of the following [roles](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Terminal actions read\n* Management API—Terminal actions read and write",
 					"routing": {
@@ -51,8 +51,8 @@ export const terminalActionsCompanyLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Companies Company Id Terminal Actions Action Id",
-					"value": "Get Companies Company Id Terminal Actions Action Id",
+					"name": "Get Companies Company ID Terminal Actions Action ID",
+					"value": "Get Companies Company ID Terminal Actions Action ID",
 					"action": "Get terminal action",
 					"description": "Returns the details of the [terminal action](https://docs.adyen.com/point-of-sale/automating-terminal-management/terminal-actions-api) identified in the path.\nTo make this request, your API credential must have one of the following [roles](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Terminal actions read\n* Management API—Terminal actions read and write",
 					"routing": {
@@ -79,13 +79,13 @@ export const terminalActionsCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Actions Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Android Apps"
+						"Get Companies Company ID Android Apps"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Company Id",
+			"displayName": "Company ID",
 			"name": "companyId",
 			"required": true,
 			"description": "The unique identifier of the company account.",
@@ -97,7 +97,7 @@ export const terminalActionsCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Actions Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Android Apps"
+						"Get Companies Company ID Android Apps"
 					]
 				}
 			}
@@ -122,7 +122,7 @@ export const terminalActionsCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Actions Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Android Apps"
+						"Get Companies Company ID Android Apps"
 					]
 				}
 			}
@@ -147,7 +147,7 @@ export const terminalActionsCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Actions Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Android Apps"
+						"Get Companies Company ID Android Apps"
 					]
 				}
 			}
@@ -172,7 +172,7 @@ export const terminalActionsCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Actions Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Android Apps"
+						"Get Companies Company ID Android Apps"
 					]
 				}
 			}
@@ -197,7 +197,7 @@ export const terminalActionsCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Actions Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Android Apps"
+						"Get Companies Company ID Android Apps"
 					]
 				}
 			}
@@ -216,13 +216,13 @@ export const terminalActionsCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Actions Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Android Certificates"
+						"Get Companies Company ID Android Certificates"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Company Id",
+			"displayName": "Company ID",
 			"name": "companyId",
 			"required": true,
 			"description": "The unique identifier of the company account.",
@@ -234,7 +234,7 @@ export const terminalActionsCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Actions Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Android Certificates"
+						"Get Companies Company ID Android Certificates"
 					]
 				}
 			}
@@ -259,7 +259,7 @@ export const terminalActionsCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Actions Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Android Certificates"
+						"Get Companies Company ID Android Certificates"
 					]
 				}
 			}
@@ -284,7 +284,7 @@ export const terminalActionsCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Actions Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Android Certificates"
+						"Get Companies Company ID Android Certificates"
 					]
 				}
 			}
@@ -309,7 +309,7 @@ export const terminalActionsCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Actions Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Android Certificates"
+						"Get Companies Company ID Android Certificates"
 					]
 				}
 			}
@@ -334,7 +334,7 @@ export const terminalActionsCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Actions Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Android Certificates"
+						"Get Companies Company ID Android Certificates"
 					]
 				}
 			}
@@ -353,13 +353,13 @@ export const terminalActionsCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Actions Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Terminal Actions"
+						"Get Companies Company ID Terminal Actions"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Company Id",
+			"displayName": "Company ID",
 			"name": "companyId",
 			"required": true,
 			"description": "The unique identifier of the company account.",
@@ -371,7 +371,7 @@ export const terminalActionsCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Actions Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Terminal Actions"
+						"Get Companies Company ID Terminal Actions"
 					]
 				}
 			}
@@ -396,7 +396,7 @@ export const terminalActionsCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Actions Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Terminal Actions"
+						"Get Companies Company ID Terminal Actions"
 					]
 				}
 			}
@@ -421,7 +421,7 @@ export const terminalActionsCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Actions Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Terminal Actions"
+						"Get Companies Company ID Terminal Actions"
 					]
 				}
 			}
@@ -446,7 +446,7 @@ export const terminalActionsCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Actions Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Terminal Actions"
+						"Get Companies Company ID Terminal Actions"
 					]
 				}
 			}
@@ -471,7 +471,7 @@ export const terminalActionsCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Actions Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Terminal Actions"
+						"Get Companies Company ID Terminal Actions"
 					]
 				}
 			}
@@ -496,7 +496,7 @@ export const terminalActionsCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Actions Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Terminal Actions"
+						"Get Companies Company ID Terminal Actions"
 					]
 				}
 			}
@@ -521,7 +521,7 @@ export const terminalActionsCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Actions Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Terminal Actions"
+						"Get Companies Company ID Terminal Actions"
 					]
 				}
 			}
@@ -540,13 +540,13 @@ export const terminalActionsCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Actions Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Terminal Actions Action Id"
+						"Get Companies Company ID Terminal Actions Action ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Company Id",
+			"displayName": "Company ID",
 			"name": "companyId",
 			"required": true,
 			"description": "The unique identifier of the company account.",
@@ -558,13 +558,13 @@ export const terminalActionsCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Actions Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Terminal Actions Action Id"
+						"Get Companies Company ID Terminal Actions Action ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Action Id",
+			"displayName": "Action ID",
 			"name": "actionId",
 			"required": true,
 			"description": "The unique identifier of the terminal action.",
@@ -576,7 +576,7 @@ export const terminalActionsCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Actions Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Terminal Actions Action Id"
+						"Get Companies Company ID Terminal Actions Action ID"
 					]
 				}
 			}
@@ -601,7 +601,7 @@ export const terminalActionsCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Actions Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Terminal Actions Action Id"
+						"Get Companies Company ID Terminal Actions Action ID"
 					]
 				}
 			}
@@ -626,7 +626,7 @@ export const terminalActionsCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Actions Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Terminal Actions Action Id"
+						"Get Companies Company ID Terminal Actions Action ID"
 					]
 				}
 			}

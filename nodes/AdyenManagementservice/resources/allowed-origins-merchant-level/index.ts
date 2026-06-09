@@ -15,8 +15,8 @@ export const allowedOriginsMerchantLevelDescription: INodeProperties[] = [
 			},
 			"options": [
 				{
-					"name": "Get Merchants Merchant Id Api Credentials Api Credential Id Allowed Origins",
-					"value": "Get Merchants Merchant Id Api Credentials Api Credential Id Allowed Origins",
+					"name": "Get Merchants Merchant ID API Credentials API Credential ID Allowed Origins",
+					"value": "Get Merchants Merchant ID API Credentials API Credential ID Allowed Origins",
 					"action": "Get a list of allowed origins",
 					"description": "Returns the list of [allowed origins](https://docs.adyen.com/development-resources/client-side-authentication#allowed-origins) for the API credential identified in the path.\n\nTo make this request, your API credential must have the following [roles](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—API credentials read and write",
 					"routing": {
@@ -27,8 +27,8 @@ export const allowedOriginsMerchantLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Post Merchants Merchant Id Api Credentials Api Credential Id Allowed Origins",
-					"value": "Post Merchants Merchant Id Api Credentials Api Credential Id Allowed Origins",
+					"name": "Post Merchants Merchant ID API Credentials API Credential ID Allowed Origins",
+					"value": "Post Merchants Merchant ID API Credentials API Credential ID Allowed Origins",
 					"action": "Create an allowed origin",
 					"description": "Adds a new [allowed origin](https://docs.adyen.com/development-resources/client-side-authentication#allowed-origins) to the API credential's list of allowed origins.\n\nTo make this request, your API credential must have the following [roles](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—API credentials read and write",
 					"routing": {
@@ -39,8 +39,8 @@ export const allowedOriginsMerchantLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Delete Merchants Merchant Id Api Credentials Api Credential Id Allowed Origins Origin Id",
-					"value": "Delete Merchants Merchant Id Api Credentials Api Credential Id Allowed Origins Origin Id",
+					"name": "Delete Merchants Merchant ID API Credentials API Credential ID Allowed Origins Origin ID",
+					"value": "Delete Merchants Merchant ID API Credentials API Credential ID Allowed Origins Origin ID",
 					"action": "Delete an allowed origin",
 					"description": "Removes the [allowed origin](https://docs.adyen.com/development-resources/client-side-authentication#allowed-origins) identified in the path. As soon as an allowed origin is removed, we no longer accept client-side requests from that domain.\n\nTo make this request, your API credential must have the following [roles](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—API credentials read and write",
 					"routing": {
@@ -51,8 +51,8 @@ export const allowedOriginsMerchantLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Merchants Merchant Id Api Credentials Api Credential Id Allowed Origins Origin Id",
-					"value": "Get Merchants Merchant Id Api Credentials Api Credential Id Allowed Origins Origin Id",
+					"name": "Get Merchants Merchant ID API Credentials API Credential ID Allowed Origins Origin ID",
+					"value": "Get Merchants Merchant ID API Credentials API Credential ID Allowed Origins Origin ID",
 					"action": "Get an allowed origin",
 					"description": "Returns the [allowed origin](https://docs.adyen.com/development-resources/client-side-authentication#allowed-origins) identified in the path.\n\nTo make this request, your API credential must have the following [roles](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—API credentials read and write",
 					"routing": {
@@ -79,13 +79,13 @@ export const allowedOriginsMerchantLevelDescription: INodeProperties[] = [
 						"Allowed Origins Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Api Credentials Api Credential Id Allowed Origins"
+						"Get Merchants Merchant ID API Credentials API Credential ID Allowed Origins"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Merchant Id",
+			"displayName": "Merchant ID",
 			"name": "merchantId",
 			"required": true,
 			"description": "The unique identifier of the merchant account.",
@@ -97,13 +97,13 @@ export const allowedOriginsMerchantLevelDescription: INodeProperties[] = [
 						"Allowed Origins Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Api Credentials Api Credential Id Allowed Origins"
+						"Get Merchants Merchant ID API Credentials API Credential ID Allowed Origins"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Api Credential Id",
+			"displayName": "API Credential ID",
 			"name": "apiCredentialId",
 			"required": true,
 			"description": "Unique identifier of the API credential.",
@@ -115,7 +115,7 @@ export const allowedOriginsMerchantLevelDescription: INodeProperties[] = [
 						"Allowed Origins Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Api Credentials Api Credential Id Allowed Origins"
+						"Get Merchants Merchant ID API Credentials API Credential ID Allowed Origins"
 					]
 				}
 			}
@@ -140,7 +140,7 @@ export const allowedOriginsMerchantLevelDescription: INodeProperties[] = [
 						"Allowed Origins Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Api Credentials Api Credential Id Allowed Origins"
+						"Get Merchants Merchant ID API Credentials API Credential ID Allowed Origins"
 					]
 				}
 			}
@@ -165,7 +165,7 @@ export const allowedOriginsMerchantLevelDescription: INodeProperties[] = [
 						"Allowed Origins Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Api Credentials Api Credential Id Allowed Origins"
+						"Get Merchants Merchant ID API Credentials API Credential ID Allowed Origins"
 					]
 				}
 			}
@@ -184,13 +184,13 @@ export const allowedOriginsMerchantLevelDescription: INodeProperties[] = [
 						"Allowed Origins Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Api Credentials Api Credential Id Allowed Origins"
+						"Post Merchants Merchant ID API Credentials API Credential ID Allowed Origins"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Merchant Id",
+			"displayName": "Merchant ID",
 			"name": "merchantId",
 			"required": true,
 			"description": "The unique identifier of the merchant account.",
@@ -202,13 +202,13 @@ export const allowedOriginsMerchantLevelDescription: INodeProperties[] = [
 						"Allowed Origins Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Api Credentials Api Credential Id Allowed Origins"
+						"Post Merchants Merchant ID API Credentials API Credential ID Allowed Origins"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Api Credential Id",
+			"displayName": "API Credential ID",
 			"name": "apiCredentialId",
 			"required": true,
 			"description": "Unique identifier of the API credential.",
@@ -220,7 +220,7 @@ export const allowedOriginsMerchantLevelDescription: INodeProperties[] = [
 						"Allowed Origins Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Api Credentials Api Credential Id Allowed Origins"
+						"Post Merchants Merchant ID API Credentials API Credential ID Allowed Origins"
 					]
 				}
 			}
@@ -245,7 +245,7 @@ export const allowedOriginsMerchantLevelDescription: INodeProperties[] = [
 						"Allowed Origins Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Api Credentials Api Credential Id Allowed Origins"
+						"Post Merchants Merchant ID API Credentials API Credential ID Allowed Origins"
 					]
 				}
 			}
@@ -271,13 +271,13 @@ export const allowedOriginsMerchantLevelDescription: INodeProperties[] = [
 						"Allowed Origins Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Api Credentials Api Credential Id Allowed Origins"
+						"Post Merchants Merchant ID API Credentials API Credential ID Allowed Origins"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "string",
 			"default": "",
@@ -296,7 +296,7 @@ export const allowedOriginsMerchantLevelDescription: INodeProperties[] = [
 						"Allowed Origins Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Api Credentials Api Credential Id Allowed Origins"
+						"Post Merchants Merchant ID API Credentials API Credential ID Allowed Origins"
 					]
 				}
 			}
@@ -321,7 +321,7 @@ export const allowedOriginsMerchantLevelDescription: INodeProperties[] = [
 						"Allowed Origins Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Api Credentials Api Credential Id Allowed Origins"
+						"Post Merchants Merchant ID API Credentials API Credential ID Allowed Origins"
 					]
 				}
 			}
@@ -346,7 +346,7 @@ export const allowedOriginsMerchantLevelDescription: INodeProperties[] = [
 						"Allowed Origins Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Api Credentials Api Credential Id Allowed Origins"
+						"Post Merchants Merchant ID API Credentials API Credential ID Allowed Origins"
 					]
 				}
 			}
@@ -365,13 +365,13 @@ export const allowedOriginsMerchantLevelDescription: INodeProperties[] = [
 						"Allowed Origins Merchant Level"
 					],
 					"operation": [
-						"Delete Merchants Merchant Id Api Credentials Api Credential Id Allowed Origins Origin Id"
+						"Delete Merchants Merchant ID API Credentials API Credential ID Allowed Origins Origin ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Merchant Id",
+			"displayName": "Merchant ID",
 			"name": "merchantId",
 			"required": true,
 			"description": "The unique identifier of the merchant account.",
@@ -383,13 +383,13 @@ export const allowedOriginsMerchantLevelDescription: INodeProperties[] = [
 						"Allowed Origins Merchant Level"
 					],
 					"operation": [
-						"Delete Merchants Merchant Id Api Credentials Api Credential Id Allowed Origins Origin Id"
+						"Delete Merchants Merchant ID API Credentials API Credential ID Allowed Origins Origin ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Api Credential Id",
+			"displayName": "API Credential ID",
 			"name": "apiCredentialId",
 			"required": true,
 			"description": "Unique identifier of the API credential.",
@@ -401,13 +401,13 @@ export const allowedOriginsMerchantLevelDescription: INodeProperties[] = [
 						"Allowed Origins Merchant Level"
 					],
 					"operation": [
-						"Delete Merchants Merchant Id Api Credentials Api Credential Id Allowed Origins Origin Id"
+						"Delete Merchants Merchant ID API Credentials API Credential ID Allowed Origins Origin ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Origin Id",
+			"displayName": "Origin ID",
 			"name": "originId",
 			"required": true,
 			"description": "Unique identifier of the allowed origin.",
@@ -419,7 +419,7 @@ export const allowedOriginsMerchantLevelDescription: INodeProperties[] = [
 						"Allowed Origins Merchant Level"
 					],
 					"operation": [
-						"Delete Merchants Merchant Id Api Credentials Api Credential Id Allowed Origins Origin Id"
+						"Delete Merchants Merchant ID API Credentials API Credential ID Allowed Origins Origin ID"
 					]
 				}
 			}
@@ -444,7 +444,7 @@ export const allowedOriginsMerchantLevelDescription: INodeProperties[] = [
 						"Allowed Origins Merchant Level"
 					],
 					"operation": [
-						"Delete Merchants Merchant Id Api Credentials Api Credential Id Allowed Origins Origin Id"
+						"Delete Merchants Merchant ID API Credentials API Credential ID Allowed Origins Origin ID"
 					]
 				}
 			}
@@ -469,7 +469,7 @@ export const allowedOriginsMerchantLevelDescription: INodeProperties[] = [
 						"Allowed Origins Merchant Level"
 					],
 					"operation": [
-						"Delete Merchants Merchant Id Api Credentials Api Credential Id Allowed Origins Origin Id"
+						"Delete Merchants Merchant ID API Credentials API Credential ID Allowed Origins Origin ID"
 					]
 				}
 			}
@@ -488,13 +488,13 @@ export const allowedOriginsMerchantLevelDescription: INodeProperties[] = [
 						"Allowed Origins Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Api Credentials Api Credential Id Allowed Origins Origin Id"
+						"Get Merchants Merchant ID API Credentials API Credential ID Allowed Origins Origin ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Merchant Id",
+			"displayName": "Merchant ID",
 			"name": "merchantId",
 			"required": true,
 			"description": "The unique identifier of the merchant account.",
@@ -506,13 +506,13 @@ export const allowedOriginsMerchantLevelDescription: INodeProperties[] = [
 						"Allowed Origins Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Api Credentials Api Credential Id Allowed Origins Origin Id"
+						"Get Merchants Merchant ID API Credentials API Credential ID Allowed Origins Origin ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Api Credential Id",
+			"displayName": "API Credential ID",
 			"name": "apiCredentialId",
 			"required": true,
 			"description": "Unique identifier of the API credential.",
@@ -524,13 +524,13 @@ export const allowedOriginsMerchantLevelDescription: INodeProperties[] = [
 						"Allowed Origins Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Api Credentials Api Credential Id Allowed Origins Origin Id"
+						"Get Merchants Merchant ID API Credentials API Credential ID Allowed Origins Origin ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Origin Id",
+			"displayName": "Origin ID",
 			"name": "originId",
 			"required": true,
 			"description": "Unique identifier of the allowed origin.",
@@ -542,7 +542,7 @@ export const allowedOriginsMerchantLevelDescription: INodeProperties[] = [
 						"Allowed Origins Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Api Credentials Api Credential Id Allowed Origins Origin Id"
+						"Get Merchants Merchant ID API Credentials API Credential ID Allowed Origins Origin ID"
 					]
 				}
 			}
@@ -567,7 +567,7 @@ export const allowedOriginsMerchantLevelDescription: INodeProperties[] = [
 						"Allowed Origins Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Api Credentials Api Credential Id Allowed Origins Origin Id"
+						"Get Merchants Merchant ID API Credentials API Credential ID Allowed Origins Origin ID"
 					]
 				}
 			}
@@ -592,7 +592,7 @@ export const allowedOriginsMerchantLevelDescription: INodeProperties[] = [
 						"Allowed Origins Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Api Credentials Api Credential Id Allowed Origins Origin Id"
+						"Get Merchants Merchant ID API Credentials API Credential ID Allowed Origins Origin ID"
 					]
 				}
 			}

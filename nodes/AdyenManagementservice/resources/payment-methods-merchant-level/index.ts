@@ -15,8 +15,8 @@ export const paymentMethodsMerchantLevelDescription: INodeProperties[] = [
 			},
 			"options": [
 				{
-					"name": "Get Merchants Merchant Id Payment Method Settings",
-					"value": "Get Merchants Merchant Id Payment Method Settings",
+					"name": "Get Merchants Merchant ID Payment Method Settings",
+					"value": "Get Merchants Merchant ID Payment Method Settings",
 					"action": "Get all payment methods",
 					"description": "Returns details for all payment methods of the merchant account identified in the path.\n\nTo make this request, your API credential must have the following [role](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Payment methods read\n",
 					"routing": {
@@ -27,8 +27,8 @@ export const paymentMethodsMerchantLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Post Merchants Merchant Id Payment Method Settings",
-					"value": "Post Merchants Merchant Id Payment Method Settings",
+					"name": "Post Merchants Merchant ID Payment Method Settings",
+					"value": "Post Merchants Merchant ID Payment Method Settings",
 					"action": "Request a payment method",
 					"description": "Sends a request to add a new payment method to the merchant account identified in the path.\n\nTo make this request, your API credential must have the following [role](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Payment methods read and write\n",
 					"routing": {
@@ -39,8 +39,8 @@ export const paymentMethodsMerchantLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Merchants Merchant Id Payment Method Settings Payment Method Id",
-					"value": "Get Merchants Merchant Id Payment Method Settings Payment Method Id",
+					"name": "Get Merchants Merchant ID Payment Method Settings Payment Method ID",
+					"value": "Get Merchants Merchant ID Payment Method Settings Payment Method ID",
 					"action": "Get payment method details",
 					"description": "Returns details for the merchant account and the payment method identified in the path.\n\nTo make this request, your API credential must have the following [role](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Payment methods read\n",
 					"routing": {
@@ -51,8 +51,8 @@ export const paymentMethodsMerchantLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Patch Merchants Merchant Id Payment Method Settings Payment Method Id",
-					"value": "Patch Merchants Merchant Id Payment Method Settings Payment Method Id",
+					"name": "Patch Merchants Merchant ID Payment Method Settings Payment Method ID",
+					"value": "Patch Merchants Merchant ID Payment Method Settings Payment Method ID",
 					"action": "Update a payment method",
 					"description": "Updates payment method details for the merchant account and the payment method identified in the path.\n\nTo make this request, your API credential must have the following [role](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Payment methods read and write\n",
 					"routing": {
@@ -63,8 +63,8 @@ export const paymentMethodsMerchantLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Post Merchants Merchant Id Payment Method Settings Payment Method Id Add Apple Pay Domains",
-					"value": "Post Merchants Merchant Id Payment Method Settings Payment Method Id Add Apple Pay Domains",
+					"name": "Post Merchants Merchant ID Payment Method Settings Payment Method ID Add Apple Pay Domains",
+					"value": "Post Merchants Merchant ID Payment Method Settings Payment Method ID Add Apple Pay Domains",
 					"action": "Add an Apple Pay domain",
 					"description": "Adds the new domain to the list of Apple Pay domains that are registered with the merchant account and the payment method identified in the path. For more information, see [Apple Pay documentation](https://docs.adyen.com/payment-methods/apple-pay/enable-apple-pay#register-merchant-domain).\n\nTo make this request, your API credential must have the following [role](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Payment methods read and write\n",
 					"routing": {
@@ -75,8 +75,8 @@ export const paymentMethodsMerchantLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Merchants Merchant Id Payment Method Settings Payment Method Id Get Apple Pay Domains",
-					"value": "Get Merchants Merchant Id Payment Method Settings Payment Method Id Get Apple Pay Domains",
+					"name": "Get Merchants Merchant ID Payment Method Settings Payment Method ID Get Apple Pay Domains",
+					"value": "Get Merchants Merchant ID Payment Method Settings Payment Method ID Get Apple Pay Domains",
 					"action": "Get Apple Pay domains",
 					"description": "Returns all Apple Pay domains that are registered with the merchant account and the payment method identified in the path. For more information, see [Apple Pay documentation](https://docs.adyen.com/payment-methods/apple-pay/enable-apple-pay#register-merchant-domain).\n\nTo make this request, your API credential must have the following [role](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Payment methods read\n",
 					"routing": {
@@ -103,13 +103,13 @@ export const paymentMethodsMerchantLevelDescription: INodeProperties[] = [
 						"Payment Methods Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Payment Method Settings"
+						"Get Merchants Merchant ID Payment Method Settings"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Merchant Id",
+			"displayName": "Merchant ID",
 			"name": "merchantId",
 			"required": true,
 			"description": "The unique identifier of the merchant account.",
@@ -121,13 +121,13 @@ export const paymentMethodsMerchantLevelDescription: INodeProperties[] = [
 						"Payment Methods Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Payment Method Settings"
+						"Get Merchants Merchant ID Payment Method Settings"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Store Id",
+			"displayName": "Store ID",
 			"name": "storeId",
 			"description": "The unique identifier of the store for which to return the payment methods.",
 			"default": "",
@@ -146,13 +146,13 @@ export const paymentMethodsMerchantLevelDescription: INodeProperties[] = [
 						"Payment Methods Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Payment Method Settings"
+						"Get Merchants Merchant ID Payment Method Settings"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Business Line Id",
+			"displayName": "Business Line ID",
 			"name": "businessLineId",
 			"description": "The unique identifier of the Business Line for which to return the payment methods.",
 			"default": "",
@@ -171,7 +171,7 @@ export const paymentMethodsMerchantLevelDescription: INodeProperties[] = [
 						"Payment Methods Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Payment Method Settings"
+						"Get Merchants Merchant ID Payment Method Settings"
 					]
 				}
 			}
@@ -196,7 +196,7 @@ export const paymentMethodsMerchantLevelDescription: INodeProperties[] = [
 						"Payment Methods Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Payment Method Settings"
+						"Get Merchants Merchant ID Payment Method Settings"
 					]
 				}
 			}
@@ -221,7 +221,7 @@ export const paymentMethodsMerchantLevelDescription: INodeProperties[] = [
 						"Payment Methods Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Payment Method Settings"
+						"Get Merchants Merchant ID Payment Method Settings"
 					]
 				}
 			}
@@ -246,7 +246,7 @@ export const paymentMethodsMerchantLevelDescription: INodeProperties[] = [
 						"Payment Methods Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Payment Method Settings"
+						"Get Merchants Merchant ID Payment Method Settings"
 					]
 				}
 			}
@@ -271,7 +271,7 @@ export const paymentMethodsMerchantLevelDescription: INodeProperties[] = [
 						"Payment Methods Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Payment Method Settings"
+						"Get Merchants Merchant ID Payment Method Settings"
 					]
 				}
 			}
@@ -290,13 +290,13 @@ export const paymentMethodsMerchantLevelDescription: INodeProperties[] = [
 						"Payment Methods Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Payment Method Settings"
+						"Post Merchants Merchant ID Payment Method Settings"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Merchant Id",
+			"displayName": "Merchant ID",
 			"name": "merchantId",
 			"required": true,
 			"description": "The unique identifier of the merchant account.",
@@ -308,7 +308,7 @@ export const paymentMethodsMerchantLevelDescription: INodeProperties[] = [
 						"Payment Methods Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Payment Method Settings"
+						"Post Merchants Merchant ID Payment Method Settings"
 					]
 				}
 			}
@@ -333,7 +333,7 @@ export const paymentMethodsMerchantLevelDescription: INodeProperties[] = [
 						"Payment Methods Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Payment Method Settings"
+						"Post Merchants Merchant ID Payment Method Settings"
 					]
 				}
 			}
@@ -358,13 +358,13 @@ export const paymentMethodsMerchantLevelDescription: INodeProperties[] = [
 						"Payment Methods Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Payment Method Settings"
+						"Post Merchants Merchant ID Payment Method Settings"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Business Line Id",
+			"displayName": "Business Line ID",
 			"name": "businessLineId",
 			"type": "string",
 			"default": "",
@@ -383,7 +383,7 @@ export const paymentMethodsMerchantLevelDescription: INodeProperties[] = [
 						"Payment Methods Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Payment Method Settings"
+						"Post Merchants Merchant ID Payment Method Settings"
 					]
 				}
 			}
@@ -408,7 +408,7 @@ export const paymentMethodsMerchantLevelDescription: INodeProperties[] = [
 						"Payment Methods Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Payment Method Settings"
+						"Post Merchants Merchant ID Payment Method Settings"
 					]
 				}
 			}
@@ -433,7 +433,7 @@ export const paymentMethodsMerchantLevelDescription: INodeProperties[] = [
 						"Payment Methods Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Payment Method Settings"
+						"Post Merchants Merchant ID Payment Method Settings"
 					]
 				}
 			}
@@ -458,7 +458,7 @@ export const paymentMethodsMerchantLevelDescription: INodeProperties[] = [
 						"Payment Methods Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Payment Method Settings"
+						"Post Merchants Merchant ID Payment Method Settings"
 					]
 				}
 			}
@@ -483,7 +483,7 @@ export const paymentMethodsMerchantLevelDescription: INodeProperties[] = [
 						"Payment Methods Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Payment Method Settings"
+						"Post Merchants Merchant ID Payment Method Settings"
 					]
 				}
 			}
@@ -508,7 +508,7 @@ export const paymentMethodsMerchantLevelDescription: INodeProperties[] = [
 						"Payment Methods Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Payment Method Settings"
+						"Post Merchants Merchant ID Payment Method Settings"
 					]
 				}
 			}
@@ -533,7 +533,7 @@ export const paymentMethodsMerchantLevelDescription: INodeProperties[] = [
 						"Payment Methods Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Payment Method Settings"
+						"Post Merchants Merchant ID Payment Method Settings"
 					]
 				}
 			}
@@ -558,7 +558,7 @@ export const paymentMethodsMerchantLevelDescription: INodeProperties[] = [
 						"Payment Methods Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Payment Method Settings"
+						"Post Merchants Merchant ID Payment Method Settings"
 					]
 				}
 			}
@@ -583,7 +583,7 @@ export const paymentMethodsMerchantLevelDescription: INodeProperties[] = [
 						"Payment Methods Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Payment Method Settings"
+						"Post Merchants Merchant ID Payment Method Settings"
 					]
 				}
 			}
@@ -608,7 +608,7 @@ export const paymentMethodsMerchantLevelDescription: INodeProperties[] = [
 						"Payment Methods Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Payment Method Settings"
+						"Post Merchants Merchant ID Payment Method Settings"
 					]
 				}
 			}
@@ -633,7 +633,7 @@ export const paymentMethodsMerchantLevelDescription: INodeProperties[] = [
 						"Payment Methods Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Payment Method Settings"
+						"Post Merchants Merchant ID Payment Method Settings"
 					]
 				}
 			}
@@ -676,7 +676,7 @@ export const paymentMethodsMerchantLevelDescription: INodeProperties[] = [
 						"Payment Methods Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Payment Method Settings"
+						"Post Merchants Merchant ID Payment Method Settings"
 					]
 				}
 			}
@@ -701,13 +701,13 @@ export const paymentMethodsMerchantLevelDescription: INodeProperties[] = [
 						"Payment Methods Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Payment Method Settings"
+						"Post Merchants Merchant ID Payment Method Settings"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Store Id",
+			"displayName": "Store ID",
 			"name": "storeId",
 			"type": "string",
 			"default": "",
@@ -726,7 +726,7 @@ export const paymentMethodsMerchantLevelDescription: INodeProperties[] = [
 						"Payment Methods Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Payment Method Settings"
+						"Post Merchants Merchant ID Payment Method Settings"
 					]
 				}
 			}
@@ -751,7 +751,7 @@ export const paymentMethodsMerchantLevelDescription: INodeProperties[] = [
 						"Payment Methods Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Payment Method Settings"
+						"Post Merchants Merchant ID Payment Method Settings"
 					]
 				}
 			}
@@ -970,7 +970,7 @@ export const paymentMethodsMerchantLevelDescription: INodeProperties[] = [
 						"Payment Methods Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Payment Method Settings"
+						"Post Merchants Merchant ID Payment Method Settings"
 					]
 				}
 			}
@@ -995,7 +995,7 @@ export const paymentMethodsMerchantLevelDescription: INodeProperties[] = [
 						"Payment Methods Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Payment Method Settings"
+						"Post Merchants Merchant ID Payment Method Settings"
 					]
 				}
 			}
@@ -1020,7 +1020,7 @@ export const paymentMethodsMerchantLevelDescription: INodeProperties[] = [
 						"Payment Methods Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Payment Method Settings"
+						"Post Merchants Merchant ID Payment Method Settings"
 					]
 				}
 			}
@@ -1045,7 +1045,7 @@ export const paymentMethodsMerchantLevelDescription: INodeProperties[] = [
 						"Payment Methods Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Payment Method Settings"
+						"Post Merchants Merchant ID Payment Method Settings"
 					]
 				}
 			}
@@ -1064,13 +1064,13 @@ export const paymentMethodsMerchantLevelDescription: INodeProperties[] = [
 						"Payment Methods Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Payment Method Settings Payment Method Id"
+						"Get Merchants Merchant ID Payment Method Settings Payment Method ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Merchant Id",
+			"displayName": "Merchant ID",
 			"name": "merchantId",
 			"required": true,
 			"description": "The unique identifier of the merchant account.",
@@ -1082,13 +1082,13 @@ export const paymentMethodsMerchantLevelDescription: INodeProperties[] = [
 						"Payment Methods Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Payment Method Settings Payment Method Id"
+						"Get Merchants Merchant ID Payment Method Settings Payment Method ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Payment Method Id",
+			"displayName": "Payment Method ID",
 			"name": "paymentMethodId",
 			"required": true,
 			"description": "The unique identifier of the payment method.",
@@ -1100,7 +1100,7 @@ export const paymentMethodsMerchantLevelDescription: INodeProperties[] = [
 						"Payment Methods Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Payment Method Settings Payment Method Id"
+						"Get Merchants Merchant ID Payment Method Settings Payment Method ID"
 					]
 				}
 			}
@@ -1125,7 +1125,7 @@ export const paymentMethodsMerchantLevelDescription: INodeProperties[] = [
 						"Payment Methods Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Payment Method Settings Payment Method Id"
+						"Get Merchants Merchant ID Payment Method Settings Payment Method ID"
 					]
 				}
 			}
@@ -1150,7 +1150,7 @@ export const paymentMethodsMerchantLevelDescription: INodeProperties[] = [
 						"Payment Methods Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Payment Method Settings Payment Method Id"
+						"Get Merchants Merchant ID Payment Method Settings Payment Method ID"
 					]
 				}
 			}
@@ -1169,13 +1169,13 @@ export const paymentMethodsMerchantLevelDescription: INodeProperties[] = [
 						"Payment Methods Merchant Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Payment Method Settings Payment Method Id"
+						"Patch Merchants Merchant ID Payment Method Settings Payment Method ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Merchant Id",
+			"displayName": "Merchant ID",
 			"name": "merchantId",
 			"required": true,
 			"description": "The unique identifier of the merchant account.",
@@ -1187,13 +1187,13 @@ export const paymentMethodsMerchantLevelDescription: INodeProperties[] = [
 						"Payment Methods Merchant Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Payment Method Settings Payment Method Id"
+						"Patch Merchants Merchant ID Payment Method Settings Payment Method ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Payment Method Id",
+			"displayName": "Payment Method ID",
 			"name": "paymentMethodId",
 			"required": true,
 			"description": "The unique identifier of the payment method.",
@@ -1205,7 +1205,7 @@ export const paymentMethodsMerchantLevelDescription: INodeProperties[] = [
 						"Payment Methods Merchant Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Payment Method Settings Payment Method Id"
+						"Patch Merchants Merchant ID Payment Method Settings Payment Method ID"
 					]
 				}
 			}
@@ -1230,7 +1230,7 @@ export const paymentMethodsMerchantLevelDescription: INodeProperties[] = [
 						"Payment Methods Merchant Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Payment Method Settings Payment Method Id"
+						"Patch Merchants Merchant ID Payment Method Settings Payment Method ID"
 					]
 				}
 			}
@@ -1255,7 +1255,7 @@ export const paymentMethodsMerchantLevelDescription: INodeProperties[] = [
 						"Payment Methods Merchant Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Payment Method Settings Payment Method Id"
+						"Patch Merchants Merchant ID Payment Method Settings Payment Method ID"
 					]
 				}
 			}
@@ -1280,7 +1280,7 @@ export const paymentMethodsMerchantLevelDescription: INodeProperties[] = [
 						"Payment Methods Merchant Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Payment Method Settings Payment Method Id"
+						"Patch Merchants Merchant ID Payment Method Settings Payment Method ID"
 					]
 				}
 			}
@@ -1305,7 +1305,7 @@ export const paymentMethodsMerchantLevelDescription: INodeProperties[] = [
 						"Payment Methods Merchant Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Payment Method Settings Payment Method Id"
+						"Patch Merchants Merchant ID Payment Method Settings Payment Method ID"
 					]
 				}
 			}
@@ -1330,7 +1330,7 @@ export const paymentMethodsMerchantLevelDescription: INodeProperties[] = [
 						"Payment Methods Merchant Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Payment Method Settings Payment Method Id"
+						"Patch Merchants Merchant ID Payment Method Settings Payment Method ID"
 					]
 				}
 			}
@@ -1355,7 +1355,7 @@ export const paymentMethodsMerchantLevelDescription: INodeProperties[] = [
 						"Payment Methods Merchant Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Payment Method Settings Payment Method Id"
+						"Patch Merchants Merchant ID Payment Method Settings Payment Method ID"
 					]
 				}
 			}
@@ -1380,7 +1380,7 @@ export const paymentMethodsMerchantLevelDescription: INodeProperties[] = [
 						"Payment Methods Merchant Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Payment Method Settings Payment Method Id"
+						"Patch Merchants Merchant ID Payment Method Settings Payment Method ID"
 					]
 				}
 			}
@@ -1405,7 +1405,7 @@ export const paymentMethodsMerchantLevelDescription: INodeProperties[] = [
 						"Payment Methods Merchant Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Payment Method Settings Payment Method Id"
+						"Patch Merchants Merchant ID Payment Method Settings Payment Method ID"
 					]
 				}
 			}
@@ -1424,13 +1424,13 @@ export const paymentMethodsMerchantLevelDescription: INodeProperties[] = [
 						"Payment Methods Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Payment Method Settings Payment Method Id Add Apple Pay Domains"
+						"Post Merchants Merchant ID Payment Method Settings Payment Method ID Add Apple Pay Domains"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Merchant Id",
+			"displayName": "Merchant ID",
 			"name": "merchantId",
 			"required": true,
 			"description": "The unique identifier of the merchant account.",
@@ -1442,13 +1442,13 @@ export const paymentMethodsMerchantLevelDescription: INodeProperties[] = [
 						"Payment Methods Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Payment Method Settings Payment Method Id Add Apple Pay Domains"
+						"Post Merchants Merchant ID Payment Method Settings Payment Method ID Add Apple Pay Domains"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Payment Method Id",
+			"displayName": "Payment Method ID",
 			"name": "paymentMethodId",
 			"required": true,
 			"description": "The unique identifier of the payment method.",
@@ -1460,7 +1460,7 @@ export const paymentMethodsMerchantLevelDescription: INodeProperties[] = [
 						"Payment Methods Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Payment Method Settings Payment Method Id Add Apple Pay Domains"
+						"Post Merchants Merchant ID Payment Method Settings Payment Method ID Add Apple Pay Domains"
 					]
 				}
 			}
@@ -1485,7 +1485,7 @@ export const paymentMethodsMerchantLevelDescription: INodeProperties[] = [
 						"Payment Methods Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Payment Method Settings Payment Method Id Add Apple Pay Domains"
+						"Post Merchants Merchant ID Payment Method Settings Payment Method ID Add Apple Pay Domains"
 					]
 				}
 			}
@@ -1510,7 +1510,7 @@ export const paymentMethodsMerchantLevelDescription: INodeProperties[] = [
 						"Payment Methods Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Payment Method Settings Payment Method Id Add Apple Pay Domains"
+						"Post Merchants Merchant ID Payment Method Settings Payment Method ID Add Apple Pay Domains"
 					]
 				}
 			}
@@ -1535,7 +1535,7 @@ export const paymentMethodsMerchantLevelDescription: INodeProperties[] = [
 						"Payment Methods Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Payment Method Settings Payment Method Id Add Apple Pay Domains"
+						"Post Merchants Merchant ID Payment Method Settings Payment Method ID Add Apple Pay Domains"
 					]
 				}
 			}
@@ -1554,13 +1554,13 @@ export const paymentMethodsMerchantLevelDescription: INodeProperties[] = [
 						"Payment Methods Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Payment Method Settings Payment Method Id Get Apple Pay Domains"
+						"Get Merchants Merchant ID Payment Method Settings Payment Method ID Get Apple Pay Domains"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Merchant Id",
+			"displayName": "Merchant ID",
 			"name": "merchantId",
 			"required": true,
 			"description": "The unique identifier of the merchant account.",
@@ -1572,13 +1572,13 @@ export const paymentMethodsMerchantLevelDescription: INodeProperties[] = [
 						"Payment Methods Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Payment Method Settings Payment Method Id Get Apple Pay Domains"
+						"Get Merchants Merchant ID Payment Method Settings Payment Method ID Get Apple Pay Domains"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Payment Method Id",
+			"displayName": "Payment Method ID",
 			"name": "paymentMethodId",
 			"required": true,
 			"description": "The unique identifier of the payment method.",
@@ -1590,7 +1590,7 @@ export const paymentMethodsMerchantLevelDescription: INodeProperties[] = [
 						"Payment Methods Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Payment Method Settings Payment Method Id Get Apple Pay Domains"
+						"Get Merchants Merchant ID Payment Method Settings Payment Method ID Get Apple Pay Domains"
 					]
 				}
 			}
@@ -1615,7 +1615,7 @@ export const paymentMethodsMerchantLevelDescription: INodeProperties[] = [
 						"Payment Methods Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Payment Method Settings Payment Method Id Get Apple Pay Domains"
+						"Get Merchants Merchant ID Payment Method Settings Payment Method ID Get Apple Pay Domains"
 					]
 				}
 			}
@@ -1640,7 +1640,7 @@ export const paymentMethodsMerchantLevelDescription: INodeProperties[] = [
 						"Payment Methods Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Payment Method Settings Payment Method Id Get Apple Pay Domains"
+						"Get Merchants Merchant ID Payment Method Settings Payment Method ID Get Apple Pay Domains"
 					]
 				}
 			}

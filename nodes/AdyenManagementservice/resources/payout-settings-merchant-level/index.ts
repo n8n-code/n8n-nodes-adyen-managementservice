@@ -15,8 +15,8 @@ export const payoutSettingsMerchantLevelDescription: INodeProperties[] = [
 			},
 			"options": [
 				{
-					"name": "Get Merchants Merchant Id Payout Settings",
-					"value": "Get Merchants Merchant Id Payout Settings",
+					"name": "Get Merchants Merchant ID Payout Settings",
+					"value": "Get Merchants Merchant ID Payout Settings",
 					"action": "Get a list of payout settings",
 					"description": "Returns the list of payout settings for the merchant account identified in the path.\n\nUse this endpoint if your integration requires it, such as Adyen for Platforms Manage. Your Adyen contact will set up your access.\n\nTo make this request, your API credential must have the following [roles](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Payout account settings read",
 					"routing": {
@@ -27,8 +27,8 @@ export const payoutSettingsMerchantLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Post Merchants Merchant Id Payout Settings",
-					"value": "Post Merchants Merchant Id Payout Settings",
+					"name": "Post Merchants Merchant ID Payout Settings",
+					"value": "Post Merchants Merchant ID Payout Settings",
 					"action": "Add a payout setting",
 					"description": "Sends a request to add a payout setting for the merchant account specified in the path. A payout setting links the merchant account to the [transfer instrument](https://docs.adyen.com/api-explorer/#/legalentity/latest/post/transferInstruments) that contains the details of the payout bank account. Adyen verifies the bank account before allowing and enabling the payout setting.\n\nIf you're accepting payments in multiple currencies, you may add multiple payout settings for the merchant account.\n\nUse this endpoint if your integration requires it, such as Adyen for Platforms Manage. Your Adyen contact will set up your access.\n\nTo make this request, your API credential must have the following [roles](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n\n* Management API—Payout account settings read and write",
 					"routing": {
@@ -39,8 +39,8 @@ export const payoutSettingsMerchantLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Delete Merchants Merchant Id Payout Settings Payout Settings Id",
-					"value": "Delete Merchants Merchant Id Payout Settings Payout Settings Id",
+					"name": "Delete Merchants Merchant ID Payout Settings Payout Settings ID",
+					"value": "Delete Merchants Merchant ID Payout Settings Payout Settings ID",
 					"action": "Delete a payout setting",
 					"description": "Deletes the payout setting identified in the path.\n\nUse this endpoint if your integration requires it, such as Adyen for Platforms Manage. Your Adyen contact will set up your access.\n\nTo make this request, your API credential must have the following [roles](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n\n* Management API—Payout account settings read and write",
 					"routing": {
@@ -51,8 +51,8 @@ export const payoutSettingsMerchantLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Merchants Merchant Id Payout Settings Payout Settings Id",
-					"value": "Get Merchants Merchant Id Payout Settings Payout Settings Id",
+					"name": "Get Merchants Merchant ID Payout Settings Payout Settings ID",
+					"value": "Get Merchants Merchant ID Payout Settings Payout Settings ID",
 					"action": "Get a payout setting",
 					"description": "Returns the payout setting identified in the path.\n\nUse this endpoint if your integration requires it, such as Adyen for Platforms Manage. Your Adyen contact will set up your access.\n\nTo make this request, your API credential must have the following [roles](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Payout account settings read",
 					"routing": {
@@ -63,8 +63,8 @@ export const payoutSettingsMerchantLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Patch Merchants Merchant Id Payout Settings Payout Settings Id",
-					"value": "Patch Merchants Merchant Id Payout Settings Payout Settings Id",
+					"name": "Patch Merchants Merchant ID Payout Settings Payout Settings ID",
+					"value": "Patch Merchants Merchant ID Payout Settings Payout Settings ID",
 					"action": "Update a payout setting",
 					"description": "Updates the payout setting identified in the path. You can enable or disable the payout setting.\n\nUse this endpoint if your integration requires it, such as Adyen for Platforms Manage. Your Adyen contact will set up your access.\n\nTo make this request, your API credential must have the following [roles](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n\n* Management API—Payout account settings read and write",
 					"routing": {
@@ -91,13 +91,13 @@ export const payoutSettingsMerchantLevelDescription: INodeProperties[] = [
 						"Payout Settings Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Payout Settings"
+						"Get Merchants Merchant ID Payout Settings"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Merchant Id",
+			"displayName": "Merchant ID",
 			"name": "merchantId",
 			"required": true,
 			"description": "The unique identifier of the merchant account.",
@@ -109,7 +109,7 @@ export const payoutSettingsMerchantLevelDescription: INodeProperties[] = [
 						"Payout Settings Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Payout Settings"
+						"Get Merchants Merchant ID Payout Settings"
 					]
 				}
 			}
@@ -134,7 +134,7 @@ export const payoutSettingsMerchantLevelDescription: INodeProperties[] = [
 						"Payout Settings Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Payout Settings"
+						"Get Merchants Merchant ID Payout Settings"
 					]
 				}
 			}
@@ -159,7 +159,7 @@ export const payoutSettingsMerchantLevelDescription: INodeProperties[] = [
 						"Payout Settings Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Payout Settings"
+						"Get Merchants Merchant ID Payout Settings"
 					]
 				}
 			}
@@ -178,13 +178,13 @@ export const payoutSettingsMerchantLevelDescription: INodeProperties[] = [
 						"Payout Settings Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Payout Settings"
+						"Post Merchants Merchant ID Payout Settings"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Merchant Id",
+			"displayName": "Merchant ID",
 			"name": "merchantId",
 			"required": true,
 			"description": "The unique identifier of the merchant account.",
@@ -196,7 +196,7 @@ export const payoutSettingsMerchantLevelDescription: INodeProperties[] = [
 						"Payout Settings Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Payout Settings"
+						"Post Merchants Merchant ID Payout Settings"
 					]
 				}
 			}
@@ -221,7 +221,7 @@ export const payoutSettingsMerchantLevelDescription: INodeProperties[] = [
 						"Payout Settings Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Payout Settings"
+						"Post Merchants Merchant ID Payout Settings"
 					]
 				}
 			}
@@ -246,14 +246,14 @@ export const payoutSettingsMerchantLevelDescription: INodeProperties[] = [
 						"Payout Settings Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Payout Settings"
+						"Post Merchants Merchant ID Payout Settings"
 					]
 				}
 			}
 		},
 		{
 			"required": true,
-			"displayName": "Transfer Instrument Id",
+			"displayName": "Transfer Instrument ID",
 			"name": "transferInstrumentId",
 			"type": "string",
 			"default": "",
@@ -272,7 +272,7 @@ export const payoutSettingsMerchantLevelDescription: INodeProperties[] = [
 						"Payout Settings Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Payout Settings"
+						"Post Merchants Merchant ID Payout Settings"
 					]
 				}
 			}
@@ -297,7 +297,7 @@ export const payoutSettingsMerchantLevelDescription: INodeProperties[] = [
 						"Payout Settings Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Payout Settings"
+						"Post Merchants Merchant ID Payout Settings"
 					]
 				}
 			}
@@ -322,7 +322,7 @@ export const payoutSettingsMerchantLevelDescription: INodeProperties[] = [
 						"Payout Settings Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Payout Settings"
+						"Post Merchants Merchant ID Payout Settings"
 					]
 				}
 			}
@@ -341,13 +341,13 @@ export const payoutSettingsMerchantLevelDescription: INodeProperties[] = [
 						"Payout Settings Merchant Level"
 					],
 					"operation": [
-						"Delete Merchants Merchant Id Payout Settings Payout Settings Id"
+						"Delete Merchants Merchant ID Payout Settings Payout Settings ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Merchant Id",
+			"displayName": "Merchant ID",
 			"name": "merchantId",
 			"required": true,
 			"description": "The unique identifier of the merchant account.",
@@ -359,13 +359,13 @@ export const payoutSettingsMerchantLevelDescription: INodeProperties[] = [
 						"Payout Settings Merchant Level"
 					],
 					"operation": [
-						"Delete Merchants Merchant Id Payout Settings Payout Settings Id"
+						"Delete Merchants Merchant ID Payout Settings Payout Settings ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Payout Settings Id",
+			"displayName": "Payout Settings ID",
 			"name": "payoutSettingsId",
 			"required": true,
 			"description": "The unique identifier of the payout setting.",
@@ -377,7 +377,7 @@ export const payoutSettingsMerchantLevelDescription: INodeProperties[] = [
 						"Payout Settings Merchant Level"
 					],
 					"operation": [
-						"Delete Merchants Merchant Id Payout Settings Payout Settings Id"
+						"Delete Merchants Merchant ID Payout Settings Payout Settings ID"
 					]
 				}
 			}
@@ -402,7 +402,7 @@ export const payoutSettingsMerchantLevelDescription: INodeProperties[] = [
 						"Payout Settings Merchant Level"
 					],
 					"operation": [
-						"Delete Merchants Merchant Id Payout Settings Payout Settings Id"
+						"Delete Merchants Merchant ID Payout Settings Payout Settings ID"
 					]
 				}
 			}
@@ -427,7 +427,7 @@ export const payoutSettingsMerchantLevelDescription: INodeProperties[] = [
 						"Payout Settings Merchant Level"
 					],
 					"operation": [
-						"Delete Merchants Merchant Id Payout Settings Payout Settings Id"
+						"Delete Merchants Merchant ID Payout Settings Payout Settings ID"
 					]
 				}
 			}
@@ -446,13 +446,13 @@ export const payoutSettingsMerchantLevelDescription: INodeProperties[] = [
 						"Payout Settings Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Payout Settings Payout Settings Id"
+						"Get Merchants Merchant ID Payout Settings Payout Settings ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Merchant Id",
+			"displayName": "Merchant ID",
 			"name": "merchantId",
 			"required": true,
 			"description": "The unique identifier of the merchant account.",
@@ -464,13 +464,13 @@ export const payoutSettingsMerchantLevelDescription: INodeProperties[] = [
 						"Payout Settings Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Payout Settings Payout Settings Id"
+						"Get Merchants Merchant ID Payout Settings Payout Settings ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Payout Settings Id",
+			"displayName": "Payout Settings ID",
 			"name": "payoutSettingsId",
 			"required": true,
 			"description": "The unique identifier of the payout setting.",
@@ -482,7 +482,7 @@ export const payoutSettingsMerchantLevelDescription: INodeProperties[] = [
 						"Payout Settings Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Payout Settings Payout Settings Id"
+						"Get Merchants Merchant ID Payout Settings Payout Settings ID"
 					]
 				}
 			}
@@ -507,7 +507,7 @@ export const payoutSettingsMerchantLevelDescription: INodeProperties[] = [
 						"Payout Settings Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Payout Settings Payout Settings Id"
+						"Get Merchants Merchant ID Payout Settings Payout Settings ID"
 					]
 				}
 			}
@@ -532,7 +532,7 @@ export const payoutSettingsMerchantLevelDescription: INodeProperties[] = [
 						"Payout Settings Merchant Level"
 					],
 					"operation": [
-						"Get Merchants Merchant Id Payout Settings Payout Settings Id"
+						"Get Merchants Merchant ID Payout Settings Payout Settings ID"
 					]
 				}
 			}
@@ -551,13 +551,13 @@ export const payoutSettingsMerchantLevelDescription: INodeProperties[] = [
 						"Payout Settings Merchant Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Payout Settings Payout Settings Id"
+						"Patch Merchants Merchant ID Payout Settings Payout Settings ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Merchant Id",
+			"displayName": "Merchant ID",
 			"name": "merchantId",
 			"required": true,
 			"description": "The unique identifier of the merchant account.",
@@ -569,13 +569,13 @@ export const payoutSettingsMerchantLevelDescription: INodeProperties[] = [
 						"Payout Settings Merchant Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Payout Settings Payout Settings Id"
+						"Patch Merchants Merchant ID Payout Settings Payout Settings ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Payout Settings Id",
+			"displayName": "Payout Settings ID",
 			"name": "payoutSettingsId",
 			"required": true,
 			"description": "The unique identifier of the payout setting.",
@@ -587,7 +587,7 @@ export const payoutSettingsMerchantLevelDescription: INodeProperties[] = [
 						"Payout Settings Merchant Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Payout Settings Payout Settings Id"
+						"Patch Merchants Merchant ID Payout Settings Payout Settings ID"
 					]
 				}
 			}
@@ -612,7 +612,7 @@ export const payoutSettingsMerchantLevelDescription: INodeProperties[] = [
 						"Payout Settings Merchant Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Payout Settings Payout Settings Id"
+						"Patch Merchants Merchant ID Payout Settings Payout Settings ID"
 					]
 				}
 			}
@@ -637,7 +637,7 @@ export const payoutSettingsMerchantLevelDescription: INodeProperties[] = [
 						"Payout Settings Merchant Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Payout Settings Payout Settings Id"
+						"Patch Merchants Merchant ID Payout Settings Payout Settings ID"
 					]
 				}
 			}
@@ -662,7 +662,7 @@ export const payoutSettingsMerchantLevelDescription: INodeProperties[] = [
 						"Payout Settings Merchant Level"
 					],
 					"operation": [
-						"Patch Merchants Merchant Id Payout Settings Payout Settings Id"
+						"Patch Merchants Merchant ID Payout Settings Payout Settings ID"
 					]
 				}
 			}

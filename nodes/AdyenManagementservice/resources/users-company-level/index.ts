@@ -15,8 +15,8 @@ export const usersCompanyLevelDescription: INodeProperties[] = [
 			},
 			"options": [
 				{
-					"name": "Get Companies Company Id Users",
-					"value": "Get Companies Company Id Users",
+					"name": "Get Companies Company ID Users",
+					"value": "Get Companies Company ID Users",
 					"action": "Get a list of users",
 					"description": "Returns the list of users for the `companyId` identified in the path.\n\nTo make this request, your API credential must have the following [role](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Users read and write\n",
 					"routing": {
@@ -27,8 +27,8 @@ export const usersCompanyLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Post Companies Company Id Users",
-					"value": "Post Companies Company Id Users",
+					"name": "Post Companies Company ID Users",
+					"value": "Post Companies Company ID Users",
 					"action": "Create a new user",
 					"description": "Creates the user for the `companyId` identified in the path.\n\nTo make this request, your API credential must have the following [role](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Users read and write\n",
 					"routing": {
@@ -39,8 +39,8 @@ export const usersCompanyLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Companies Company Id Users User Id",
-					"value": "Get Companies Company Id Users User Id",
+					"name": "Get Companies Company ID Users User ID",
+					"value": "Get Companies Company ID Users User ID",
 					"action": "Get user details",
 					"description": "Returns user details for the `userId` and the `companyId` identified in the path.\n\nTo make this request, your API credential must have the following [role](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Users read and write\n",
 					"routing": {
@@ -51,8 +51,8 @@ export const usersCompanyLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Patch Companies Company Id Users User Id",
-					"value": "Patch Companies Company Id Users User Id",
+					"name": "Patch Companies Company ID Users User ID",
+					"value": "Patch Companies Company ID Users User ID",
 					"action": "Update user details",
 					"description": "Updates user details for the `userId` and the `companyId` identified in the path.\n\nTo make this request, your API credential must have the following [role](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Users read and write\n",
 					"routing": {
@@ -79,13 +79,13 @@ export const usersCompanyLevelDescription: INodeProperties[] = [
 						"Users Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Users"
+						"Get Companies Company ID Users"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Company Id",
+			"displayName": "Company ID",
 			"name": "companyId",
 			"required": true,
 			"description": "The unique identifier of the company account.",
@@ -97,7 +97,7 @@ export const usersCompanyLevelDescription: INodeProperties[] = [
 						"Users Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Users"
+						"Get Companies Company ID Users"
 					]
 				}
 			}
@@ -122,7 +122,7 @@ export const usersCompanyLevelDescription: INodeProperties[] = [
 						"Users Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Users"
+						"Get Companies Company ID Users"
 					]
 				}
 			}
@@ -147,7 +147,7 @@ export const usersCompanyLevelDescription: INodeProperties[] = [
 						"Users Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Users"
+						"Get Companies Company ID Users"
 					]
 				}
 			}
@@ -172,7 +172,7 @@ export const usersCompanyLevelDescription: INodeProperties[] = [
 						"Users Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Users"
+						"Get Companies Company ID Users"
 					]
 				}
 			}
@@ -197,7 +197,7 @@ export const usersCompanyLevelDescription: INodeProperties[] = [
 						"Users Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Users"
+						"Get Companies Company ID Users"
 					]
 				}
 			}
@@ -222,7 +222,7 @@ export const usersCompanyLevelDescription: INodeProperties[] = [
 						"Users Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Users"
+						"Get Companies Company ID Users"
 					]
 				}
 			}
@@ -241,13 +241,13 @@ export const usersCompanyLevelDescription: INodeProperties[] = [
 						"Users Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Users"
+						"Post Companies Company ID Users"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Company Id",
+			"displayName": "Company ID",
 			"name": "companyId",
 			"required": true,
 			"description": "The unique identifier of the company account.",
@@ -259,7 +259,7 @@ export const usersCompanyLevelDescription: INodeProperties[] = [
 						"Users Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Users"
+						"Post Companies Company ID Users"
 					]
 				}
 			}
@@ -284,7 +284,7 @@ export const usersCompanyLevelDescription: INodeProperties[] = [
 						"Users Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Users"
+						"Post Companies Company ID Users"
 					]
 				}
 			}
@@ -309,7 +309,7 @@ export const usersCompanyLevelDescription: INodeProperties[] = [
 						"Users Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Users"
+						"Post Companies Company ID Users"
 					]
 				}
 			}
@@ -334,7 +334,7 @@ export const usersCompanyLevelDescription: INodeProperties[] = [
 						"Users Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Users"
+						"Post Companies Company ID Users"
 					]
 				}
 			}
@@ -360,7 +360,7 @@ export const usersCompanyLevelDescription: INodeProperties[] = [
 						"Users Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Users"
+						"Post Companies Company ID Users"
 					]
 				}
 			}
@@ -386,7 +386,7 @@ export const usersCompanyLevelDescription: INodeProperties[] = [
 						"Users Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Users"
+						"Post Companies Company ID Users"
 					]
 				}
 			}
@@ -411,7 +411,7 @@ export const usersCompanyLevelDescription: INodeProperties[] = [
 						"Users Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Users"
+						"Post Companies Company ID Users"
 					]
 				}
 			}
@@ -436,7 +436,7 @@ export const usersCompanyLevelDescription: INodeProperties[] = [
 						"Users Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Users"
+						"Post Companies Company ID Users"
 					]
 				}
 			}
@@ -462,7 +462,7 @@ export const usersCompanyLevelDescription: INodeProperties[] = [
 						"Users Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Users"
+						"Post Companies Company ID Users"
 					]
 				}
 			}
@@ -487,7 +487,7 @@ export const usersCompanyLevelDescription: INodeProperties[] = [
 						"Users Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Users"
+						"Post Companies Company ID Users"
 					]
 				}
 			}
@@ -512,7 +512,7 @@ export const usersCompanyLevelDescription: INodeProperties[] = [
 						"Users Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Users"
+						"Post Companies Company ID Users"
 					]
 				}
 			}
@@ -531,13 +531,13 @@ export const usersCompanyLevelDescription: INodeProperties[] = [
 						"Users Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Users User Id"
+						"Get Companies Company ID Users User ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Company Id",
+			"displayName": "Company ID",
 			"name": "companyId",
 			"required": true,
 			"description": "The unique identifier of the company account.",
@@ -549,13 +549,13 @@ export const usersCompanyLevelDescription: INodeProperties[] = [
 						"Users Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Users User Id"
+						"Get Companies Company ID Users User ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "User Id",
+			"displayName": "User ID",
 			"name": "userId",
 			"required": true,
 			"description": "The unique identifier of the user.",
@@ -567,7 +567,7 @@ export const usersCompanyLevelDescription: INodeProperties[] = [
 						"Users Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Users User Id"
+						"Get Companies Company ID Users User ID"
 					]
 				}
 			}
@@ -592,7 +592,7 @@ export const usersCompanyLevelDescription: INodeProperties[] = [
 						"Users Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Users User Id"
+						"Get Companies Company ID Users User ID"
 					]
 				}
 			}
@@ -617,7 +617,7 @@ export const usersCompanyLevelDescription: INodeProperties[] = [
 						"Users Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Users User Id"
+						"Get Companies Company ID Users User ID"
 					]
 				}
 			}
@@ -636,13 +636,13 @@ export const usersCompanyLevelDescription: INodeProperties[] = [
 						"Users Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Users User Id"
+						"Patch Companies Company ID Users User ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Company Id",
+			"displayName": "Company ID",
 			"name": "companyId",
 			"required": true,
 			"description": "The unique identifier of the company account.",
@@ -654,13 +654,13 @@ export const usersCompanyLevelDescription: INodeProperties[] = [
 						"Users Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Users User Id"
+						"Patch Companies Company ID Users User ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "User Id",
+			"displayName": "User ID",
 			"name": "userId",
 			"required": true,
 			"description": "The unique identifier of the user.",
@@ -672,7 +672,7 @@ export const usersCompanyLevelDescription: INodeProperties[] = [
 						"Users Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Users User Id"
+						"Patch Companies Company ID Users User ID"
 					]
 				}
 			}
@@ -697,7 +697,7 @@ export const usersCompanyLevelDescription: INodeProperties[] = [
 						"Users Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Users User Id"
+						"Patch Companies Company ID Users User ID"
 					]
 				}
 			}
@@ -722,7 +722,7 @@ export const usersCompanyLevelDescription: INodeProperties[] = [
 						"Users Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Users User Id"
+						"Patch Companies Company ID Users User ID"
 					]
 				}
 			}
@@ -747,7 +747,7 @@ export const usersCompanyLevelDescription: INodeProperties[] = [
 						"Users Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Users User Id"
+						"Patch Companies Company ID Users User ID"
 					]
 				}
 			}
@@ -772,7 +772,7 @@ export const usersCompanyLevelDescription: INodeProperties[] = [
 						"Users Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Users User Id"
+						"Patch Companies Company ID Users User ID"
 					]
 				}
 			}
@@ -797,7 +797,7 @@ export const usersCompanyLevelDescription: INodeProperties[] = [
 						"Users Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Users User Id"
+						"Patch Companies Company ID Users User ID"
 					]
 				}
 			}
@@ -822,7 +822,7 @@ export const usersCompanyLevelDescription: INodeProperties[] = [
 						"Users Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Users User Id"
+						"Patch Companies Company ID Users User ID"
 					]
 				}
 			}
@@ -847,7 +847,7 @@ export const usersCompanyLevelDescription: INodeProperties[] = [
 						"Users Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Users User Id"
+						"Patch Companies Company ID Users User ID"
 					]
 				}
 			}
@@ -872,7 +872,7 @@ export const usersCompanyLevelDescription: INodeProperties[] = [
 						"Users Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Users User Id"
+						"Patch Companies Company ID Users User ID"
 					]
 				}
 			}
@@ -897,7 +897,7 @@ export const usersCompanyLevelDescription: INodeProperties[] = [
 						"Users Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Users User Id"
+						"Patch Companies Company ID Users User ID"
 					]
 				}
 			}
@@ -922,7 +922,7 @@ export const usersCompanyLevelDescription: INodeProperties[] = [
 						"Users Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Users User Id"
+						"Patch Companies Company ID Users User ID"
 					]
 				}
 			}
@@ -947,7 +947,7 @@ export const usersCompanyLevelDescription: INodeProperties[] = [
 						"Users Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Users User Id"
+						"Patch Companies Company ID Users User ID"
 					]
 				}
 			}

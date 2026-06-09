@@ -15,8 +15,8 @@ export const clientKeyMerchantLevelDescription: INodeProperties[] = [
 			},
 			"options": [
 				{
-					"name": "Post Merchants Merchant Id Api Credentials Api Credential Id Generate Client Key",
-					"value": "Post Merchants Merchant Id Api Credentials Api Credential Id Generate Client Key",
+					"name": "Post Merchants Merchant ID API Credentials API Credential ID Generate Client Key",
+					"value": "Post Merchants Merchant ID API Credentials API Credential ID Generate Client Key",
 					"action": "Generate new client key",
 					"description": "Returns a new [client key](https://docs.adyen.com/development-resources/client-side-authentication#how-it-works) for the API credential identified in the path. You can use the new client key a few minutes after generating it. The old client key stops working 24 hours after generating a new one.\n\nTo make this request, your API credential must have the following [roles](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—API credentials read and write",
 					"routing": {
@@ -43,13 +43,13 @@ export const clientKeyMerchantLevelDescription: INodeProperties[] = [
 						"Client Key Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Api Credentials Api Credential Id Generate Client Key"
+						"Post Merchants Merchant ID API Credentials API Credential ID Generate Client Key"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Merchant Id",
+			"displayName": "Merchant ID",
 			"name": "merchantId",
 			"required": true,
 			"description": "The unique identifier of the merchant account.",
@@ -61,13 +61,13 @@ export const clientKeyMerchantLevelDescription: INodeProperties[] = [
 						"Client Key Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Api Credentials Api Credential Id Generate Client Key"
+						"Post Merchants Merchant ID API Credentials API Credential ID Generate Client Key"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Api Credential Id",
+			"displayName": "API Credential ID",
 			"name": "apiCredentialId",
 			"required": true,
 			"description": "Unique identifier of the API credential.",
@@ -79,7 +79,7 @@ export const clientKeyMerchantLevelDescription: INodeProperties[] = [
 						"Client Key Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Api Credentials Api Credential Id Generate Client Key"
+						"Post Merchants Merchant ID API Credentials API Credential ID Generate Client Key"
 					]
 				}
 			}
@@ -104,7 +104,7 @@ export const clientKeyMerchantLevelDescription: INodeProperties[] = [
 						"Client Key Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Api Credentials Api Credential Id Generate Client Key"
+						"Post Merchants Merchant ID API Credentials API Credential ID Generate Client Key"
 					]
 				}
 			}
@@ -129,7 +129,7 @@ export const clientKeyMerchantLevelDescription: INodeProperties[] = [
 						"Client Key Merchant Level"
 					],
 					"operation": [
-						"Post Merchants Merchant Id Api Credentials Api Credential Id Generate Client Key"
+						"Post Merchants Merchant ID API Credentials API Credential ID Generate Client Key"
 					]
 				}
 			}

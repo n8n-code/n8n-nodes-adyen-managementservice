@@ -15,8 +15,8 @@ export const allowedOriginsCompanyLevelDescription: INodeProperties[] = [
 			},
 			"options": [
 				{
-					"name": "Get Companies Company Id Api Credentials Api Credential Id Allowed Origins",
-					"value": "Get Companies Company Id Api Credentials Api Credential Id Allowed Origins",
+					"name": "Get Companies Company ID API Credentials API Credential ID Allowed Origins",
+					"value": "Get Companies Company ID API Credentials API Credential ID Allowed Origins",
 					"action": "Get a list of allowed origins",
 					"description": "Returns the list of [allowed origins](https://docs.adyen.com/development-resources/client-side-authentication#allowed-origins) for the API credential identified in the path.\n\nTo make this request, your API credential must have the following [roles](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—API credentials read and write",
 					"routing": {
@@ -27,8 +27,8 @@ export const allowedOriginsCompanyLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Post Companies Company Id Api Credentials Api Credential Id Allowed Origins",
-					"value": "Post Companies Company Id Api Credentials Api Credential Id Allowed Origins",
+					"name": "Post Companies Company ID API Credentials API Credential ID Allowed Origins",
+					"value": "Post Companies Company ID API Credentials API Credential ID Allowed Origins",
 					"action": "Create an allowed origin",
 					"description": "Adds a new [allowed origin](https://docs.adyen.com/development-resources/client-side-authentication#allowed-origins) to the API credential's list of allowed origins.\n\nTo make this request, your API credential must have the following [roles](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—API credentials read and write",
 					"routing": {
@@ -39,8 +39,8 @@ export const allowedOriginsCompanyLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Delete Companies Company Id Api Credentials Api Credential Id Allowed Origins Origin Id",
-					"value": "Delete Companies Company Id Api Credentials Api Credential Id Allowed Origins Origin Id",
+					"name": "Delete Companies Company ID API Credentials API Credential ID Allowed Origins Origin ID",
+					"value": "Delete Companies Company ID API Credentials API Credential ID Allowed Origins Origin ID",
 					"action": "Delete an allowed origin",
 					"description": "Removes the [allowed origin](https://docs.adyen.com/development-resources/client-side-authentication#allowed-origins) identified in the path. As soon as an allowed origin is removed, we no longer accept client-side requests from that domain.\n\nTo make this request, your API credential must have the following [roles](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—API credentials read and write",
 					"routing": {
@@ -51,8 +51,8 @@ export const allowedOriginsCompanyLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Companies Company Id Api Credentials Api Credential Id Allowed Origins Origin Id",
-					"value": "Get Companies Company Id Api Credentials Api Credential Id Allowed Origins Origin Id",
+					"name": "Get Companies Company ID API Credentials API Credential ID Allowed Origins Origin ID",
+					"value": "Get Companies Company ID API Credentials API Credential ID Allowed Origins Origin ID",
 					"action": "Get an allowed origin",
 					"description": "Returns the [allowed origin](https://docs.adyen.com/development-resources/client-side-authentication#allowed-origins) identified in the path.\n\nTo make this request, your API credential must have the following [roles](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—API credentials read and write",
 					"routing": {
@@ -79,13 +79,13 @@ export const allowedOriginsCompanyLevelDescription: INodeProperties[] = [
 						"Allowed Origins Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Api Credentials Api Credential Id Allowed Origins"
+						"Get Companies Company ID API Credentials API Credential ID Allowed Origins"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Company Id",
+			"displayName": "Company ID",
 			"name": "companyId",
 			"required": true,
 			"description": "The unique identifier of the company account.",
@@ -97,13 +97,13 @@ export const allowedOriginsCompanyLevelDescription: INodeProperties[] = [
 						"Allowed Origins Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Api Credentials Api Credential Id Allowed Origins"
+						"Get Companies Company ID API Credentials API Credential ID Allowed Origins"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Api Credential Id",
+			"displayName": "API Credential ID",
 			"name": "apiCredentialId",
 			"required": true,
 			"description": "Unique identifier of the API credential.",
@@ -115,7 +115,7 @@ export const allowedOriginsCompanyLevelDescription: INodeProperties[] = [
 						"Allowed Origins Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Api Credentials Api Credential Id Allowed Origins"
+						"Get Companies Company ID API Credentials API Credential ID Allowed Origins"
 					]
 				}
 			}
@@ -140,7 +140,7 @@ export const allowedOriginsCompanyLevelDescription: INodeProperties[] = [
 						"Allowed Origins Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Api Credentials Api Credential Id Allowed Origins"
+						"Get Companies Company ID API Credentials API Credential ID Allowed Origins"
 					]
 				}
 			}
@@ -165,7 +165,7 @@ export const allowedOriginsCompanyLevelDescription: INodeProperties[] = [
 						"Allowed Origins Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Api Credentials Api Credential Id Allowed Origins"
+						"Get Companies Company ID API Credentials API Credential ID Allowed Origins"
 					]
 				}
 			}
@@ -184,13 +184,13 @@ export const allowedOriginsCompanyLevelDescription: INodeProperties[] = [
 						"Allowed Origins Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Api Credentials Api Credential Id Allowed Origins"
+						"Post Companies Company ID API Credentials API Credential ID Allowed Origins"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Company Id",
+			"displayName": "Company ID",
 			"name": "companyId",
 			"required": true,
 			"description": "The unique identifier of the company account.",
@@ -202,13 +202,13 @@ export const allowedOriginsCompanyLevelDescription: INodeProperties[] = [
 						"Allowed Origins Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Api Credentials Api Credential Id Allowed Origins"
+						"Post Companies Company ID API Credentials API Credential ID Allowed Origins"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Api Credential Id",
+			"displayName": "API Credential ID",
 			"name": "apiCredentialId",
 			"required": true,
 			"description": "Unique identifier of the API credential.",
@@ -220,7 +220,7 @@ export const allowedOriginsCompanyLevelDescription: INodeProperties[] = [
 						"Allowed Origins Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Api Credentials Api Credential Id Allowed Origins"
+						"Post Companies Company ID API Credentials API Credential ID Allowed Origins"
 					]
 				}
 			}
@@ -245,7 +245,7 @@ export const allowedOriginsCompanyLevelDescription: INodeProperties[] = [
 						"Allowed Origins Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Api Credentials Api Credential Id Allowed Origins"
+						"Post Companies Company ID API Credentials API Credential ID Allowed Origins"
 					]
 				}
 			}
@@ -271,13 +271,13 @@ export const allowedOriginsCompanyLevelDescription: INodeProperties[] = [
 						"Allowed Origins Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Api Credentials Api Credential Id Allowed Origins"
+						"Post Companies Company ID API Credentials API Credential ID Allowed Origins"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "string",
 			"default": "",
@@ -296,7 +296,7 @@ export const allowedOriginsCompanyLevelDescription: INodeProperties[] = [
 						"Allowed Origins Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Api Credentials Api Credential Id Allowed Origins"
+						"Post Companies Company ID API Credentials API Credential ID Allowed Origins"
 					]
 				}
 			}
@@ -321,7 +321,7 @@ export const allowedOriginsCompanyLevelDescription: INodeProperties[] = [
 						"Allowed Origins Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Api Credentials Api Credential Id Allowed Origins"
+						"Post Companies Company ID API Credentials API Credential ID Allowed Origins"
 					]
 				}
 			}
@@ -346,7 +346,7 @@ export const allowedOriginsCompanyLevelDescription: INodeProperties[] = [
 						"Allowed Origins Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Api Credentials Api Credential Id Allowed Origins"
+						"Post Companies Company ID API Credentials API Credential ID Allowed Origins"
 					]
 				}
 			}
@@ -365,13 +365,13 @@ export const allowedOriginsCompanyLevelDescription: INodeProperties[] = [
 						"Allowed Origins Company Level"
 					],
 					"operation": [
-						"Delete Companies Company Id Api Credentials Api Credential Id Allowed Origins Origin Id"
+						"Delete Companies Company ID API Credentials API Credential ID Allowed Origins Origin ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Company Id",
+			"displayName": "Company ID",
 			"name": "companyId",
 			"required": true,
 			"description": "The unique identifier of the company account.",
@@ -383,13 +383,13 @@ export const allowedOriginsCompanyLevelDescription: INodeProperties[] = [
 						"Allowed Origins Company Level"
 					],
 					"operation": [
-						"Delete Companies Company Id Api Credentials Api Credential Id Allowed Origins Origin Id"
+						"Delete Companies Company ID API Credentials API Credential ID Allowed Origins Origin ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Api Credential Id",
+			"displayName": "API Credential ID",
 			"name": "apiCredentialId",
 			"required": true,
 			"description": "Unique identifier of the API credential.",
@@ -401,13 +401,13 @@ export const allowedOriginsCompanyLevelDescription: INodeProperties[] = [
 						"Allowed Origins Company Level"
 					],
 					"operation": [
-						"Delete Companies Company Id Api Credentials Api Credential Id Allowed Origins Origin Id"
+						"Delete Companies Company ID API Credentials API Credential ID Allowed Origins Origin ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Origin Id",
+			"displayName": "Origin ID",
 			"name": "originId",
 			"required": true,
 			"description": "Unique identifier of the allowed origin.",
@@ -419,7 +419,7 @@ export const allowedOriginsCompanyLevelDescription: INodeProperties[] = [
 						"Allowed Origins Company Level"
 					],
 					"operation": [
-						"Delete Companies Company Id Api Credentials Api Credential Id Allowed Origins Origin Id"
+						"Delete Companies Company ID API Credentials API Credential ID Allowed Origins Origin ID"
 					]
 				}
 			}
@@ -444,7 +444,7 @@ export const allowedOriginsCompanyLevelDescription: INodeProperties[] = [
 						"Allowed Origins Company Level"
 					],
 					"operation": [
-						"Delete Companies Company Id Api Credentials Api Credential Id Allowed Origins Origin Id"
+						"Delete Companies Company ID API Credentials API Credential ID Allowed Origins Origin ID"
 					]
 				}
 			}
@@ -469,7 +469,7 @@ export const allowedOriginsCompanyLevelDescription: INodeProperties[] = [
 						"Allowed Origins Company Level"
 					],
 					"operation": [
-						"Delete Companies Company Id Api Credentials Api Credential Id Allowed Origins Origin Id"
+						"Delete Companies Company ID API Credentials API Credential ID Allowed Origins Origin ID"
 					]
 				}
 			}
@@ -488,13 +488,13 @@ export const allowedOriginsCompanyLevelDescription: INodeProperties[] = [
 						"Allowed Origins Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Api Credentials Api Credential Id Allowed Origins Origin Id"
+						"Get Companies Company ID API Credentials API Credential ID Allowed Origins Origin ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Company Id",
+			"displayName": "Company ID",
 			"name": "companyId",
 			"required": true,
 			"description": "The unique identifier of the company account.",
@@ -506,13 +506,13 @@ export const allowedOriginsCompanyLevelDescription: INodeProperties[] = [
 						"Allowed Origins Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Api Credentials Api Credential Id Allowed Origins Origin Id"
+						"Get Companies Company ID API Credentials API Credential ID Allowed Origins Origin ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Api Credential Id",
+			"displayName": "API Credential ID",
 			"name": "apiCredentialId",
 			"required": true,
 			"description": "Unique identifier of the API credential.",
@@ -524,13 +524,13 @@ export const allowedOriginsCompanyLevelDescription: INodeProperties[] = [
 						"Allowed Origins Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Api Credentials Api Credential Id Allowed Origins Origin Id"
+						"Get Companies Company ID API Credentials API Credential ID Allowed Origins Origin ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Origin Id",
+			"displayName": "Origin ID",
 			"name": "originId",
 			"required": true,
 			"description": "Unique identifier of the allowed origin.",
@@ -542,7 +542,7 @@ export const allowedOriginsCompanyLevelDescription: INodeProperties[] = [
 						"Allowed Origins Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Api Credentials Api Credential Id Allowed Origins Origin Id"
+						"Get Companies Company ID API Credentials API Credential ID Allowed Origins Origin ID"
 					]
 				}
 			}
@@ -567,7 +567,7 @@ export const allowedOriginsCompanyLevelDescription: INodeProperties[] = [
 						"Allowed Origins Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Api Credentials Api Credential Id Allowed Origins Origin Id"
+						"Get Companies Company ID API Credentials API Credential ID Allowed Origins Origin ID"
 					]
 				}
 			}
@@ -592,7 +592,7 @@ export const allowedOriginsCompanyLevelDescription: INodeProperties[] = [
 						"Allowed Origins Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Api Credentials Api Credential Id Allowed Origins Origin Id"
+						"Get Companies Company ID API Credentials API Credential ID Allowed Origins Origin ID"
 					]
 				}
 			}

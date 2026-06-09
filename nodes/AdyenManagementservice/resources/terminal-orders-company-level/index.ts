@@ -15,8 +15,8 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 			},
 			"options": [
 				{
-					"name": "Get Companies Company Id Billing Entities",
-					"value": "Get Companies Company Id Billing Entities",
+					"name": "Get Companies Company ID Billing Entities",
+					"value": "Get Companies Company ID Billing Entities",
 					"action": "Get a list of billing entities",
 					"description": "Returns the billing entities of the company identified in the path and all merchant accounts belonging to the company.\nA billing entity is a legal entity where we charge orders to. An order for terminal products must contain the ID of a billing entity.\n\nTo make this request, your API credential must have one of the following [roles](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Terminal ordering read\n* Management API—Terminal ordering read and write",
 					"routing": {
@@ -27,8 +27,8 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Companies Company Id Shipping Locations",
-					"value": "Get Companies Company Id Shipping Locations",
+					"name": "Get Companies Company ID Shipping Locations",
+					"value": "Get Companies Company ID Shipping Locations",
 					"action": "Get a list of shipping locations",
 					"description": "Returns the shipping locations for the company identified in the path and all merchant accounts belonging to the company.\nA shipping location includes the address where orders can be delivered, and an ID which you need to specify when ordering terminal products.\n\nTo make this request, your API credential must have one of the following [roles](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Terminal ordering read\n* Management API—Terminal ordering read and write",
 					"routing": {
@@ -39,8 +39,8 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Post Companies Company Id Shipping Locations",
-					"value": "Post Companies Company Id Shipping Locations",
+					"name": "Post Companies Company ID Shipping Locations",
+					"value": "Post Companies Company ID Shipping Locations",
 					"action": "Create a shipping location",
 					"description": "Creates a shipping location for the company identified in the path. A shipping location defines an address where orders can be delivered.\n\nTo make this request, your API credential must have the following [role](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Terminal ordering read and write",
 					"routing": {
@@ -51,8 +51,8 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Companies Company Id Terminal Models",
-					"value": "Get Companies Company Id Terminal Models",
+					"name": "Get Companies Company ID Terminal Models",
+					"value": "Get Companies Company ID Terminal Models",
 					"action": "Get a list of terminal models",
 					"description": "Returns a list of payment terminal models that the company identified in the path has access to.\nThe response includes the terminal model ID, which can be used as a query parameter when getting a list of terminals or a list of products for ordering.\n\nTo make this request, your API credential must have one of the following [roles](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Terminal ordering read\n* Management API—Terminal ordering read and write",
 					"routing": {
@@ -63,8 +63,8 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Companies Company Id Terminal Orders",
-					"value": "Get Companies Company Id Terminal Orders",
+					"name": "Get Companies Company ID Terminal Orders",
+					"value": "Get Companies Company ID Terminal Orders",
 					"action": "Get a list of orders",
 					"description": "Returns a lists of terminal products orders for the company identified in the path.\nTo filter the list, use one or more of the query parameters.\n\nTo make this request, your API credential must have one of the following [roles](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Terminal ordering read\n* Management API—Terminal ordering read and write",
 					"routing": {
@@ -75,8 +75,8 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Post Companies Company Id Terminal Orders",
-					"value": "Post Companies Company Id Terminal Orders",
+					"name": "Post Companies Company ID Terminal Orders",
+					"value": "Post Companies Company ID Terminal Orders",
 					"action": "Create an order",
 					"description": "Creates an order for payment terminal products for the company identified in the path.\n\nTo make this request, your API credential must have the following [role](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Terminal ordering read and write",
 					"routing": {
@@ -87,8 +87,8 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Companies Company Id Terminal Orders Order Id",
-					"value": "Get Companies Company Id Terminal Orders Order Id",
+					"name": "Get Companies Company ID Terminal Orders Order ID",
+					"value": "Get Companies Company ID Terminal Orders Order ID",
 					"action": "Get an order",
 					"description": "Returns the details of the terminal products order identified in the path.\n\nTo make this request, your API credential must have one of the following [roles](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Terminal ordering read\n* Management API—Terminal ordering read and write",
 					"routing": {
@@ -99,8 +99,8 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Patch Companies Company Id Terminal Orders Order Id",
-					"value": "Patch Companies Company Id Terminal Orders Order Id",
+					"name": "Patch Companies Company ID Terminal Orders Order ID",
+					"value": "Patch Companies Company ID Terminal Orders Order ID",
 					"action": "Update an order",
 					"description": "Updates the terminal products order identified in the path.\nUpdating is only possible while the order has the status **Placed**.\n\nThe request body only needs to contain what you want to change. \nHowever, to update the products in the `items` array, you must provide the entire array. For example, if the array has three items:\n To remove one item, the array must include the remaining two items. Or to add one item, the array must include all four items.\n\nTo make this request, your API credential must have the following [role](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Terminal ordering read and write",
 					"routing": {
@@ -111,8 +111,8 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Post Companies Company Id Terminal Orders Order Id Cancel",
-					"value": "Post Companies Company Id Terminal Orders Order Id Cancel",
+					"name": "Post Companies Company ID Terminal Orders Order ID Cancel",
+					"value": "Post Companies Company ID Terminal Orders Order ID Cancel",
 					"action": "Cancel an order",
 					"description": "Cancels the terminal products order identified in the path.\nCancelling is only possible while the order has the status **Placed**.\nTo cancel an order, make a POST call without a request body. The response returns the full order details, but with the status changed to **Cancelled**.\n\nTo make this request, your API credential must have the following [role](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Terminal ordering read and write",
 					"routing": {
@@ -123,8 +123,8 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Companies Company Id Terminal Products",
-					"value": "Get Companies Company Id Terminal Products",
+					"name": "Get Companies Company ID Terminal Products",
+					"value": "Get Companies Company ID Terminal Products",
 					"action": "Get a list of terminal products",
 					"description": "Returns a country-specific list of payment terminal packages and parts that the company identified in the path has access to.\n \nTo make this request, your API credential must have one of the following [roles](https://docs.adyen.com/development-resources/api-credentials#api-permissions):\n* Management API—Terminal ordering read\n* Management API—Terminal ordering read and write",
 					"routing": {
@@ -151,13 +151,13 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Billing Entities"
+						"Get Companies Company ID Billing Entities"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Company Id",
+			"displayName": "Company ID",
 			"name": "companyId",
 			"required": true,
 			"description": "The unique identifier of the company account.",
@@ -169,7 +169,7 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Billing Entities"
+						"Get Companies Company ID Billing Entities"
 					]
 				}
 			}
@@ -194,7 +194,7 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Billing Entities"
+						"Get Companies Company ID Billing Entities"
 					]
 				}
 			}
@@ -219,7 +219,7 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Billing Entities"
+						"Get Companies Company ID Billing Entities"
 					]
 				}
 			}
@@ -244,7 +244,7 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Billing Entities"
+						"Get Companies Company ID Billing Entities"
 					]
 				}
 			}
@@ -263,13 +263,13 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Shipping Locations"
+						"Get Companies Company ID Shipping Locations"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Company Id",
+			"displayName": "Company ID",
 			"name": "companyId",
 			"required": true,
 			"description": "The unique identifier of the company account.",
@@ -281,7 +281,7 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Shipping Locations"
+						"Get Companies Company ID Shipping Locations"
 					]
 				}
 			}
@@ -306,7 +306,7 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Shipping Locations"
+						"Get Companies Company ID Shipping Locations"
 					]
 				}
 			}
@@ -331,7 +331,7 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Shipping Locations"
+						"Get Companies Company ID Shipping Locations"
 					]
 				}
 			}
@@ -356,7 +356,7 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Shipping Locations"
+						"Get Companies Company ID Shipping Locations"
 					]
 				}
 			}
@@ -381,7 +381,7 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Shipping Locations"
+						"Get Companies Company ID Shipping Locations"
 					]
 				}
 			}
@@ -406,7 +406,7 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Shipping Locations"
+						"Get Companies Company ID Shipping Locations"
 					]
 				}
 			}
@@ -425,13 +425,13 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Shipping Locations"
+						"Post Companies Company ID Shipping Locations"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Company Id",
+			"displayName": "Company ID",
 			"name": "companyId",
 			"required": true,
 			"description": "The unique identifier of the company account.",
@@ -443,7 +443,7 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Shipping Locations"
+						"Post Companies Company ID Shipping Locations"
 					]
 				}
 			}
@@ -468,7 +468,7 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Shipping Locations"
+						"Post Companies Company ID Shipping Locations"
 					]
 				}
 			}
@@ -493,13 +493,13 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Shipping Locations"
+						"Post Companies Company ID Shipping Locations"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "string",
 			"default": "",
@@ -518,7 +518,7 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Shipping Locations"
+						"Post Companies Company ID Shipping Locations"
 					]
 				}
 			}
@@ -543,7 +543,7 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Shipping Locations"
+						"Post Companies Company ID Shipping Locations"
 					]
 				}
 			}
@@ -568,7 +568,7 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Shipping Locations"
+						"Post Companies Company ID Shipping Locations"
 					]
 				}
 			}
@@ -593,7 +593,7 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Shipping Locations"
+						"Post Companies Company ID Shipping Locations"
 					]
 				}
 			}
@@ -612,13 +612,13 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Terminal Models"
+						"Get Companies Company ID Terminal Models"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Company Id",
+			"displayName": "Company ID",
 			"name": "companyId",
 			"required": true,
 			"description": "The unique identifier of the company account.",
@@ -630,7 +630,7 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Terminal Models"
+						"Get Companies Company ID Terminal Models"
 					]
 				}
 			}
@@ -655,7 +655,7 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Terminal Models"
+						"Get Companies Company ID Terminal Models"
 					]
 				}
 			}
@@ -680,7 +680,7 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Terminal Models"
+						"Get Companies Company ID Terminal Models"
 					]
 				}
 			}
@@ -699,13 +699,13 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Terminal Orders"
+						"Get Companies Company ID Terminal Orders"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Company Id",
+			"displayName": "Company ID",
 			"name": "companyId",
 			"required": true,
 			"description": "The unique identifier of the company account.",
@@ -717,7 +717,7 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Terminal Orders"
+						"Get Companies Company ID Terminal Orders"
 					]
 				}
 			}
@@ -742,7 +742,7 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Terminal Orders"
+						"Get Companies Company ID Terminal Orders"
 					]
 				}
 			}
@@ -767,7 +767,7 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Terminal Orders"
+						"Get Companies Company ID Terminal Orders"
 					]
 				}
 			}
@@ -792,7 +792,7 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Terminal Orders"
+						"Get Companies Company ID Terminal Orders"
 					]
 				}
 			}
@@ -817,7 +817,7 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Terminal Orders"
+						"Get Companies Company ID Terminal Orders"
 					]
 				}
 			}
@@ -842,7 +842,7 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Terminal Orders"
+						"Get Companies Company ID Terminal Orders"
 					]
 				}
 			}
@@ -867,7 +867,7 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Terminal Orders"
+						"Get Companies Company ID Terminal Orders"
 					]
 				}
 			}
@@ -886,13 +886,13 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Terminal Orders"
+						"Post Companies Company ID Terminal Orders"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Company Id",
+			"displayName": "Company ID",
 			"name": "companyId",
 			"required": true,
 			"description": "The unique identifier of the company account.",
@@ -904,13 +904,13 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Terminal Orders"
+						"Post Companies Company ID Terminal Orders"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Billing Entity Id",
+			"displayName": "Billing Entity ID",
 			"name": "billingEntityId",
 			"type": "string",
 			"default": "",
@@ -929,7 +929,7 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Terminal Orders"
+						"Post Companies Company ID Terminal Orders"
 					]
 				}
 			}
@@ -954,7 +954,7 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Terminal Orders"
+						"Post Companies Company ID Terminal Orders"
 					]
 				}
 			}
@@ -979,13 +979,13 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Terminal Orders"
+						"Post Companies Company ID Terminal Orders"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Shipping Location Id",
+			"displayName": "Shipping Location ID",
 			"name": "shippingLocationId",
 			"type": "string",
 			"default": "",
@@ -1004,13 +1004,13 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Terminal Orders"
+						"Post Companies Company ID Terminal Orders"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Tax Id",
+			"displayName": "Tax ID",
 			"name": "taxId",
 			"type": "string",
 			"default": "",
@@ -1029,7 +1029,7 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Terminal Orders"
+						"Post Companies Company ID Terminal Orders"
 					]
 				}
 			}
@@ -1054,7 +1054,7 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Terminal Orders"
+						"Post Companies Company ID Terminal Orders"
 					]
 				}
 			}
@@ -1079,7 +1079,7 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Terminal Orders"
+						"Post Companies Company ID Terminal Orders"
 					]
 				}
 			}
@@ -1098,13 +1098,13 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Terminal Orders Order Id"
+						"Get Companies Company ID Terminal Orders Order ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Company Id",
+			"displayName": "Company ID",
 			"name": "companyId",
 			"required": true,
 			"description": "The unique identifier of the company account.",
@@ -1116,13 +1116,13 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Terminal Orders Order Id"
+						"Get Companies Company ID Terminal Orders Order ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Order Id",
+			"displayName": "Order ID",
 			"name": "orderId",
 			"required": true,
 			"description": "The unique identifier of the order.",
@@ -1134,7 +1134,7 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Terminal Orders Order Id"
+						"Get Companies Company ID Terminal Orders Order ID"
 					]
 				}
 			}
@@ -1159,7 +1159,7 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Terminal Orders Order Id"
+						"Get Companies Company ID Terminal Orders Order ID"
 					]
 				}
 			}
@@ -1184,7 +1184,7 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Terminal Orders Order Id"
+						"Get Companies Company ID Terminal Orders Order ID"
 					]
 				}
 			}
@@ -1203,13 +1203,13 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Terminal Orders Order Id"
+						"Patch Companies Company ID Terminal Orders Order ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Company Id",
+			"displayName": "Company ID",
 			"name": "companyId",
 			"required": true,
 			"description": "The unique identifier of the company account.",
@@ -1221,13 +1221,13 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Terminal Orders Order Id"
+						"Patch Companies Company ID Terminal Orders Order ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Order Id",
+			"displayName": "Order ID",
 			"name": "orderId",
 			"required": true,
 			"description": "The unique identifier of the order.",
@@ -1239,13 +1239,13 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Terminal Orders Order Id"
+						"Patch Companies Company ID Terminal Orders Order ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Billing Entity Id",
+			"displayName": "Billing Entity ID",
 			"name": "billingEntityId",
 			"type": "string",
 			"default": "",
@@ -1264,7 +1264,7 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Terminal Orders Order Id"
+						"Patch Companies Company ID Terminal Orders Order ID"
 					]
 				}
 			}
@@ -1289,7 +1289,7 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Terminal Orders Order Id"
+						"Patch Companies Company ID Terminal Orders Order ID"
 					]
 				}
 			}
@@ -1314,13 +1314,13 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Terminal Orders Order Id"
+						"Patch Companies Company ID Terminal Orders Order ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Shipping Location Id",
+			"displayName": "Shipping Location ID",
 			"name": "shippingLocationId",
 			"type": "string",
 			"default": "",
@@ -1339,13 +1339,13 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Terminal Orders Order Id"
+						"Patch Companies Company ID Terminal Orders Order ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Tax Id",
+			"displayName": "Tax ID",
 			"name": "taxId",
 			"type": "string",
 			"default": "",
@@ -1364,7 +1364,7 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Terminal Orders Order Id"
+						"Patch Companies Company ID Terminal Orders Order ID"
 					]
 				}
 			}
@@ -1389,7 +1389,7 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Terminal Orders Order Id"
+						"Patch Companies Company ID Terminal Orders Order ID"
 					]
 				}
 			}
@@ -1414,7 +1414,7 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Patch Companies Company Id Terminal Orders Order Id"
+						"Patch Companies Company ID Terminal Orders Order ID"
 					]
 				}
 			}
@@ -1433,13 +1433,13 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Terminal Orders Order Id Cancel"
+						"Post Companies Company ID Terminal Orders Order ID Cancel"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Company Id",
+			"displayName": "Company ID",
 			"name": "companyId",
 			"required": true,
 			"description": "The unique identifier of the company account.",
@@ -1451,13 +1451,13 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Terminal Orders Order Id Cancel"
+						"Post Companies Company ID Terminal Orders Order ID Cancel"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Order Id",
+			"displayName": "Order ID",
 			"name": "orderId",
 			"required": true,
 			"description": "The unique identifier of the order.",
@@ -1469,7 +1469,7 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Terminal Orders Order Id Cancel"
+						"Post Companies Company ID Terminal Orders Order ID Cancel"
 					]
 				}
 			}
@@ -1494,7 +1494,7 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Terminal Orders Order Id Cancel"
+						"Post Companies Company ID Terminal Orders Order ID Cancel"
 					]
 				}
 			}
@@ -1519,7 +1519,7 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Post Companies Company Id Terminal Orders Order Id Cancel"
+						"Post Companies Company ID Terminal Orders Order ID Cancel"
 					]
 				}
 			}
@@ -1538,13 +1538,13 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Terminal Products"
+						"Get Companies Company ID Terminal Products"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Company Id",
+			"displayName": "Company ID",
 			"name": "companyId",
 			"required": true,
 			"description": "The unique identifier of the company account.",
@@ -1556,7 +1556,7 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Terminal Products"
+						"Get Companies Company ID Terminal Products"
 					]
 				}
 			}
@@ -1582,13 +1582,13 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Terminal Products"
+						"Get Companies Company ID Terminal Products"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Terminal Model Id",
+			"displayName": "Terminal Model ID",
 			"name": "terminalModelId",
 			"description": "The terminal model to return products for. Use the ID returned in the [GET `/terminalModels`](https://docs.adyen.com/api-explorer/#/ManagementService/latest/get/companies/{companyId}/terminalModels) response. For example, **Verifone.M400**",
 			"default": "",
@@ -1607,7 +1607,7 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Terminal Products"
+						"Get Companies Company ID Terminal Products"
 					]
 				}
 			}
@@ -1632,7 +1632,7 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Terminal Products"
+						"Get Companies Company ID Terminal Products"
 					]
 				}
 			}
@@ -1657,7 +1657,7 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Terminal Products"
+						"Get Companies Company ID Terminal Products"
 					]
 				}
 			}
@@ -1682,7 +1682,7 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Terminal Products"
+						"Get Companies Company ID Terminal Products"
 					]
 				}
 			}
@@ -1707,7 +1707,7 @@ export const terminalOrdersCompanyLevelDescription: INodeProperties[] = [
 						"Terminal Orders Company Level"
 					],
 					"operation": [
-						"Get Companies Company Id Terminal Products"
+						"Get Companies Company ID Terminal Products"
 					]
 				}
 			}
