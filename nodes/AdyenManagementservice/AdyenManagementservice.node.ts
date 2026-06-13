@@ -28,32 +28,32 @@ import { accountCompanyLevelDescription } from './resources/account-company-leve
 import { terminalSettingsStoreLevelDescription } from './resources/terminal-settings-store-level';
 
 export class AdyenManagementservice implements INodeType {
-	description: INodeTypeDescription = {
-		displayName: 'Adyen Managementservice',
-		name: 'N8nDevAdyenManagementservice',
-		icon: { light: 'file:./adyen-managementservice.svg', dark: 'file:./adyen-managementservice.dark.svg' },
-		group: ['input'],
-		version: 1,
-		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
-		description: 'Configure Adyen company, merchant accounts, stores, and payment terminals.',
-		defaults: { name: 'Adyen Managementservice' },
-		usableAsTool: true,
-		inputs: [NodeConnectionTypes.Main],
-		outputs: [NodeConnectionTypes.Main],
-		credentials: [
-			{
-				name: 'N8nDevAdyenManagementserviceApi',
-				required: true,
-			},
-		],
-		requestDefaults: {
-			baseURL: '={{\$credentials.url}}',
-			headers: {
-				Accept: 'application/json',
-				'Content-Type': 'application/json',
-			},
-		},
-		properties: [
+        description: INodeTypeDescription = {
+                displayName: 'Adyen Managementservice',
+                name: 'N8nDevAdyenManagementservice',
+                icon: { light: 'file:./adyen-managementservice.svg', dark: 'file:./adyen-managementservice.dark.svg' },
+                group: ['input'],
+                version: 1,
+                subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
+                description: 'Configure Adyen company, merchant accounts, stores, and payment terminals.',
+                defaults: { name: 'Adyen Managementservice' },
+                usableAsTool: true,
+                inputs: [NodeConnectionTypes.Main],
+                outputs: [NodeConnectionTypes.Main],
+                credentials: [
+                        {
+                                name: 'N8nDevAdyenManagementserviceApi',
+                                required: true,
+                        },
+                ],
+                requestDefaults: {
+                        baseURL: '={{\$credentials.url}}',
+                        headers: {
+                                Accept: 'application/json',
+                                'Content-Type': 'application/json',
+                        },
+                },
+                properties: [
 		{
 			"displayName": "Resource",
 			"name": "resource",
@@ -225,6 +225,6 @@ export class AdyenManagementservice implements INodeType {
 		...terminalOrdersMerchantLevelDescription,
 		...accountCompanyLevelDescription,
 		...terminalSettingsStoreLevelDescription
-		],
-	};
+                ],
+        };
 }
